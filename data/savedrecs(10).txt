@@ -1,0 +1,2145 @@
+﻿FN Clarivate Analytics Web of Science
+VR 1.0
+PT J
+AU Zhou, SJ
+   Punt, AE
+   Deng, R
+   Dichmont, CM
+   Ye, YM
+   Bishop, J
+AF Zhou, Shijie
+   Punt, Andre E.
+   Deng, Roy
+   Dichmont, Catherine M.
+   Ye, Yimin
+   Bishop, Janet
+TI Modified hierarchical Bayesian biomass dynamics models for assessment of
+   short-lived invertebrates: a comparison for tropical tiger prawns
+SO MARINE AND FRESHWATER RESEARCH
+LA English
+DT Article
+DE maximum likelihood; observation error; process error; squid;
+   state-space; surplus production
+ID SURPLUS PRODUCTION MODELS; MARK-RECAPTURE DATA; STOCK ASSESSMENT;
+   FISHERY; CATCH; ABUNDANCE
+AB Conventional biomass dynamics models express next year's biomass as this year's biomass plus surplus production less catch. These models are typically applied to species with several age-classes but it is unclear how well they perform for short-lived species with low survival and high recruitment variation. Two alternative versions of the standard biomass dynamics model (Standard) were constructed for short-lived species by ignoring the 'old biomass' term(Annual), and assuming that the biomass at the start of the next year depends on density-dependent processes that are a function of that biomass (Stock-recruit). These models were fitted to catch and effort data for the grooved tiger prawn Penaeus semisulcatus using a hierarchical Bayesian technique. The results from the biomass dynamics models were compared with those from more complicated weekly delay-difference models. The analyses show that: the Standard model is flexible for short-lived species; the Stock-recruit model provides the most parsimonious fit; simple biomass dynamics models can provide virtually identical results to data-demanding models; and spatial variability in key population dynamics parameters exists for P. semisulcatus. The method outlined in this paper provides a means to conduct quantitative population assessments for data-limited short-lived species.
+C1 [Zhou, Shijie; Punt, Andre E.; Deng, Roy; Dichmont, Catherine M.; Ye, Yimin] CSIRO Marine & Atmospher Res, Cleveland, Qld 4163, Australia.
+   [Punt, Andre E.] Univ Washington, Sch Aquat & Fishery Sci, Seattle, WA 98195 USA.
+RP Zhou, SJ (reprint author), CSIRO Marine & Atmospher Res, POB 120, Cleveland, Qld 4163, Australia.
+EM shijie.zhou@csiro.au
+RI Dichmont, Catherine/A-9528-2008
+OI Punt, Andre/0000-0001-8489-2488
+FU Australian Fisheries Research and Development Corporation
+FX Drs You-Gan Wang (CSIRO Mathematics and Statistics), Wayne Rochester,
+   Malcolm Haddon and two anonymous reviewers are thanked for their
+   comments on an earlier version of this paper. This work was supported by
+   the Australian Fisheries Research and Development Corporation.
+CR Askey PJ, 2007, FISH RES, V83, P162, DOI 10.1016/j.fishres.2006.09.009
+   Bellido JM, 2001, FISH RES, V52, P23, DOI 10.1016/S0165-7836(01)00228-4
+   Best N., 1996, CODA CONVERGENCE DIA
+   Bishop J, 2006, REV FISH BIOL FISHER, V16, P21, DOI 10.1007/s11160-006-0004-9
+   Chaloupka M, 2007, ECOL MODEL, V205, P93, DOI 10.1016/j.ecolmodel.2007.02.010
+   Dichmont CM, 2003, FISH RES, V65, P335, DOI 10.1016/j.fishres.2003.09.024
+   DICHMONT CM, 2005, 2001002 FISH RES DEV
+   Gelman A, 1996, STAT SINICA, V6, P733
+   Gelman A, 2006, BAYESIAN ANAL, V1, P515, DOI 10.1214/06-BA117A
+   Ghosh SK, 2005, J AGR BIOL ENVIR ST, V10, P35, DOI 10.1198/108571105X28651
+   Gillman M, 1997, INTRO ECOLOGICAL MOD
+   HADDON M, 2001, MODELLING QUANTITATI
+   Harley SJ, 2001, CAN J FISH AQUAT SCI, V58, P1569, DOI 10.1139/cjfas-58-8-1569
+   Isoda Yutaka, 2005, Bulletin of Fisheries Sciences Hokkaido University, V56, P19
+   McAllister M, 2004, CAN J FISH AQUAT SCI, V61, P1048, DOI 10.1139/F04-084
+   Meyer R, 1999, CAN J FISH AQUAT SCI, V56, P1078, DOI 10.1139/cjfas-56-6-1078
+   Mueter FJ, 2006, FISH RES, V81, P189, DOI 10.1016/j.fishres.2006.07.010
+   POLACHECK T, 1993, CAN J FISH AQUAT SCI, V50, P2597, DOI 10.1139/f93-284
+   Punt AE, 2003, CAN J FISH AQUAT SCI, V60, P1217, DOI 10.1139/F03-105
+   PUNT AE, 1996, FAO COMPUTERIZED INF
+   Quinn T. J. I., 1999, QUANTITATIVE FISH DY
+   Rivot E, 2002, CAN J FISH AQUAT SCI, V59, P1768, DOI 10.1139/F02-145
+   Roel BA, 2000, FISH RES, V48, P213, DOI 10.1016/S0165-7836(00)00186-7
+   SHESKIN DJ, 1997, HDB PARAMETRIC NONPA
+   Smith MT, 2003, FISH RES, V65, P231, DOI 10.1016/j.fishres.2003.09.017
+   Spiegelhalter DJ, 2002, J ROY STAT SOC B, V64, P583, DOI 10.1111/1467-9868.00353
+   Su ZM, 2001, CAN J FISH AQUAT SCI, V58, P1648, DOI 10.1139/cjfas-58-8-1648
+   Van Dongen S, 2006, J THEOR BIOL, V242, P90, DOI 10.1016/j.jtbi.2006.02.002
+   Venables WN, 2004, FISH RES, V70, P409, DOI 10.1016/j.fishres.2004.08.017
+   VENABLES WN, 2006, R011149 AFMA
+   Wibster RA, 2008, T AM FISH SOC, V137, P438, DOI 10.1577/T06-138.1
+   YE Y, 2007, R050599 PROJ AUSTR F
+NR 32
+TC 13
+Z9 13
+U1 0
+U2 3
+PU CSIRO PUBLISHING
+PI CLAYTON
+PA UNIPARK, BLDG 1, LEVEL 1, 195 WELLINGTON RD, LOCKED BAG 10, CLAYTON, VIC
+   3168, AUSTRALIA
+SN 1323-1650
+EI 1448-6059
+J9 MAR FRESHWATER RES
+JI Mar. Freshw. Res.
+PY 2009
+VL 60
+IS 12
+BP 1298
+EP 1308
+DI 10.1071/MF09022
+PG 11
+WC Fisheries; Limnology; Marine & Freshwater Biology; Oceanography
+SC Fisheries; Marine & Freshwater Biology; Oceanography
+GA 534BT
+UT WOS:000272871200010
+DA 2019-08-05
+ER
+
+PT J
+AU Silva, MA
+   Magalhaes, S
+   Prieto, R
+   Santos, RS
+   Hammond, PS
+AF Silva, Monica A.
+   Magalhaes, Sara
+   Prieto, Rui
+   Santos, Ricardo Serrao
+   Hammond, Philip S.
+TI Estimating survival and abundance in a bottlenose dolphin population
+   taking into account transience and temporary emigration
+SO MARINE ECOLOGY PROGRESS SERIES
+LA English
+DT Article
+DE Pollock's robust design; Open models; Abundance; Survival; Transience;
+   Temporary emigration; Capture-recapture data; Bottlenose dolphins
+ID CAPTURE-RECAPTURE DATA; WHALES ESCHRICHTIUS-ROBUSTUS; ESTIMATING ANIMAL
+   ABUNDANCE; TURSIOPS-TRUNCATUS; MARKED ANIMALS; NORTH-ATLANTIC; MODEL;
+   DESIGN; TRENDS; GROWTH
+AB Knowledge of demographic parameters of most cetacean populations is scarce because of problems associated with sampling open populations of wide-ranging animals. In recent years, capture-recapture models have been developed to address these problems. We used a photo-identification dataset collected from a population of bottlenose dolphins Tursiops truncatus between 1999 and 2004 around 2 islands of the Azores archipelago, to demonstrate the use of some of these methods. A variety of open models and Pollock's robust design were applied to estimate population size, survival probability and emigration rates. Using only the estimates with the lowest coefficients of variation, the annual abundance of adult dolphins varied between 202 (95% CI: 148 to 277) and 334 (95% CI: 237 to 469), according to the Jolly-Seber method, and between 114 (95% CI: 85 to 152) and 288 (95% CI: 196 to 423), according to the robust design. The number of subadult individuals varied from 300 (95% CI: 232 to 387) to 434 (95% CL 316 to 597) based on the Jolly-Seber method. The open models yielded estimates of adult survival (0.970 +/- 0.029 SE) that were significantly higher than those for subadults (0.815 +/- 0.083 SE). Movement patterns of dolphins in the Azores seem to follow a Markovian model, in which dolphins seen in the study area in 1 yr show higher probability of emigrating in the following year. Despite some limitations, this is the first study to model transience and temporary emigration in a dolphin population.
+C1 [Silva, Monica A.; Hammond, Philip S.] Univ St Andrews, Sea Mammal Res Unit, Gatty Marine Lab, St Andrews KY16 8LB, Fife, Scotland.
+   [Silva, Monica A.; Magalhaes, Sara; Prieto, Rui; Santos, Ricardo Serrao] Univ Acores, Ctr Inst Mar, Dept Oceanog & Pescas, P-9901862 Horta, Portugal.
+   [Silva, Monica A.; Magalhaes, Sara; Prieto, Rui; Santos, Ricardo Serrao] ISR, Associated Lab, P-9901862 Horta, Portugal.
+   [Silva, Monica A.] Woods Hole Oceanog Inst, Dept Biol, Woods Hole, MA 02543 USA.
+RP Silva, MA (reprint author), Univ St Andrews, Sea Mammal Res Unit, Gatty Marine Lab, St Andrews KY16 8LB, Fife, Scotland.
+EM monica@uac.pt
+RI Silva, Monica/N-1328-2019; Silva, Monica/D-1893-2012; Prieto,
+   Rui/G-8286-2011; Santos, Ricardo/B-3960-2008
+OI Silva, Monica/0000-0002-2683-309X; Silva, Monica/0000-0002-2683-309X;
+   Prieto, Rui/0000-0002-0354-2572; Santos, Ricardo/0000-0002-2536-1369;
+   Hammond, Philip/0000-0002-2381-8302
+FU Portuguese Science and Technology Foundation (FCT) [POCTI/BSE/38991/01];
+   EU-LIFE program [B4-3200/98/509]; FCT [SFRH/BD/8609/2002,
+   SFRH/BPD/29841/2006]; Natural Environment Research Council [smru10001]
+FX This research was funded by the Portuguese Science and Technology
+   Foundation (FCT) under the CETAMARH project (POCTI/BSE/38991/01), and by
+   an EU-LIFE program (B4-3200/98/509). We thank the skippers (F. Goulart,
+   P. Martins, V. Rosa, R. Bettencourt and N. Serpa), crew, students and
+   volunteers who helped us throughout this study. This paper was improved
+   by the comments of 3 anonymous reviewers. M.A.S. was supported by FCT
+   doctoral (SFRH/BD/8609/2002) and postdoctoral grants
+   (SFRH/BPD/29841/2006), and S.M. received a research grant from FCT
+   through the CETAMARH project. IMAR-DOP/UAc is the R&D Unit #531 and part
+   of the Associated Laboratory #9 (ISR) that is funded through the
+   pluri-annual and programmatic funding schemes of FCT-MCTES and
+   DRCT-Azores. This research was conducted under a license from the
+   Environment Directorate of the Regional Government of the Azores.
+CR ANDERSON DR, 1994, ECOLOGY, V75, P1780, DOI 10.2307/1939637
+   Baird R.W., 2001, MARK RECAPTURE ABUND
+   Bradford AL, 2006, MAR ECOL PROG SER, V315, P293, DOI 10.3354/meps315293
+   Bradford Amanda L., 2008, Endangered Species Research, V6, P1, DOI 10.3354/esr00106
+   BROWNIE C, 1993, BIOMETRICS, V49, P1173, DOI 10.2307/2532259
+   Burnham K, 2002, MODEL SELECTION MULT
+   Burnham KP, 1987, AM FISH SOC MONOGR, V5
+   Cerchio S, 1998, MAR ECOL PROG SER, V175, P23, DOI 10.3354/meps175023
+   Chaloupka M, 1999, MAR ECOL PROG SER, V184, P291, DOI 10.3354/meps184291
+   CHOQUET R, 2003, USERS GUIDE U CARE C
+   CORMACK RM, 1964, BIOMETRIKA, V51, P429, DOI 10.1093/biomet/51.3-4.429
+   Currey R.J.C., 2008, AQUAT CONSERV, V19, P658
+   Fortuna CM, 2006, THESIS U ST ANDREWS
+   Gaspar R., 2003, THESIS U ST ANDREWS
+   Gormley AM, 2005, MAR MAMMAL SCI, V21, P204, DOI 10.1111/j.1748-7692.2005.tb01224.x
+   Hammond P. S., 1990, REPORT INT WHALING C, P12
+   Hammond PS, 1986, REP INT WHAL COMM SP, V8, P253
+   Ingram SN, 2002, MAR ECOL PROG SER, V244, P247, DOI 10.3354/meps244247
+   JOLLY GM, 1965, BIOMETRIKA, V52, P225, DOI 10.1093/biomet/52.1-2.225
+   Julliard R, 1999, J ANIM ECOL, V68, P550, DOI 10.1046/j.1365-2656.1999.00304.x
+   Kendall WL, 1997, ECOLOGY, V78, P563
+   KENDALL WL, 1995, BIOMETRICS, V51, P293, DOI 10.2307/2533335
+   Kendall WL, 1999, ECOLOGY, V80, P2517, DOI 10.1890/0012-9658(1999)080[2517:ROCCRM]2.0.CO;2
+   LEBRETON JD, 1992, ECOL MONOGR, V62, P67, DOI 10.2307/2937171
+   OTIS DL, 1978, WILDLIFE MONOGR, P1
+   Perret N, 2003, J ANIM ECOL, V72, P567, DOI 10.1046/j.1365-2656.2003.00726.x
+   Pledger S, 2000, BIOMETRICS, V56, P434, DOI 10.1111/j.0006-341X.2000.00434.x
+   POLLOCK KH, 1982, J WILDLIFE MANAGE, V46, P757, DOI DOI 10.2307/3808568
+   Pradel R, 1997, BIOMETRICS, V53, P60, DOI 10.2307/2533097
+   Querouil S, 2007, CONSERV GENET, V8, P1405, DOI 10.1007/s10592-007-9291-5
+   Ramp C, 2006, MAR ECOL PROG SER, V319, P287, DOI 10.3354/meps319287
+   Sasso CR, 2006, MAR ECOL PROG SER, V324, P287, DOI 10.3354/meps324287
+   Schwarz CJ, 1996, BIOMETRICS, V52, P860, DOI 10.2307/2533048
+   Schwarz CJ, 1999, STAT SCI, V14, P427
+   SEBER GAF, 1965, BIOMETRIKA, V52, P249
+   SEBER GAF, 1992, INT STAT REV, V60, P129, DOI 10.2307/1403646
+   SILVA MA, 2007, THESIS U ST ANDREWS
+   Silva MA, 2008, MAR BIOL, V156, P179, DOI 10.1007/s00227-008-1075-z
+   Stevick PT, 2003, MAR ECOL PROG SER, V258, P263, DOI 10.3354/meps258263
+   Stevick PT, 2001, CAN J FISH AQUAT SCI, V58, P1861, DOI 10.1139/cjfas-58-9-1861
+   Stolen MK, 2003, MAR MAMMAL SCI, V19, P630, DOI 10.1111/j.1748-7692.2003.tb01121.x
+   Wells R.S., 1990, Reports of the International Whaling Commission Special Issue, P407
+   Wells R. S, 1980, CETACEAN BEHAV MECH, P263
+   White GC, 1999, BIRD STUDY, V46, P120
+   Wilson B, 1999, ECOL APPL, V9, P288, DOI 10.2307/2641186
+   Wursig B., 1990, Reports of the International Whaling Commission Special Issue, P43
+   Zeh J, 2002, BIOMETRICS, V58, P832, DOI 10.1111/j.0006-341X.2002.00832.x
+NR 47
+TC 47
+Z9 48
+U1 0
+U2 25
+PU INTER-RESEARCH
+PI OLDENDORF LUHE
+PA NORDBUNTE 23, D-21385 OLDENDORF LUHE, GERMANY
+SN 0171-8630
+EI 1616-1599
+J9 MAR ECOL PROG SER
+JI Mar. Ecol.-Prog. Ser.
+PY 2009
+VL 392
+BP 263
+EP 276
+DI 10.3354/meps08233
+PG 14
+WC Ecology; Marine & Freshwater Biology; Oceanography
+SC Environmental Sciences & Ecology; Marine & Freshwater Biology;
+   Oceanography
+GA 520GD
+UT WOS:000271828700022
+OA Bronze
+DA 2019-08-05
+ER
+
+PT J
+AU Hunter, KL
+   Fox, MG
+   Able, KW
+AF Hunter, Karen L.
+   Fox, Michael G.
+   Able, Kenneth W.
+TI Influence of flood frequency, temperature and population density on
+   migration of Fundulus heteroclitus in semi-isolated marsh pond habitats
+SO MARINE ECOLOGY PROGRESS SERIES
+LA English
+DT Article
+DE Emigration; Flooding; Marsh ponds; Fundulus heteroclitus; Mummichog;
+   Population dynamics
+ID FRESH-WATER FISHES; NEW-JERSEY ESTUARY; SALT-MARSH; USE PATTERNS; TIDAL
+   CREEK; NEW-ENGLAND; DYNAMICS; GROWTH; EMIGRATION; MUMMICHOG
+AB Fish respond to habitat and demographic factors that affect growth and survival through migration, reproduction and mortality. However, the importance of migration rates on fish population dynamics and the effects of habitat and demographic factors on movement are not well understood. We used mark-recapture to determine population dynamics (recruitment, mortality, immigration and emigration) of the mummichog Fundulus heteroclitus inhabiting semi-isolated ponds in a New Jersey salt marsh over the spring and summer of 2002. We tested the effects of marsh pond flood frequency, water temperature and fish density on mummichog emigration from marsh ponds. Results show that during the April to July study period, monthly emigration rates averaged 30% and tended to decline from spring to summer in most ponds. Recruitment and immigration were negligible after May and June, respectively. Increasing mortality and decreasing emigration and immigration over the study period suggested that there was a shift in the importance of movement in regulating mummichog population size in marsh ponds. The mean rate of emigration showed a significant negative relationship with the frequency of flooding in a pond. Neither mummichog density nor water temperature was strongly correlated with emigration rate. Our finding of lower emigration from ponds with higher flooding frequency suggests that frequent pond flooding indirectly triggers stationary behaviour in mummichogs because of enhanced water quality and food abundance.
+C1 [Fox, Michael G.] Trent Univ, Environm & Resource Studies Program, Peterborough, ON K9J 7B8, Canada.
+   [Fox, Michael G.] Trent Univ, Dept Biol, Peterborough, ON K9J 7B8, Canada.
+   [Hunter, Karen L.] Univ Victoria, Dept Geog, Victoria, BC V8W 3R4, Canada.
+   [Able, Kenneth W.] Rutgers State Univ, Inst Marine & Coastal Sci, Marine Field Stn, Tuckerton, NJ 08087 USA.
+RP Fox, MG (reprint author), Trent Univ, Environm & Resource Studies Program, 1600 W Bank Dr, Peterborough, ON K9J 7B8, Canada.
+EM mfox@trentu.ca
+FU Ontario Graduate Scholarship; Rutgers University Marine Field Station
+   Graduate Scholarship; Natural Science and Engineering Research Council
+   (Canada); Trent University Animal Care Permit [01010]; Rutgers
+   University Institute of Marine and Coastal Sciences
+FX Financial support for this study was provided by an Ontario Graduate
+   Scholarship and a Rutgers University Marine Field Station Graduate
+   Scholarship to K.L.H., and a Natural Science and Engineering Research
+   Council (Canada) Discovery Grant to M.G.F. The study was conducted under
+   Trent University Animal Care Permit no. 01010. Field assistance by J.
+   Lento was greatly appreciated. We thank the staff and volunteers at the
+   Rutgers University Marine Field Station for their assistance throughout
+   the periods of our field work. Comments from anonymous reviewers greatly
+   improved this manuscript. This is Rutgers University Institute of Marine
+   and Coastal Sciences contribution no. 2009-7. This manuscript is
+   dedicated to the late S. M. Hagan.
+CR Able KW, 2006, J EXP MAR BIOL ECOL, V335, P177, DOI 10.1016/j.jembe.2006.03.004
+   Able KW, 2005, NORTHEAST NAT, V12, P485, DOI 10.1656/1092-6194(2005)012[0485:FCAAIN]2.0.CO;2
+   ABLE KW, 1998, 1 YEAR LIFE ESTUARIN
+   Ahlstrom EH, 1984, SPECIAL PUBLICATION, P11
+   Balcombe SR, 2007, FRESHWATER BIOL, V52, P2385, DOI 10.1111/j.1365-2427.2007.01855.x
+   Balcombe SR, 2005, J FISH BIOL, V67, P1552, DOI 10.1111/j.1095-8649.2005.00858.x
+   Beitinger TL, 2000, ENVIRON BIOL FISH, V58, P237, DOI 10.1023/A:1007676325825
+   Belanger G, 2002, ENVIRON BIOL FISH, V64, P155, DOI 10.1023/A:1016044725154
+   Bonte D, 2004, J ANIM ECOL, V73, P643, DOI 10.1111/j.0021-8790.2004.00838.x
+   BULGER AJ, 1985, PHYSIOL ZOOL, V58, P197, DOI 10.1086/physzool.58.2.30158567
+   CHILDERS D L, 1990, Climate Research, V1, P31, DOI 10.3354/cr001031
+   Cowley PD, 2002, J FISH BIOL, V61, P74, DOI 10.1006/jfbi.2002.2069
+   Cucherousset J, 2007, FUND APPL LIMNOL, V168, P169, DOI 10.1127/1863-9135/2007/0168-0169
+   FRETWELL S D, 1969, Acta Biotheoretica, V19, P16, DOI 10.1007/BF01601953
+   FRITZ E S, 1975, Chesapeake Science, V16, P211, DOI 10.2307/1350898
+   Froneman PW, 2002, ESTUAR COAST SHELF S, V55, P535, DOI 10.1006/ecss.2001.0921
+   Halpin PM, 1997, ESTUARIES, V20, P618, DOI 10.2307/1352619
+   Halpin PM, 2000, MAR ECOL PROG SER, V198, P203, DOI 10.3354/meps198203
+   HALUPA PJ, 1995, MAR BIOL, V123, P379, DOI 10.1007/BF00353629
+   HANSKI I, 1991, BIOL J LINN SOC, V42, P3, DOI 10.1111/j.1095-8312.1991.tb00548.x
+   Hayes DB, 1996, CAN J FISH AQUAT SCI, V53, P383, DOI 10.1139/cjfas-53-S1-383
+   Hunter KL, 2007, MAR BIOL, V151, P617, DOI 10.1007/s00227-006-0502-2
+   Hunter KL, 2006, ESTUARIES COASTS, V29, P487, DOI 10.1007/BF02784996
+   HUNTER KL, 2004, THESIS TRENT U PETER
+   JUNK W J, 1989, Canadian Special Publication of Fisheries and Aquatic Sciences, V106, P110
+   Kneib RT, 1997, ESTUARIES, V20, P214, DOI 10.2307/1352732
+   KNEIB RT, 1986, AM ZOOL, V26, P259
+   KNEIB RT, 1978, J EXP MAR BIOL ECOL, V31, P121, DOI 10.1016/0022-0981(78)90125-9
+   Kneib RT, 2001, ESTUARIES, V24, P884, DOI 10.2307/1353179
+   KNEIB RT, 1994, MAR ECOL PROG SER, V106, P227, DOI 10.3354/meps106227
+   Kristan WB, 2003, OIKOS, V103, P457
+   Lathrop R. G., 2000, Wetlands Ecology and Management, V8, P163, DOI 10.1023/A:1008492418788
+   LOTRICH VA, 1974, T AM FISH SOC, V103, P140, DOI 10.1577/1548-8659(1974)103<140:ATATEO>2.0.CO;2
+   LOTRICH VA, 1975, ECOLOGY, V56, P191, DOI 10.2307/1935311
+   Lucas M. C., 2001, MIGRATION FRESHWATER
+   Margolis L., 1991, PACIFIC SALMON LIFE
+   McMahon TE, 2006, ECOL FRESHW FISH, V15, P200, DOI 10.1111/j.1600-0633.2006.00130.x
+   MCMAHON TE, 1988, ECOLOGY, V69, P1871, DOI 10.2307/1941164
+   MEREDITH WH, 1979, ESTUAR COAST MAR SCI, V8, P99, DOI 10.1016/0302-3524(79)90066-5
+   MORRIS JT, 1990, LIMNOL OCEANOGR, V35, P926, DOI 10.4319/lo.1990.35.4.0926
+   Paterson AW, 2000, ESTUAR COAST SHELF S, V51, P359, DOI 10.1006/ecss.2000.0640
+   Raposa KB, 2001, WETLANDS, V21, P451, DOI 10.1672/0277-5212(2001)021[0451:SHUPON]2.0.CO;2
+   Rice JC, 2005, J FISH BIOL, V67, P1, DOI 10.1111/j.1095-8649.2005.00933.x
+   Schulte PM, 2007, J THERM BIOL, V32, P152, DOI 10.1016/j.jtherbio.2007.01.012
+   SEBER G. A. F, 1973, ESTIMATION ANIMAL AB
+   SMITH KJ, 1994, ESTUARIES, V17, P226, DOI 10.2307/1352572
+   Smith KJ, 2003, MAR ECOL PROG SER, V258, P223, DOI 10.3354/meps258223
+   Sommer TR, 2001, CAN J FISH AQUAT SCI, V58, P325, DOI 10.1139/cjfas-58-2-325
+   Szedlmayer ST, 1996, ESTUARIES, V19, P697, DOI 10.2307/1352529
+   SZEDLMAYER ST, 1993, COPEIA, P728
+   TAYLOR LR, 1977, NATURE, V265, P415, DOI 10.1038/265415a0
+   TEO SLH, 1999, THESIS RUTGERS U NEW
+   Tilman D, 1982, RESOURCE COMPETITION
+   Tupper M, 2000, MAR BIOL, V137, P1049, DOI 10.1007/s002270000421
+   Valiela I, 2004, J EXP MAR BIOL ECOL, V300, P131, DOI 10.1016/j.jembe.2003.12.023
+   WEISBERG SB, 1981, MAR BIOL, V61, P243, DOI 10.1007/BF00386666
+   WEISBERG SB, 1982, MAR BIOL, V66, P307, DOI 10.1007/BF00397037
+   WERNER EE, 1983, ECOLOGY, V64, P1540, DOI 10.2307/1937508
+   WHORISKEY FG, 1989, CAN J ZOOL, V67, P2126, DOI 10.1139/z89-302
+   WINKER K, 1995, OECOLOGIA, V101, P211, DOI 10.1007/BF00317286
+NR 60
+TC 7
+Z9 7
+U1 0
+U2 17
+PU INTER-RESEARCH
+PI OLDENDORF LUHE
+PA NORDBUNTE 23, D-21385 OLDENDORF LUHE, GERMANY
+SN 0171-8630
+J9 MAR ECOL PROG SER
+JI Mar. Ecol.-Prog. Ser.
+PY 2009
+VL 391
+BP 85
+EP 96
+DI 10.3354/meps08211
+PG 12
+WC Ecology; Marine & Freshwater Biology; Oceanography
+SC Environmental Sciences & Ecology; Marine & Freshwater Biology;
+   Oceanography
+GA 512BT
+UT WOS:000271218100008
+OA Bronze
+DA 2019-08-05
+ER
+
+PT J
+AU Claisse, JT
+   Kienzle, M
+   Bushnell, ME
+   Shafer, DJ
+   Parrish, JD
+AF Claisse, Jeremy T.
+   Kienzle, Marco
+   Bushnell, Megan E.
+   Shafer, David J.
+   Parrish, James D.
+TI Habitat- and sex-specific life history patterns of yellow tang Zebrasoma
+   flavescens in Hawaii, USA
+SO MARINE ECOLOGY PROGRESS SERIES
+LA English
+DT Article
+DE Ontogenetic habitat use; Hawaiian aquarium fishery; Acanthuridae; Model
+   selection; Otolith; Capture-mark-recapture; Growth; Coral reef fish
+ID CORAL-REEF FISH; SURGEONFISH ACANTHURUS-BAHIANUS; PROTECTED AREA
+   NETWORK; MARINE RESERVES; OTOLITH INCREMENTS; SIZE; GROWTH; AGE;
+   JUVENILE; MATURITY
+AB Yellow tang Zebrasoma flavescens is the primary coral reef fish species taken in Hawaii for the aquarium trade. As part of an extensive adaptive management effort that included a network of marine protected areas that prohibited commercial aquarium fishing, an emphasis was placed on obtaining habitat- and sex-specific life history information for this valuable species. Using otolith and capture-mark-recapture methods we examined sexual differences in ontogenetic patterns of habitat use, growth rate, size dimorphism and longevity. Age validation using tetracycline to mark otoliths provided evidence that a single annulus formed each year. Yellow tang are a long-lived species (the oldest individual collected was 41 yr old) and display an asymptotic growth pattern typical of the family Acanthuridae. Median size and age at the transition between deeper coral-rich and shallow turf-dominated habitat use were about 20 mm longer and about 2 yr older for males than females and coincided with an increase in reproductive output.. The sexual difference in size at habitat transition, combined with sexual size dimorphism (mean asymptotic maximum length-male: 179 mm; female 156 mm) results in differences in the size distributions of both sexes in the 2 habitats. Sexual size dimorphism resulted from a higher growth rate for males through the juvenile period.
+C1 [Claisse, Jeremy T.; Bushnell, Megan E.; Shafer, David J.; Parrish, James D.] Univ Hawaii, Dept Zool, Honolulu, HI 96822 USA.
+   [Kienzle, Marco] CSIRO, Marine & Atmospher Res Div, Cleveland, Qld 4163, Australia.
+RP Claisse, JT (reprint author), Univ Hawaii, Dept Zool, 2538 McCarthy Mall,Edmondson 165, Honolulu, HI 96822 USA.
+EM claisse@hawaii.edu
+RI Claisse, Jeremy/B-8622-2012
+FU NOAA [R/FM-20]; Center for Sponsored Coastal Ocean Science
+   [NA03NOS4260044, NA04NOS4260172, NA160A2412]; University of Hawaii Sea
+   Grant College Program; SOEST; NOAA Office of Sea Grant [NA050AR4171048];
+   Department of Commerce
+FX This research was funded in part by NOAA, Center for Sponsored Coastal
+   Ocean Science, under award nos. NA03NOS4260044, NA04NOS4260172 and
+   NA160A2412 to the University of Hawaii for the Hawaii Coral Reef
+   Initiative. This research was also funded in part by a grant/cooperative
+   agreement from NOAA, project no. R/FM-20, sponsored by the University of
+   Hawaii Sea Grant College Program, SOEST, under Institutional Grant no.
+   NA050AR4171048 from the NOAA Office of Sea Grant, Department of
+   Commerce. The views expressed hereiii are those of the authors and do
+   not necessarily reflect the views of NOAA or any of its subagencies.
+   Major equipment and logistical support were provided by the Hawaii
+   Cooperative Fishcry Research Unit, US Geological Survey and the
+   University of Hawaii. Financial and logistical support was provided by
+   tile Hawaii Division of Aquatic Resources and generous logistical
+   support by the US National Park Service Kaloko-Honokohau National
+   Historical Park. The use of trade, firm or corporation names in this
+   publication is for the convenience of the reader. Such use does not
+   constitute an official endorsement or approval by the US Government of
+   any product or service to the exclusion of others that may be suitable.
+   The University of Hawaii Ecology, Evolution and Conservation Biology
+   Program also provided funding. An NSF Graduate Research Fellowship
+   provided support for TT.C. We thank Team Tang mernbers S. McTee and T.
+   Clark who provided top-notch field assistance; J. Eble for additional
+   help collecting samples; and J. Choat, W. Robbins and E. Trip for help
+   with everything otolith. T. Carvalho and M. Dunlap at the Biological
+   Electron Microsope Facility at the University of Hawaii assisted with
+   visualization of the tetracycline bands for validation pUrposes. D,
+   Ortiz, A. Taylor, W. Walsh, C. Birkeland, C. Smith, 1. Williams, S.
+   Beavers, L. Basch and B. Schumacher provided logistical and scientific
+   support throughout the Study. We also thank 2 anonymous referees for
+   tbeir comments.
+CR Berumen ML, 2005, ENVIRON BIOL FISH, V72, P409, DOI 10.1007/s10641-004-2595-0
+   Beverton R. J. H., 1957, DYNAMICS EXPLOITED F
+   BEVERTON RJH, 1992, J FISH BIOL, V41, P137, DOI 10.1111/j.1095-8649.1992.tb03875.x
+   Burnham K, 2002, MODEL SELECTION MULT
+   BUSHNELL ME, 2007, THESIS U HAWAII MANO
+   Cappo M, 2000, FISH B-NOAA, V98, P474
+   Choat J. Howard, 2002, P57
+   Choat JH, 2003, MAR ECOL PROG SER, V246, P265, DOI 10.3354/meps246265
+   Choat JH, 1996, MAR ECOL PROG SER, V134, P15, DOI 10.3354/meps134015
+   Claisse JT, 2009, CORAL REEFS, V28, P95, DOI 10.1007/s00338-008-0447-7
+   Clements KD, 2003, MOL PHYLOGENET EVOL, V26, P190, DOI 10.1016/S1055-7903(02)00325-1
+   Craig P.C., 1999, Naga, V22, P28
+   Dahlgren CP, 2000, ECOLOGY, V81, P2227
+   DALZELL P, 1989, THESIS U NEWCASTLE U
+   Danilowicz BS, 1997, ECOLOGY, V78, P1415
+   Day T, 1997, AM NAT, V149, P381, DOI 10.1086/285995
+   Francis R.I.C.C., 1988, New Zealand Journal of Marine and Freshwater Research, V22, P42
+   FRANCIS RICC, 1988, CAN J FISH AQUAT SCI, V45, P936, DOI 10.1139/f88-115
+   Frederick JL, 1997, B MAR SCI, V61, P399
+   Friedlander A, 2008, STATE CORAL REEF ECO
+   Gillanders BM, 2003, MAR ECOL PROG SER, V247, P281, DOI 10.3354/meps247281
+   GILLIAM JF, 1987, ECOLOGY, V68, P1856, DOI 10.2307/1939877
+   Guiasu RC, 1998, B MAR SCI, V63, P277
+   Haddon M., 2001, MODELING QUANTITATIV
+   Halpern BS, 2005, AM NAT, V165, P82, DOI 10.1086/426672
+   Halpern BS, 2002, ECOL LETT, V5, P361, DOI 10.1046/j.1461-0248.2002.00326.x
+   Hilborn R, 1992, QUANTITATIVE FISHERI
+   Kellner JB, 2007, ECOL APPL, V17, P1039, DOI 10.1890/05-1845
+   Kritzer JP, 2001, CAN J FISH AQUAT SCI, V58, P1557, DOI 10.1139/cjfas-58-8-1557
+   Lawson GL, 1999, ENVIRON BIOL FISH, V54, P19, DOI 10.1023/A:1007477527663
+   Lecchini D, 2005, MAR BIOL, V147, P47, DOI 10.1007/s00227-004-1543-z
+   LOISELLE PV, 1978, CONTRASTS BEHAV ADAP
+   LOU DC, 1992, AUST J MAR FRESH RES, V43, P973
+   MOULTON PL, 1992, AUST J MAR FRESH RES, V43, P1241
+   Mumby PJ, 2006, BIOL CONSERV, V128, P215, DOI 10.1016/j.biocon.2005.09.042
+   Ortiz DM, 2008, MAR ECOL PROG SER, V365, P217, DOI 10.3354/meps07492
+   Parnell PE, 2006, ECOL APPL, V16, P945, DOI 10.1890/1051-0761(2006)016[0945:MRDOSH]2.0.CO;2
+   Pratchett MS, 2008, CORAL REEFS, V27, P541, DOI 10.1007/s00338-008-0357-8
+   R Development Core team, 2008, R LANG ENV STAT COMP
+   Randall J. E., 1961, Pacific Science, V15, P215
+   Roa R, 1999, FISH B-NOAA, V97, P570
+   Robertson DR, 2005, MAR ECOL PROG SER, V295, P229, DOI 10.3354/meps295229
+   ROBERTSON DR, 1988, MAR BIOL, V97, P495, DOI 10.1007/BF00391045
+   Robertson DR, 1985, P 5 INT COR REEF C T, V5, P403
+   Shafer DJ, 2000, MAR ECOL PROG SER, V199, P217, DOI 10.3354/meps199217
+   Tissot Brian N., 2004, Pacific Science, V58, P175, DOI 10.1353/psc.2004.0024
+   TRIP EL, 2004, THESIS J COOK U TOWN
+   Trip EL, 2008, MAR ECOL PROG SER, V373, P97, DOI 10.3354/meps07755
+   Walsh W, 2005, REPORT FINDINGS RECO
+   WALSH WJ, 1984, THESIS U HAWAII MANO
+   WELCH DW, 1988, CAN J FISH AQUAT SCI, V45, P333, DOI 10.1139/f88-039
+   Welsford DC, 2005, FISH B-NOAA, V103, P697
+   White C, 2007, OIKOS, V116, P2039, DOI 10.1111/j.2007.0030-1299.16167.x
+   Williams ID, 2009, BIOL CONSERV, V142, P1066, DOI 10.1016/j.biocon.2008.12.029
+NR 54
+TC 26
+Z9 26
+U1 0
+U2 14
+PU INTER-RESEARCH
+PI OLDENDORF LUHE
+PA NORDBUNTE 23, D-21385 OLDENDORF LUHE, GERMANY
+SN 0171-8630
+J9 MAR ECOL PROG SER
+JI Mar. Ecol.-Prog. Ser.
+PY 2009
+VL 389
+BP 245
+EP 255
+DI 10.3354/meps08114
+PG 11
+WC Ecology; Marine & Freshwater Biology; Oceanography
+SC Environmental Sciences & Ecology; Marine & Freshwater Biology;
+   Oceanography
+GA 505EO
+UT WOS:000270673100021
+OA Bronze
+DA 2019-08-05
+ER
+
+PT J
+AU Elwen, SH
+   Reeb, D
+   Thornton, M
+   Best, PB
+AF Elwen, Simon H.
+   Reeb, Desray
+   Thornton, Meredith
+   Best, Peter B.
+TI A population estimate of Heaviside's dolphins, Cephalorhynchus
+   heavisidii, at the southern end of their range
+SO MARINE MAMMAL SCIENCE
+LA English
+DT Article
+DE abundance; Cephalorhynchus heavisidii; Chapman's-modified-Petersen
+   estimate; Heaviside's dolphin; mark-recapture
+ID BOTTLE-NOSED DOLPHINS; PHOTOGRAPHIC IDENTIFICATION; MARK-RECAPTURE;
+   ABUNDANCE; WHALES; RATES
+AB Heaviside's dolphins, Cephalorhynchus heavisidii, are endemic to southwestern Africa, where they are exposed to unknown levels of anthropogenic threats, including inshore set netting. Using photo-ID data collected over 3 yr on the west coast of South Africa, we calculated Chapman's-modified Petersen estimates of the number of distinctive individuals at three spatial scales. Sample sizes were small and recapture rates low resulting in high variance. Total population abundance was extrapolated from the proportion of well-marked animals in the population (14%-17%) with between-year estimates adjusted for mortality using data from Commerson's dolphin. The total population size was calculated as 527 animals (CV = 0.35, CI 272-1,020) in the 1999 study area (20 km of coastline, within season), 3,429 animals (CV = 0.36, CI 1,721-6,828) in the central study area (150 km of coastline, 3 yr), and 6,345 animals (CV = 0.26, CI 3,573-11,267) in the full study area (390 km of coastline, 2 yr). Dolphins fitted with satellite transmitters varied in their use of the inshore photographic study area from 39.5% to 94.7% of transmission days (38-51 total). Given the known or suspected biases in the data, these abundance estimates are likely to be biased downward.
+C1 [Elwen, Simon H.; Reeb, Desray; Thornton, Meredith; Best, Peter B.] Univ Pretoria, Iziko S African Museum, Mammal Res Inst, ZA-8000 Cape Town, South Africa.
+RP Elwen, SH (reprint author), Univ Pretoria, Iziko S African Museum, Mammal Res Inst, POB 61, ZA-8000 Cape Town, South Africa.
+EM simon.elwen@gmail.com
+FU National Research Foundation (South Africa) [2034991]
+FX We would like to thank Phil Hammond, Mike Lonergan, and especially Sonja
+   Heinrich for constructive advice on analytical techniques and relevant
+   approaches to take with the mark-recapture estimate. These data could
+   not have been collected without the aid of the Earthwatch Institute
+   volunteers who put in many long hours in the sun searching for dolphins:
+   Cressida Bainton, Jane de Jarnette, Annie Evans, Jennifer Leishmann,
+   Todd Pusser, Betsy Schwarz, Shaun Dillon, Patrick Foster, Pearl Jordan,
+   Alexandra du Sold, Shirley Einarsson, Lynn Heidler, Jackie Bishop,
+   Darrell Blandford, Hilary Waite, Robyn Aiton, Janet Chriest, Cindee
+   Dickens, Gill Hayward, Kimberly Martin, Alun Rees, Jo Culf, Ursula
+   Daniels, John Decosta, Beverly Brown, Toni Goodley, Roger Johnson, Kay
+   Swann, Laurie Tiller, Jane Cheetham, Gillian Clarke, David Hawker, Betty
+   Lee, Joanne Thompson, Julie Wittrock, Craig Blackwell, Roger Sparrow,
+   Keith Thomson, and Tanja Thomson. This material is based upon work
+   supported by the National Research Foundation (South Africa) under grant
+   number 2034991.
+CR Bejder L, 2001, NEW ZEAL J MAR FRESH, V35, P277, DOI 10.1080/00288330.2001.9516998
+   BEST PB, 1994, HDB MARINE MAMMALS, V6, P289
+   Boulanger J, 2001, CAN J ZOOL, V79, P642, DOI 10.1139/cjz-79-4-642
+   Burnham KP, 1987, MONOGRAPH AM FISHERI, V5
+   CAROTHERS AD, 1973, J ANIM ECOL, V42, P125, DOI 10.2307/3408
+   Chilvers BL, 2003, MAR MAMMAL SCI, V19, P85, DOI 10.1111/j.1748-7692.2003.tb01094.x
+   DAWSON SM, 1991, MAR MAMMAL SCI, V7, P283, DOI 10.1111/j.1748-7692.1991.tb00103.x
+   Durban JW, 2005, J AGR BIOL ENVIR ST, V10, P291, DOI 10.1198/108571105X58630
+   Elwen S.H., 2008, THESIS U PRETORIA PR
+   Elwen S, 2006, J MAMMAL, V87, P866, DOI 10.1644/05-MAMM-A-307R2.1
+   FINDLAY KP, 1992, S AFR J MARINE SCI, V12, P237
+   Friday N, 2000, MAR MAMMAL SCI, V16, P355, DOI 10.1111/j.1748-7692.2000.tb00930.x
+   Gowans S, 2001, MAR MAMMAL SCI, V17, P76, DOI 10.1111/j.1748-7692.2001.tb00981.x
+   Hammond PS, 1986, REP INT WHAL COMM SP, V8, P253
+   Heinrich S, 2006, THESIS U ST ANDREWS
+   Iniguez Miguel A., 2003, Latin American Journal of Aquatic Mammals, V2, P87
+   Karczmarski L, 2005, BEHAV ECOL, V16, P675, DOI 10.1093/beheco/ari028
+   Lockyer C., 1988, Reports of the International Whaling Commission Special Issue, P103
+   Lockyer C. H., 1990, REPORT INT WHALING C, P113
+   PARRA GJ, 2005, BIOL CONSERV, V129, P167
+   Read AJ, 2003, MAR MAMMAL SCI, V19, P59, DOI 10.1111/j.1748-7692.2003.tb01092.x
+   Seber GA, 1982, ESTIMATION ANIMAL AB
+   SEKIGUCHI K, 1992, S AFRICAN J MARINE S, V12, P846
+   SEKIGUCHI K, 1994, THESIS U PRETORIA PR
+   SLOOTEN E, 1992, MAR MAMMAL SCI, V8, P327, DOI 10.1111/j.1748-7692.1992.tb00049.x
+   Stevick PT, 2001, CAN J FISH AQUAT SCI, V58, P1861, DOI 10.1139/cjfas-58-9-1861
+   White GC, 1982, LA8787NERP LOS AL NA
+   Wilson B, 1999, ECOL APPL, V9, P288, DOI 10.2307/2641186
+NR 28
+TC 13
+Z9 14
+U1 0
+U2 12
+PU WILEY-BLACKWELL PUBLISHING, INC
+PI MALDEN
+PA COMMERCE PLACE, 350 MAIN ST, MALDEN 02148, MA USA
+SN 0824-0469
+J9 MAR MAMMAL SCI
+JI Mar. Mamm. Sci.
+PD JAN
+PY 2009
+VL 25
+IS 1
+BP 107
+EP 124
+DI 10.1111/j.1748-7692.2008.00246.x
+PG 18
+WC Marine & Freshwater Biology; Zoology
+SC Marine & Freshwater Biology; Zoology
+GA 394VI
+UT WOS:000262479000007
+DA 2019-08-05
+ER
+
+PT J
+AU Schmidtmann, I
+   Blettner, M
+AF Schmidtmann, I.
+   Blettner, M.
+TI How Do Cancer Registries in Europe Estimate Completeness of
+   Registration?
+SO METHODS OF INFORMATION IN MEDICINE
+LA English
+DT Article
+DE Cancer registry; quality indicators; survey
+ID CAPTURE-RECAPTURE METHODS; CASE ASCERTAINMENT; NORWAY; QUALITY; GERMANY;
+   SIMULATION
+AB Objectives: Several methods for estimating completeness in cancer registries have been proposed. Little is known about their relative merits. Before embarking on a systematic comparison of methods we wanted to know which indicators were currently in use and whether there had been comparative investigations of estimation methods.
+   Methods: We performed a survey among European cancer registries asking which methods for estimating completeness they used and whether they had performed comparisons of methods.
+   Results: One hundred and ninety-five European cancer registries were contacted after identification using membership directories of the European Network of Cancer Registries (ENCR) and of the International Association of Cancer Registries (IACR), Fifty-six (29%; 22%-36%) of the 195 cancer registries replied. Forty-eight (86%; 74%-94%) of these stated that they estimated completeness. Thirty-five (73%; 58%-85%) used historic comparisons, 31 (65%; 49%-78%) compared their data with a reference registry, 28 (58%; 143%-72%) registries used mortality incidence ratio. Capture-recapture methods were applied in only 12 (25%; 14%-40%) registries The flow method was used by ten (21%, 10%-35%) registries. There were regional differences in the use of methods. Comparisons of methods were rare and usually restricted to real data at hand. A systematic comparison including all indicators actually in use in cancer registries was not reported.
+   Conclusions: A comparison of methods under well defined realistic conditions seems to be indicated. Unifying the methods for estimating completeness would improve validity of comparisons between cancer registries.
+C1 [Schmidtmann, I.; Blettner, M.] Johannes Gutenberg Univ Mainz, Inst Med Biostat Epidemiol & Informat, D-55101 Mainz, Germany.
+RP Schmidtmann, I (reprint author), Johannes Gutenberg Univ Mainz, Inst Med Biostat Epidemiol & Informat, D-55101 Mainz, Germany.
+EM schmidtmann@imbei.uni-mainz.de
+OI Schmidtmann, Irene/0000-0001-8743-6752
+CR Ajiki W, 1998, Nihon Koshu Eisei Zasshi, V45, P1011
+   Berghold A, 2001, METHOD INFORM MED, V40, P122
+   BRENNER H, 1994, METHOD INFORM MED, V33, P502
+   BRENNER H, 1995, J EPIDEMIOL COMMUN H, V49, P426, DOI 10.1136/jech.49.4.426
+   BRENNER H, 1994, EUR J CANCER, V30A, P1659, DOI 10.1016/0959-8049(94)00259-8
+   Brewster DH, 1997, PUBLIC HEALTH, V111, P339, DOI 10.1038/sj.ph.1900387
+   Bullard J, 2000, BRIT J CANCER, V82, P1111, DOI 10.1054/bjoc.1999.1048
+   Colonna M, 1999, J EPIDEMIOL COMMUN H, V53, P558, DOI 10.1136/jech.53.9.558
+   Crocetti E, 2001, EUR J CANCER PREV, V10, P417, DOI 10.1097/00008469-200110000-00005
+   *EUR NETW CANC REG, 2006, ENCR MEMB LIST
+   Haberland J, 2001, GESUNDHEITSWESEN, V63, P556, DOI 10.1055/s-2001-16687
+   Haberland J, 2003, BUNDESGESUNDHEITSBLA, V46, P770
+   Harvei S, 1996, EUR J CANCER, V32A, P104, DOI 10.1016/0959-8049(95)00501-3
+   HELSETH A, 1988, APMIS, V96, P1002, DOI 10.1111/j.1699-0463.1988.tb00974.x
+   *INT ASS CANC REG, 2006, IACR MEMB LIST
+   Kamo K, 2007, JPN J CLIN ONCOL, V37, P150, DOI 10.1093/jjco/hyl143
+   LUND E, 1978, PILOT STUDY EVALUATI, P11
+   MATTAUCH V, 2005, STRUKTURANALYSE EPID
+   MORK J, 1995, APMIS, V103, P375, DOI 10.1111/j.1699-0463.1995.tb01121.x
+   PARKIN DM, 1994, COMP QUALITY CONTROL
+   ROBLES SC, 1988, J CLIN EPIDEMIOL, V41, P495, DOI 10.1016/0895-4356(88)90052-2
+   Schmidtmann I, 2008, BIOMETRICAL J, V50, P1077, DOI 10.1002/bimj.200810483
+   SCHOUTEN LJ, 1994, INT J EPIDEMIOL, V23, P1111, DOI 10.1093/ije/23.6.1111
+   SCHOUTEN LJ, 1993, INT J EPIDEMIOL, V22, P369, DOI 10.1093/ije/22.3.369
+   Silcocks PBS, 2007, J PUBLIC HEALTH-UK, V29, P455, DOI 10.1093/pubmed/fdm053
+   Silcocks PBS, 2004, J PUBLIC HEALTH-UK, V26, P161, DOI 10.1093/pubmed/fdh140
+   Tilling K, 2001, INT J EPIDEMIOL, V30, P12, DOI 10.1093/ije/30.1.12
+   Tingulstad S, 2002, INT J CANCER, V98, P907, DOI 10.1002/ijc.10254
+   Tyczynski J.E., 2003, STANDARDS GUIDELINES
+   *UN POP DIV, 2007, DEF MAJ AR REG
+NR 30
+TC 9
+Z9 9
+U1 0
+U2 0
+PU SCHATTAUER GMBH-VERLAG MEDIZIN NATURWISSENSCHAFTEN
+PI STUTTGART
+PA HOLDERLINSTRASSE 3, D-70174 STUTTGART, GERMANY
+SN 0026-1270
+J9 METHOD INFORM MED
+JI Methods Inf. Med.
+PY 2009
+VL 48
+IS 3
+BP 267
+EP 271
+DI 10.3414/ME0559
+PG 5
+WC Computer Science, Information Systems; Health Care Sciences & Services;
+   Medical Informatics
+SC Computer Science; Health Care Sciences & Services; Medical Informatics
+GA 457MD
+UT WOS:000266932600008
+PM 19387506
+DA 2019-08-05
+ER
+
+PT J
+AU Tocher, MD
+AF Tocher, Mandy D.
+TI Life history traits contribute to decline of critically endangered
+   lizards at Macraes Flat, Otago
+SO NEW ZEALAND JOURNAL OF ECOLOGY
+LA English
+DT Article
+DE Allee effect; apparent survival; fecundity; Oligosoma; population; skink
+ID REPRODUCTIVE OUTPUT; AUSTRALIAN SKINK; NEW-ZEALAND; ECOLOGY;
+   CONSERVATION; DISPERSAL; OTAGENSE; MATRIX; GRAND
+AB Mark-recapture methods were used to determine population abundance and life history of five grand (Oligosoma grande Scincidae) and two Otago (O. olagense) skink populations over 6 years at Macraes Flat, in southern New Zealand. The population ecology of declining and stable grand skink populations was contrasted and the life histories of grand and Otago skinks were compared. The life histories of both species were similar and characterised by slow maturity and longevity (3-5 and 4-6 years to produce first offspring and longevity Lip to 18 and 13.5 years in the wild; grand and Otago skinks respectively). With the exception of one grand skink population, all skink populations showed evidence of declines. Annual reproductive output (ARO) was estimated at 1.46 and 1.41 offspring per female per year (grand and Otago skinks respectively). These ARO values were markedly lower than those reported during a previous study at Macraes Flat during the same decade (2.17 and 2.34 respectively). The stable grand skink population excelled (relatively) in all life history traits measured: ARO of 1.66, 30% of newborns persisted 5+ years, adult survivorship averaged 0.84, and 36% of newborns were recruited to the adult population. In contrast, many of the declining populations were seriously deficient in one or more traits. This study raises concerns about the viability of small populations that have dropped below a critical size, beyond which one or multiple life history traits can act to further the decline. It is imperative that conservation managers of k-selected species move outside the 'improving adult survival' paradigm and begin to consider other potentially limiting population parameters.
+C1 Dept Conservat, Ecosyst & Species Unit, Dunedin 9054, New Zealand.
+RP Tocher, MD (reprint author), Dept Conservat, Ecosyst & Species Unit, Private Bag 1930, Dunedin 9054, New Zealand.
+EM mtocher@doc.govt.nz
+CR ALICE WC, 1931, ANIMAL AGGREGATIONS
+   Allee WC, 1949, PRINCIPLES ANIMAL EC
+   Berry O, 2005, CONSERV BIOL, V19, P855, DOI 10.1111/j.1523-1739.2005.00161.x
+   BULL CM, 1990, AUST WILDLIFE RES, V17, P135
+   BULL CM, 1988, BEHAV ECOL SOCIOBIOL, V23, P45, DOI 10.1007/BF00303057
+   BULL CM, 1995, AUST J ECOL, V20, P393, DOI 10.1111/j.1442-9993.1995.tb00555.x
+   Chapple DG, 2005, AUST J ZOOL, V53, P353, DOI 10.1071/ZO05030
+   Coddington EJ, 1997, PACIFIC CONSERVATION, V3, P379, DOI [10.1071/PC980379, DOI 10.1071/PC980379]
+   CREE A, 1994, NEW ZEAL J ZOOL, V21, P351, DOI 10.1080/03014223.1994.9518005
+   Doherty PF, 2004, OIKOS, V105, P606
+   Ellenberg U, 2007, GEN COMP ENDOCR, V152, P54, DOI 10.1016/j.ygcen.2007.02.022
+   Freeman AB, 1997, NEW ZEAL J ECOL, V21, P153
+   Germano JM, 2007, J HERPETOL, V41, P179, DOI 10.1670/0022-1511(2007)41[179:MHRACE]2.0.CO;2
+   Hitchmough R, 2007, NZ THREAT CLASSIFICA
+   Holmes KM, 2006, J HERPETOL, V40, P141, DOI 10.1670/235-04.1
+   HOUGHTON C, 2000, THESIS U OTAGO DUNED
+   HOUGHTON C, 2002, DOC SCI INTERNAL SER, V32
+   Johnson CN, 2002, P ROY SOC B-BIOL SCI, V269, P2221, DOI 10.1098/rspb.2002.2130
+   LANDE R, 1988, OECOLOGIA, V75, P601, DOI 10.1007/BF00776426
+   LANDE R, 1993, AM NAT, V142, P911, DOI 10.1086/285580
+   Liebhold A, 2003, ECOL LETT, V6, P133, DOI 10.1046/j.1461-0248.2003.00405.x
+   MARSHALL LJ, 2000, THESIS U OTAGO DUNED
+   Milne T, 2002, J HERPETOL, V36, P110, DOI 10.1670/0022-1511(2002)036[0110:COLAJD]2.0.CO;2
+   NORBURY G, 2007, GRAND OTAGO IN PRESS
+   Pollock K.H., 1990, WILDLIFE MONOGR, V107, P97
+   Pradel R, 1996, BIOMETRICS, V52, P703, DOI 10.2307/2532908
+   Reardon JT, 2004, J PARASITOL, V90, P1274, DOI 10.1645/GE-3326
+   RODRIGUEZ-ESTRELLA R, 1991, Western Birds, V22, P141
+   Russell RW, 1999, AM FISH S S, V23, P51
+   SLOOTEN E, 1991, CAN J ZOOL, V69, P1701, DOI 10.1139/z91-235
+   Tocher MD, 2006, J WILDLIFE MANAGE, V70, P31, DOI 10.2193/0022-541X(2006)70[31:SOGAOS]2.0.CO;2
+   Tocher MD, 2003, NEW ZEAL J ZOOL, V30, P243, DOI 10.1080/03014223.2003.9518342
+   Tocher MD, 2005, KARAREHE KINO VERTEB, V7, P1
+   Towns D.R., 1985, P481
+   Towns DR, 2007, CONSERV BIOL, V21, P1021, DOI 10.1111/j.1523-1739.2007.00742.x
+   Turner F.B., 1977, P157
+   Wapstra E, 2001, J HERPETOL, V35, P194, DOI 10.2307/1566108
+   Whitaker AH, 1996, SCI CONSERVATION, V33
+   Whitaker AH, 1995, THREATENED SPECIES R, V14
+NR 39
+TC 9
+Z9 9
+U1 0
+U2 0
+PU NEW ZEALAND ECOL SOC
+PI CHRISTCHURCH
+PA PO BOX 25178, CHRISTCHURCH, NEW ZEALAND
+SN 0110-6465
+J9 NEW ZEAL J ECOL
+JI N. Z. J. Ecol.
+PY 2009
+VL 33
+IS 2
+BP 125
+EP 137
+PG 13
+WC Ecology
+SC Environmental Sciences & Ecology
+GA 507NL
+UT WOS:000270861200004
+DA 2019-08-05
+ER
+
+PT J
+AU Attum, O
+   Lee, YM
+   Kingsbury, BA
+AF Attum, Omar
+   Lee, Yu Man
+   Kingsbury, Bruce A.
+TI The Status of the Northern Population of the Copper-bellied Watersnake,
+   Nerodia erythrogaster neglecta
+SO NORTHEASTERN NATURALIST
+LA English
+DT Article
+ID WETLAND; SNAKES; CONSERVATION; TRANSECTS; DENSITY
+AB The Nerodia erythrogaster neglecta (Copper-bellied Watersnake) population north of 40 degrees north latitude is categorized as threatened under the US Endangered Species Act. Previous efforts to use mark-recapture to estimate population size have been unsuccessful because there were so few initial captures. We therefore evaluated the status of the largest presumed subpopulation of this population by using strip transects to provide a conservative (maximum) estimate of density and population size of adults. Our results indicate that the largest presumed adult Copper-bellied Watersnake metapopulation north of 40 degrees north latitude is extremely small, with a total size of 94 22 adults, and is characterized by a population density of 1.17 +/- 0.27 adult snakes/ha (95 % CI = 0.73-1.87 snake/ha). This Copper-bellied Watersnake population appears to be in danger of extirpation within the foreseeable future. Recovery will require protecting existing wetland complexes and restoring wetlands and the surrounding upland habitats.
+C1 [Attum, Omar; Kingsbury, Bruce A.] Indiana Univ Purdue Univ, Ctr Reptile & Amphibian Conservat & Management, Ft Wayne, IN 46805 USA.
+   [Lee, Yu Man] Michigan State Univ, Lansing, MI 48909 USA.
+RP Attum, O (reprint author), Indiana Univ SE, Dept Biol, 4201 Grant Line Rd, New Albany, IN 47150 USA.
+EM oattum@ius.edu
+FU US Fish and Wildlife Service Section 6 Grant Program; Michigan
+   Department of Natural Resources; Center for Reptile and Amphibian
+   Conservation and Management; Indiana-Purdue University Fort Wayne
+FX This research was funded by the US Fish and Wildlife Service Section 6
+   Grant Program, Michigan Department of Natural Resources, and the Center
+   for Reptile and Amphibian Conservation and Management, Indiana-Purdue
+   University Fort Wayne. We are indebted to Nathan Herbert, Kile Kucher,
+   and Sean Zera, who provided field assistance for this project. D. Soards
+   provided logistical support. The following landowners granted permission
+   to survey private property: D. Brown, R. Neely, T. Oberleiter, G.
+   Richards, J. Roden, M. Schauer, D. and J. Wilson, and M. Wilson. We
+   thank the Michigan Nature Association and Toledo Area Council for
+   permitting us to survey their properties. All applicable Animal Care
+   guidelines and required state and federal permits were obtained for this
+   study. Four reviewers made helpful comments during manuscript review.
+CR Attum O, 2008, J ZOOL, V275, P245, DOI 10.1111/j.1469-7998.2008.00435.x
+   CONANT R, 1949, COPEIA, V1, P15
+   Kramer-Schadt S, 2004, J APPL ECOL, V41, P711, DOI 10.1111/j.0021-8901.2004.00933.x
+   LACKI MJ, 1994, J HERPETOL, V28, P241, DOI 10.2307/1564627
+   Laurent EJ, 2003, J HERPETOL, V37, P229, DOI 10.1670/0022-1511(2003)037[0229:HSATSO]2.0.CO;2
+   LAURENT EJ, 2000, THESIS INDIANA PURDU
+   Olson KA, 2005, ORYX, V39, P164, DOI 10.1017/S0030605305000402
+   Roe JH, 2006, BIOL CONSERV, V130, P161, DOI 10.1016/j.biocon.2005.12.010
+   Roe JH, 2004, BIOL CONSERV, V118, P79, DOI 10.1016/j.biocon.2003.07.010
+   Roe JH, 2003, WETLANDS, V23, P1003, DOI 10.1672/0277-5212(2003)023[1003:WAUUPI]2.0.CO;2
+   THOMAS L, 2006, DISTANCE 5 0 RES UNI
+   1997, FED REG, V62, P4183
+NR 12
+TC 2
+Z9 2
+U1 0
+U2 11
+PU HUMBOLDT FIELD RESEARCH INST
+PI STEUBEN
+PA PO BOX 9, STEUBEN, ME 04680-0009 USA
+SN 1092-6194
+EI 1938-5307
+J9 NORTHEAST NAT
+JI Northeast. Nat
+PY 2009
+VL 16
+IS 3
+BP 317
+EP 320
+DI 10.1656/045.016.n301
+PG 4
+WC Biodiversity Conservation; Ecology
+SC Biodiversity & Conservation; Environmental Sciences & Ecology
+GA 508KK
+UT WOS:000270929500001
+DA 2019-08-05
+ER
+
+PT J
+AU Harihar, A
+   Prasad, DL
+   Ri, C
+   Pandav, B
+   Goyal, SP
+AF Harihar, Abishek
+   Prasad, Deepika L.
+   Ri, Chandan
+   Pandav, Bivash
+   Goyal, Surendra P.
+TI Losing ground: tigers Panthera tigris in the north-western Shivalik
+   landscape of India
+SO ORYX
+LA English
+DT Article
+DE Chilla-Motichur corridor; India; Panthera tigris; prey density; Rajaji
+   National Park; recovery; tiger
+ID CONSERVATION; POPULATIONS; DENSITIES
+AB Rajaji National Park, which forms the northwestern limit of the range of the tiger Panthera tigris in India, is bisected into western and eastern sectors by development activities along the banks of the river Ganga. Following a voluntary pastoral Gujjar resettlement programme initiated in the Park by the Uttarakhand Forest Department, we assessed the status of the tiger and its prey. We used sign surveys for tigers, leopards Panthera pardus and their prey, estimated prey densities using line transects and distance sampling, and estimated the density of tigers using photographic capture-recapture analysis. Our results indicate that the use of the area by tigers differed significantly between the two sectors of the Park, with pug mark encounter rates per 250 m segment from sign surveys of 0.07 +/- SE 0.04 in the west and 1.6 +/- SE 0.3 in the east. Although the high estimated prey densities (> 80 km(-2)) in the Park have the potential to support high densities of tigers, we photo-captured only one tigress in the western sector and five adult tigers and two cubs in the east (the latter with a mean density of 5.12 +/- SE 0.7 per 100 km(2)). Whereas recovery of the tiger population in the eastern sector following the resettlement of Gujjars is evident, the lack of connectivity to source populations (Corbett Tiger Reserve and eastern Rajaji National Park) and increased anthropogenic pressures appear to have inhibited the recovery of tiger populations in the western sector. Restoration, therefore, of the Chilla-Motichur corridor to facilitate the dispersal of tigers from the eastern to the western sector of the Park is of critical importance.
+C1 [Harihar, Abishek; Goyal, Surendra P.] Wildlife Inst India, Dehra Dun 248001, Uttaranchal, India.
+   [Prasad, Deepika L.] AVC Coll, Mayiladuthurai, Tamil Nadu, India.
+   [Pandav, Bivash] WWF Int, WWF Nepal Program, Baluwatar, Kathmandu, Nepal.
+RP Harihar, A (reprint author), Wildlife Inst India, Post Box 18, Dehra Dun 248001, Uttaranchal, India.
+EM harihar.abishek@gmail.com
+OI Harihar, Abishek/0000-0002-2446-6345
+FU Save the Tiger Fund [2005-0013-027]; Wildlife Institute of India. Imam,
+   Mumtaj, Ameer
+FX We thank the Director of the Wildlife Institute of India and the
+   Uttarakhand Forest Department for providing permissions and the ongoing
+   Rajaji monitoring project of the Wildlife Institute of India for
+   logistic support. We also thank the Terai-Arc Landscape project of the
+   Wildlife Institute of India for providing access to maps. This study was
+   funded by Save the Tiger Fund (Grant 2005-0013-027) and supported by the
+   Wildlife Institute of India. Imam, Mumtaj, Ameer and Satpal are thanked
+   for their assistance with fieldwork. Mousumi Ghosh is thanked for her
+   assistance during the preparation of the manuscript, and we thank two
+   anonymous reviewers for helpful comments.
+CR ANDERSON DR, 1979, J WILDLIFE MANAGE, V43, P70, DOI 10.2307/3800636
+   Buckland S. T, 2001, INTRO DISTANCE SAMPL
+   BUCKLAND ST, 1993, DISTANCE SAMPLING ES
+   Burnham KP, 1980, WILDLIFE MONOGR, V72, P1
+   Champion HG, 1968, FOREST TYPES INDIA
+   CONTRACTOR D, 2007, THESIS  SAURASHTRA U
+   EDGAONKAR A, 1995, THESIS  SAURASHTRA U
+   Harihar A, 2009, EUR J WILDLIFE RES, V55, P97, DOI 10.1007/s10344-008-0219-2
+   JOHNSINGH A. J. T, 2004, RR04001 WILDL I IND
+   JOHNSINGH AJT, 1990, BIOL CONSERV, V51, P125, DOI 10.1016/0006-3207(90)90107-Z
+   Johnsingh AJT, 2006, AMBIO, V35, P135, DOI 10.1579/0044-7447(2006)35[135:SACOTT]2.0.CO;2
+   Johnsingh AT, 2003, BIOL CONSERV, V111, P385, DOI 10.1016/S0006-3207(02)00307-5
+   Karanth K. Ullas, 1999, P100
+   Karanth KU, 2004, P NATL ACAD SCI USA, V101, P4854, DOI 10.1073/pnas.0306210101
+   KARANTH KU, 1995, BIOL CONSERV, V71, P333, DOI 10.1016/0006-3207(94)00057-W
+   Karanth KU, 1998, ECOLOGY, V79, P2852
+   Kumar D., 1995, MANAGEMENT PLAN RAJA
+   KURIEN AJ, 2005, THESIS SAURASHTRA U
+   McDougal C., 1977, FACE TIGER
+   Miquelle Dale G., 1999, P71
+   OTIS DL, 1978, WILDLIFE MONOGR, P1
+   *PROJECT TIGER, 2005, JOIN DOTS REP TIG TA
+   Rexstad E., 1991, USERS GUIDE INTERACT
+   Schaller G. B., 1967, DEER TIGER
+   Seidensticker J., 1999, RIDING TIGER TIGER C
+   Smith JLD, 1998, CONSERV BIOL, V12, P1338, DOI 10.1046/j.1523-1739.1998.97068.x
+   Sneath PHA, 1973, NUMERICAL TAXONOMY
+   Sunquist Mel, 1999, P5
+   THOMAS L, 2006, DISTANCE 5 RELEASE 2
+   White GC, 1982, LA8787NERP LOS AL NA
+   Wikramanayake E, 2004, CONSERV BIOL, V18, P839, DOI 10.1111/j.1523-1739.2004.00145.x
+   *WILDL PROT SOC IN, 1998, IND TIG POACH CRIS
+NR 32
+TC 14
+Z9 16
+U1 1
+U2 19
+PU CAMBRIDGE UNIV PRESS
+PI NEW YORK
+PA 32 AVENUE OF THE AMERICAS, NEW YORK, NY 10013-2473 USA
+SN 0030-6053
+EI 1365-3008
+J9 ORYX
+JI Oryx
+PD JAN
+PY 2009
+VL 43
+IS 1
+BP 35
+EP 43
+DI 10.1017/S0030605307072043
+PG 9
+WC Biodiversity Conservation; Ecology
+SC Biodiversity & Conservation; Environmental Sciences & Ecology
+GA 407YR
+UT WOS:000263400700008
+OA Bronze
+DA 2019-08-05
+ER
+
+PT J
+AU Rayan, DM
+   Mohamad, SW
+AF Rayan, D. Mark
+   Mohamad, Shariff Wan
+TI Short Communication The importance of selectively logged forests for
+   tiger Panthera tigris conservation: a population density estimate in
+   Peninsular Malaysia
+SO ORYX
+LA English
+DT Article
+DE Camera-trap; capture-recapture; forest reserve; Malaysia; Panthera
+   tigris; selective logging; tiger
+ID CAPTURE; INDIA; PREY
+AB To obtain information on density of tiger Panthera tigris in selectively logged forest, a 9-month camera-trapping survey was conducted over elevations of 190-850 in in lowland and hill/upper dipterocarp and lower montane forests in Gunung Basor Forest Reserve, Peninsular Malaysia. Capture-recapture sampling methods were used to estimate tiger population density in the Reserve. The number of individual tigers captured was six. Using the M-h jackknife estimator the average capture probability per sampling occasion was 0.28 and the corresponding estimate of population size 8 +/- SE 1.89. The overall probability of photo-capturing a tiger present in the sampled area was 0.75. Using an approach based on distances between photo-captures, a buffer width of 3.22 kin and an effectively sampled area of 308 kM(2) was estimated. This resulted in a density estimate of 2.59 +/- SE 0.71 adult tigers per 100 km(2). The results indicate that selectively logged forests such as Gunung Basor Forest Reserve have the potential to accommodate a high density of tigers. Decision makers and conservation planners should not therefore perceive selectively logged forests to have limited conservation value. Further research on the ecology of tigers and their prey in selectively logged forests is urgently needed. Such research would enable conservationists to recommend tiger-friendly management guidelines for sustainable forest management and thereby significantly contribute to tiger conservation in Malaysia.
+C1 [Rayan, D. Mark; Mohamad, Shariff Wan] WWF Malaysia, Petaling Jaya 47400, Selangor, Malaysia.
+RP Rayan, DM (reprint author), WWF Malaysia, 49 Jalan SS23-15, Petaling Jaya 47400, Selangor, Malaysia.
+EM mdarmaraj@wwf.org.my
+FU WWF-Netherlands; Department of Wildlife; National Parks and the Forestry
+   Department of Kelantan
+FX We thank WWF-Netherlands for financial assistance and the Department of
+   Wildlife and National Parks and the Forestry Department of Kelantan for
+   their support. We are also indebted to Kae Kawanishi, Ullas Karanth,
+   WWFMalaysia colleagues and others for their valuable input.
+CR BADRUL AMS, 2003, J WILDLIFE PARKS, V21, P103
+   DARMARAJ MR, 2007, TIGER MONITORI UNPUB
+   DAVIES G, 2001, CUTTING EDGE CONSERV, V93
+   Dinerstein E, 2006, SETTING PRIORITIES C
+   ELAGUPILLAY S, 1983, J WILDLIFE PARKS, V2, P136
+   Karanth K. U., 2002, MONITORING TIGERS TH
+   Karanth KU, 2004, P NATL ACAD SCI USA, V101, P4854, DOI 10.1073/pnas.0306210101
+   Karanth KU, 2004, ANIM CONSERV, V7, P285, DOI 10.1017/S1367943004001477
+   KARANTH KU, 1995, BIOL CONSERV, V71, P333, DOI 10.1016/0006-3207(94)00057-W
+   Karanth KU, 1998, ECOLOGY, V79, P2852
+   Kawanishi K, 2004, BIOL CONSERV, V120, P329, DOI 10.1016/j.biocon.2004.03.005
+   KAWANISHI K, 2002, THESIS U FLORIDA GAI
+   Kawanishi K., 2006, MANAGEMENT STATUS RE, P175
+   Kawanishi K., 2003, J WILDLIFE PARKS MAL, V21, P29
+   LOCKE A, 1954, TIGERS TERENGGANU
+   Lynam AJ, 2007, ORYX, V41, P454, DOI 10.1017/S0030605307001019
+   Miquelle Dale G., 1999, P71
+   Nichols James D., 2002, P121
+   O'Brien TG, 2003, ANIM CONSERV, V6, P131, DOI 10.1017/S1367943003003172
+   OTIS DL, 1978, WILDLIFE MONOGR, P1
+   Rexstad E., 1991, USERS GUIDE INTERACT
+   Simcharoen S, 2007, ORYX, V41, P447, DOI 10.1017/S0030605307414107
+   WILSON KR, 1985, J MAMMAL, V66, P13, DOI 10.2307/1380951
+NR 23
+TC 25
+Z9 27
+U1 0
+U2 18
+PU CAMBRIDGE UNIV PRESS
+PI NEW YORK
+PA 32 AVENUE OF THE AMERICAS, NEW YORK, NY 10013-2473 USA
+SN 0030-6053
+EI 1365-3008
+J9 ORYX
+JI Oryx
+PD JAN
+PY 2009
+VL 43
+IS 1
+BP 48
+EP 51
+DI 10.1017/S0030605308001890
+PG 4
+WC Biodiversity Conservation; Ecology
+SC Biodiversity & Conservation; Environmental Sciences & Ecology
+GA 407YR
+UT WOS:000263400700010
+OA Bronze
+DA 2019-08-05
+ER
+
+PT J
+AU Ewel, KC
+   Rowe, S
+   McNaughton, B
+   Bonine, KH
+AF Ewel, Katherine C.
+   Rowe, Stacy
+   McNaughton, Blake
+   Bonine, Kimberly H.
+TI Characteristics of Scylla spp. (Decapoda: Portunidae) and Their Mangrove
+   Forest Habitat in Ngaremeduu Bay, Republic of Palau
+SO PACIFIC SCIENCE
+LA English
+DT Article
+ID SERRATA FORSKAL; MARK-RECAPTURE; SOUTH-AFRICA; MUD CRAB; CRUSTACEA;
+   ABUNDANCE; PARAMAMOSAIN; ESTUARIES; MATURITY; FISHERY
+AB Three species of mangrove crabs (Scylla spp.) were captured in live traps in Ngaremeduu Bay on the island of Babeldaob, Republic of Palau. Most were S. serrata, but one individual each of S. olivacea and S. paramamosain was also trapped, establishing existence of a biogeographic gradient in mangrove crab species diversity across the Micronesian archipelago. Species composition of mangrove trees along transects around the bay and along the three major tributaries was similar to that of other Micronesian islands, although trees are smaller in Palau. For 17 months in 1999-2000, crabs were trapped in the bay and captured by hand along the transects; they were trapped again for I month in 2004. Characteristics of the crabs and of burrows encountered along the transects suggested that only S. serrata was captured in 1999-2000 and that population density of this species was 40 crabs ha(-1). Carapace widths for the 159 crabs captured during the entire study did not differ significantly over the 4-yr span, and averaged 153 turn for males and 137 mm for females. However, average carapace widths for the largest quartile of crabs declined significantly from 174 mm to 171 mm across the study period. Catch per unit effort was 0.28 crab per trap night in 1999-2000 and 0.45 in 2004. Although large crabs are still available in Ngaremeduu Bay, current regulations may not be sufficient to keep populations from decreasing gradually in size, especially in the face of increasing harvest pressure on the island of Babeldaob.
+C1 [Ewel, Katherine C.] US Forest Serv, Pacific SW Res Stn, Inst Pacific Isl Forestry, USDA, Hilo, HI 96720 USA.
+   [Bonine, Kimberly H.] Stanford Univ, Inst Int Studies, Ctr Environm Sci & Policy, Stanford, CA 94305 USA.
+RP Ewel, KC (reprint author), Univ Florida, Sch Forest Resources & Conservat, Gainesville, FL 32611 USA.
+EM kewel@ufl.edu
+FU John D. and Catherine T. MacArthur Foundation [97-49885A-WER]
+FX Participation of K.M.B. was made Possible by a grant from the John D.
+   and Catherine T. MacArthur Foundation (no. 97-49885A-WER; B. Singer, R.
+   Naylor, K. Ewel, and S. Abraham, principal investigators). The work
+   performed in this Study complied with the current laws of the Republic
+   of Pilau. Manuscript accepted 28 November 2007.
+CR Atherton J., 2007, POLYNESIA MICRONESIA
+   Barnes DKA, 2002, S AFR J MARINE SCI, V24, P19, DOI 10.2989/025776102784528312
+   Benstead JP, 2006, ECOLOGY, V87, P326, DOI 10.1890/05-0721
+   BONNIE KM, 2008, PAC SCI, V62, P1
+   BROWN IW, 1993, NEARSHORE MARINE RES, P611
+   Cole TG, 1999, FOREST ECOL MANAG, V117, P95, DOI 10.1016/S0378-1127(98)00474-5
+   COLE TG, 1987, US FOR SERV RESOUR B
+   Crombie RI, 1999, HERPETOL MONOGR, V13, P29, DOI 10.2307/1467060
+   Endress BA, 2001, BIOTROPICA, V33, P555, DOI 10.1111/j.1744-7429.2001.tb00214.x
+   ESTAMPADOR EULOGIO P., 1949, PHILIPPINE JOUR SCI, V78, P95
+   Ewel KC, 2008, J SEA RES, V59, P114, DOI 10.1016/j.seares.2007.06.006
+   HEASMAN MP, 1985, AUST J MAR FRESH RES, V36, P773
+   HILL BJ, 1994, MAR BIOL, V120, P379, DOI 10.1007/BF00680211
+   HILL BJ, 1982, MAR BIOL, V69, P117, DOI 10.1007/BF00396967
+   HILL BJ, 1975, MAR BIOL, V32, P119, DOI 10.1007/BF00388505
+   HYLAND SJ, 1984, MAR BIOL, V80, P57, DOI 10.1007/BF00393128
+   Keenan CP, 1998, RAFFLES B ZOOL, V46, P217
+   LAMBETH L, 2001, 4 SECR PAC COMM
+   LAMBETH L, 2001, 5 SECR PAC COMM
+   Le Vay L, 2007, MAR BIOL, V151, P1127, DOI 10.1007/s00227-006-0553-4
+   Milliken G.A., 1992, ANAL MESSY DATA
+   Overton JL, 2002, J CRUSTACEAN BIOL, V22, P790, DOI 10.1651/0278-0372(2002)022[0790:ESASMF]2.0.CO;2
+   Pinzon ZS, 2003, J TROP ECOL, V19, P143, DOI 10.1017/S026646740300316X
+   RIDEPMORRIS A, 2000, MANAGEMENT PLAN NGAR
+   ROBERTSON WD, 1991, S AFR J MARINE SCI, V11, P193, DOI 10.2989/025776191784287691
+   ROBERTSON WD, 1994, ESTUAR COAST SHELF S, V39, P185, DOI 10.1006/ecss.1994.1057
+   *SAS I INC, 2000, SAS SYST VERS 9 1
+   *SAS I INC, 2000, SAS SYST VERS 8
+   Stephenson W., 1959, AUSTR J MARINE FRESH, V11, P73
+   Tomlinson P. B., 1986, BOT MANGROVES
+   Walton ME, 2006, MAR BIOL, V149, P1199, DOI 10.1007/s00227-006-0267-7
+   Walton ME, 2006, ESTUAR COAST SHELF S, V66, P493, DOI 10.1016/j.ecss.2005.09.015
+   WARREN JH, 1990, AUST J ECOL, V15, P277, DOI 10.1111/j.1442-9993.1990.tb01031.x
+   WILLIAMS MJ, 1982, MAR BIOL, V71, P187, DOI 10.1007/BF00394628
+NR 34
+TC 4
+Z9 6
+U1 0
+U2 6
+PU UNIV HAWAII PRESS
+PI HONOLULU
+PA 2840 KOLOWALU ST, HONOLULU, HI 96822 USA
+SN 0030-8870
+EI 1534-6188
+J9 PAC SCI
+JI Pac. Sci.
+PD JAN
+PY 2009
+VL 63
+IS 1
+BP 15
+EP 26
+DI 10.2984/1534-6188(2009)63[15:COSSDP]2.0.CO;2
+PG 12
+WC Marine & Freshwater Biology; Zoology
+SC Marine & Freshwater Biology; Zoology
+GA 361YQ
+UT WOS:000260164500002
+OA Green Published
+DA 2019-08-05
+ER
+
+PT J
+AU Zimmermann, K
+   Konvicka, M
+   Fric, Z
+   Cihakova, V
+AF Zimmermann, Kamil
+   Konvicka, Martin
+   Fric, Zdenek
+   Cihakova, Veronika
+TI DEMOGRAPHY OF A COMMON BUTTERFLY ON HUMID GRASSLANDS: ARGYNNIS AGLAJA
+   (LEPIDOPTERA: NYMPHALIDAE) STUDIED BY MARK-RECAPTURE
+SO POLISH JOURNAL OF ECOLOGY
+LA English
+DT Article
+DE butterfly ecology; conservation; grasslands; mark- recapture; population
+   size; dispersal; seminatural meadows
+ID PROCLOSSIANA-EUNOMIA LEPIDOPTERA; SPEYERIA-MORMONIA LEPIDOPTERA;
+   METAPOPULATION STRUCTURE; HABITAT FRAGMENTATION; CALCAREOUS GRASSLANDS;
+   POPULATION-STRUCTURE; LIFE-HISTORY; DISPERSAL; CONSERVATION; DYNAMICS
+AB Much of the research into the demography of butterflies conducted in Europe during the last few decades focused on rapidly declining or, on the other hand, expanding species, whereas species with stable trend tend to be neglected by researchers. Argynnis aglaja, a widely distributed inhabitant of semi-natural grasslands, represents a suitable model for studying patterns of landscape persistence of not-yet-threatened grassland insects. Using mark-recapture method conducted for one season on humid meadows in Western Bohemia, Czech Republic, we show that this large-bodied species is capable to form large and dense populations, reaching densities of over 250 individuals per hectare. The adults were relatively long-living, an average female longevity (11.8 d) was over twice as high as an average male longevity (4.6 d), with maxima being 22 (a male) and 30 (a female) days. The prolonged female lifespan is beneficial for a species that do not emerge with fully-matured eggs and oviposits singly over large areas. Modelling mobility, well-approximated by an inverse-power function, predicted that about one individual in a thousand would cross the distance of 1000 meters. We conclude that the satisfactory conservation status of A. aglaja stems from its capability to reach high local densities combined with a good dispersal power.
+C1 [Zimmermann, Kamil; Konvicka, Martin; Fric, Zdenek; Cihakova, Veronika] Univ S Bohemia, Fac Sci, CZ-37005 Ceske Budejovice, Czech Republic.
+   [Zimmermann, Kamil; Konvicka, Martin; Fric, Zdenek] Biol Ctr CAS, Inst Entomol, CZ-37005 Ceske Budejovice, Czech Republic.
+   [Fric, Zdenek] Acad Sci Czech Republic, Inst Syst Biol & Ecol, CZ-37005 Ceske Budejovice, Czech Republic.
+RP Zimmermann, K (reprint author), Univ S Bohemia, Fac Sci, Branisovska 31, CZ-37005 Ceske Budejovice, Czech Republic.
+EM cimmin@gmail.com
+FU Czech Ministry of Education [6007665801, LC06073]; Grant Agency of the
+   Czech Academy of Sciences [206/08/H044]; Institute of Entomology
+   [Z50070508]
+FX We thank M. Lovy, P Vlasanek, D. Novotny, I. Bartu, A. Wenigrova, J.
+   Krucinska, P Houfkova and J. Patera for assistance in field, and P Kepka
+   for help with data management. The study was supported by Czech Ministry
+   of Education (6007665801, LC06073), Grant Agency of the Czech Academy of
+   Sciences (206/08/H044) and by institutional research plan of the
+   Institute of Entomology (Z50070508).
+CR AKAIKE H, 1974, IEEE T AUTOMAT CONTR, VAC19, P716, DOI 10.1109/TAC.1974.1100705
+   Arbeitsgruppe Lepidopterologen, 1987, TAGF IHR LEB ART GEF
+   Baguette M, 2003, ECOGRAPHY, V26, P153, DOI 10.1034/j.1600-0587.2003.03364.x
+   Baguette M, 2003, CR BIOL, V326, pS200, DOI 10.1016/S1631-0691(03)00058-1
+   Baguette M, 2003, J APPL ECOL, V40, P404, DOI 10.1046/j.1365-2664.2003.00791.x
+   BAGUETTE M, 1994, ECOL ENTOMOL, V19, P1, DOI 10.1111/j.1365-2311.1994.tb00382.x
+   BENES J., 2002, BUTTERFLIES CZECH RE
+   Bergman KO, 2002, BIOL CONSERV, V108, P361, DOI 10.1016/S0006-3207(02)00104-0
+   Boggs CL, 1988, FUNCT ECOL, V2, P289, DOI 10.2307/2389400
+   BOGGS CL, 1993, ECOLOGY, V74, P433, DOI 10.2307/1939305
+   Boggs CL, 1997, ECOLOGY, V78, P181
+   Boggs CL, 2006, J ANIM ECOL, V75, P466, DOI 10.1111/j.1365-2656.2006.01067.x
+   BOGGS CL, 1987, HOLARCTIC ECOL, V10, P175
+   Bulman CR, 2007, ECOL APPL, V17, P1460, DOI 10.1890/06-1032.1
+   Burnham K. P., 1998, MODEL SELECTION INFE
+   Davies H, 2007, BIODIVERS CONSERV, V16, P3719, DOI 10.1007/s10531-007-9176-4
+   Eichel S, 2008, J INSECT CONSERV, V12, P677, DOI 10.1007/s10841-007-9110-9
+   Fartmann Thomas, 2006, Abhandlungen aus dem Westfaelischen Museum fuer Naturkunde, V68, P11
+   Fleishman E, 2002, CONSERV BIOL, V16, P706, DOI 10.1046/j.1523-1739.2002.00539.x
+   Fox R., 2006, STATE BUTTERFLIES BR
+   Freese A, 2006, ANIM CONSERV, V9, P388, DOI 10.1111/j.1469-1795.2006.00045.x
+   FRIC Z, 2005, ATALANTA, V36
+   Fric Z, 2007, BASIC APPL ECOL, V8, P377, DOI 10.1016/j.baae.2006.06.005
+   Gaston KJ, 2007, PROG PHYS GEOG, V31, P213, DOI 10.1177/0309133307076488
+   HAFNER S, 2005, SCHMETTERLINGE BADEN, P46
+   Hill JK, 2006, BIOL LETTERS, V2, P152, DOI 10.1098/rsbl.2005.0401
+   Hill JK, 1996, J ANIM ECOL, V65, P725, DOI 10.2307/5671
+   Hill JK, 2002, P ROY SOC B-BIOL SCI, V269, P2163, DOI 10.1098/rspb.2002.2134
+   Hula V, 2004, ENTOMOL FENNICA, V15, P231
+   Konvicka M, 2006, GLOBAL ECOL BIOGEOGR, V15, P82, DOI 10.1111/j.1466-822x.2006.00188.x
+   KONVICKA M, 2008, J INSECT CONSERV, V5, P549
+   Kubat K, 2002, KLIC KE KVETENE CESK
+   LEBRETON JD, 1992, ECOL MONOGR, V62, P67, DOI 10.2307/2937171
+   Leon-Cortes JL, 2000, ECOL ENTOMOL, V25, P285, DOI 10.1046/j.1365-2311.2000.00271.x
+   Leon-Cortes JL, 1999, ECOGRAPHY, V22, P643, DOI 10.1111/j.1600-0587.1999.tb00513.x
+   LIU WH, 2007, J INSECT CONSERV, V10, P351
+   Maes D, 2001, BIOL CONSERV, V99, P263, DOI 10.1016/S0006-3207(00)00182-8
+   Mennechez G, 2003, LANDSCAPE ECOL, V18, P279, DOI 10.1023/A:1024448829417
+   Merrill RM, 2008, J ANIM ECOL, V77, P145, DOI 10.1111/j.1365-2656.2007.01303.x
+   Mousson L, 1999, BIOL CONSERV, V87, P285, DOI 10.1016/S0006-3207(98)00081-0
+   Neve G, 1996, J APPL ECOL, V33, P14, DOI 10.2307/2405011
+   NEVE G, 2009, EUR J ENTOM IN PRESS
+   O'Brien DM, 2004, OIKOS, V105, P279, DOI 10.1111/j.0030-1299.2004.13012.x
+   Petit S, 2001, OIKOS, V92, P491, DOI 10.1034/j.1600-0706.2001.920310.x
+   Poyry J, 2005, BIOL CONSERV, V122, P465, DOI 10.1016/j.biocon.2004.09.007
+   Reinhardt R., 2007, ENTOMOLOGISCHE NACHR, V11
+   Roy DB, 2001, J ANIM ECOL, V70, P201, DOI 10.1046/j.1365-2656.2001.00480.x
+   SALZ A, 2009, J INSECT CO IN PRESS
+   Sawchik J, 2003, ACTA OECOL, V24, P25, DOI 10.1016/S1146-609X(02)00005-X
+   Schtickzelle N, 2006, ECOLOGY, V87, P1057, DOI 10.1890/0012-9658(2006)87[1057:DDWHFI]2.0.CO;2
+   Schtickzelle N, 2002, OIKOS, V97, P349, DOI 10.1034/j.1600-0706.2002.970305.x
+   Schtickzelle N, 2007, BIOL CONSERV, V136, P651, DOI 10.1016/j.biocon.2007.01.012
+   Settele J., 1999, TAGFALTER DEUTSCHLAN
+   Simonsen TJ, 2006, INSECT SYST EVOL, V37, P405, DOI 10.1163/187631206788831407
+   Simonsen TJ, 2006, BIOL J LINN SOC, V89, P627, DOI 10.1111/j.1095-8312.2006.00697.x
+   SIX A, 2000, VERHANDLUNGEN WESTDE, V1999, P81
+   SPITZER L, 2009, ECOL INDICA IN PRESS
+   Swengel AB, 2001, GREAT LAKES ENTOMOL, V34, P111
+   SWENGEL AB, 1997, GREAT LAKES ENTOMOL, V1, P1
+   SWENGEL AB, 2005, HOLARCTIC LEPIDOPTER, V10, P17
+   Tammaru T, 1996, OIKOS, V77, P561, DOI 10.2307/3545946
+   Tolman T., 1997, BUTTERFLIES BRITAIN
+   Van Swaay CAM, 1999, NATURE ENV SERIES, V99
+   Van Swaay Chris, 2005, P106
+   WARREN MS, 1995, ECOLOGY AND CONSERVATION OF BUTTERFLIES, P198
+   WARREN MS, 1987, J APPL ECOL, V24, P483, DOI 10.2307/2403888
+   Weidemann HJ, 1995, TAGFALTER BEOBACHTEN
+   Wenzel M, 2006, BIOL CONSERV, V128, P542, DOI 10.1016/j.biocon.2005.10.022
+   White GC, 1999, BIRD STUDY, V46, P120
+   Williams B. K., 2002, ANAL MANAGEMENT ANIM
+   Williams BL, 2003, MOL ECOL, V12, P11, DOI 10.1046/j.1365-294X.2003.01700.x
+   ZAR J. H., 1996, BIOSTATISTICAL ANAL
+   Zimmermann K, 2005, EUR J ENTOMOL, V102, P699, DOI 10.14411/eje.2005.100
+NR 73
+TC 13
+Z9 13
+U1 0
+U2 15
+PU POLISH ACAD SCIENCES INST ECOLOGY
+PI LOMIANKI
+PA DZIEKANOW LESNY NEAR WARSAW, 05-092 LOMIANKI, POLAND
+SN 1505-2249
+J9 POL J ECOL
+JI Pol. J. Ecol.
+PY 2009
+VL 57
+IS 4
+BP 715
+EP 727
+PG 13
+WC Ecology
+SC Environmental Sciences & Ecology
+GA 537DK
+UT WOS:000273093000009
+DA 2019-08-05
+ER
+
+PT J
+AU Lynam, A
+   Rabinowitz, A
+   Myint, T
+   Maung, M
+   Latt, K
+   Po, S
+AF Lynam, Antony J.
+   Rabinowitz, Alan
+   Myint, Than
+   Maung, Myint
+   Latt, Kyaw T.
+   Po, Saw Htoo T.
+TI Estimating abundance with sparse data: tigers in northern Myanmar
+SO POPULATION ECOLOGY
+LA English
+DT Article
+DE Camera-traps; Capture-recapture; Myanmar; Population density; Tigers
+ID VIABLE POPULATION SIZES; DENSITY ESTIMATORS; PREY POPULATIONS;
+   PANTHERA-TIGRIS; CAMERA TRAP; CONSERVATION; MAMMALS; INDIA; ONCA
+AB As part of a national strategy for recovering tiger populations, the Myanmar Government recently proposed its first and the world's largest tiger reserve in the Hukaung Valley, Kachin State. During November 2002-June 2004, camera-traps were used to record tigers, identify individuals, and, using capture-recapture approaches, estimate density in the reserve. Despite extensive (203 trap locations, 275-558 km(2) sample plots) and intensive (> 4,500 trap nights, 9 months of sampling) survey efforts, only 12 independent detections of six individual tigers were made across three study sites. Due to the sparse data, estimates of tiger abundance generated by Program CAPTURE could not be made for all survey sites. Other approaches to estimating density, based on numbers of tigers caught, or derived from borrowed estimates of detection probability, offer an alternative to capture-recapture analysis. Tiger densities fall in the range of 0.2-2.2 tigers/100 km(2), with 7-71 tigers inside a 3,250 km(2) area of prime tiger habitat, where efforts to protect tigers are currently focused. Tiger numbers might be stabilized if strict measures are taken to protect tigers and their prey from seasonal hunting and to suppress illegal trade in wildlife. Efforts to monitor abundance trends in the tiger population will be expensive given the difficulty with which tiger data can be obtained and the lack of available surrogate indices of tiger density. Monitoring occupancy patterns, the subject of a separate ongoing study, may be more efficient.
+C1 [Lynam, Antony J.] Wildlife Conservat Soc, Int Programs, New York, NY 10460 USA.
+   [Rabinowitz, Alan] Panthera, New York, NY 10019 USA.
+   [Myint, Than; Latt, Kyaw T.; Po, Saw Htoo T.] Wildlife Conservat Soc, Myanmar Program, Yangon, Myanmar.
+   [Maung, Myint] Minist Forestry, Forest Dept, Dept Wildlife & Nat Conservat, Yangon, Myanmar.
+RP Lynam, A (reprint author), Wildlife Conservat Soc, Int Programs, 2300 So Blvd, New York, NY 10460 USA.
+EM tlynam@wcs.org
+RI Lynam, Antony/H-3036-2015
+OI Lynam, Antony/0000-0002-8395-7902
+CR Franklin Neil, 1999, P130
+   Johnson A, 2006, ANIM CONSERV, V9, P421, DOI 10.1111/j.1469-1795.2006.00049.x
+   Karanth K. U, 2000, ECOLOGICAL STATUS CO
+   Karanth K. U., 2002, MONITORING TIGERS TH
+   Karanth KU, 2004, P NATL ACAD SCI USA, V101, P4854, DOI 10.1073/pnas.0306210101
+   Karanth KU, 1998, ECOLOGY, V79, P2852
+   Kawanishi K, 2004, BIOL CONSERV, V120, P329, DOI 10.1016/j.biocon.2004.03.005
+   Lynam A. J., 2003, NATL TIGER ACTION PL
+   Lynam A. J., 2006, STATUS BIRDS LARGE M
+   Lynam AJ, 2006, ENVIRON MANAGE, V37, P30, DOI 10.1007/s00267-004-0273-9
+   Lynam Antony J., 2001, Natural History Bulletin of the Siam Society, V49, P61
+   MacKenzie D. I., 2004, Animal Biodiversity and Conservation, V27, P461
+   Madhusudan MD, 2002, AMBIO, V31, P49, DOI 10.1579/0044-7447-31.1.49
+   Maffei L, 2004, J ZOOL, V262, P295, DOI 10.1017/S0952836903004655
+   O'Brien TG, 2003, ANIM CONSERV, V6, P131, DOI 10.1017/S1367943003003172
+   OTIS DL, 1978, WILDLIFE MONOGR, P1
+   Pacheco LF, 2004, CONSERV BIOL, V18, P1178, DOI 10.1111/j.1523-1739.2004.l02_1.x
+   Parmenter RR, 2003, ECOL MONOGR, V73, P1, DOI 10.1890/0012-9615(2003)073[0001:SMDEAF]2.0.CO;2
+   Rabinowitz A., 1989, Natural History Bulletin of the Siam Society, V37, P235
+   Reed DH, 2003, BIOL CONSERV, V113, P23, DOI 10.1016/S0006-3207(02)00346-4
+   Rexstad E., 1991, USERS GUIDE INTERACT
+   Sanderson E.W., 2006, SETTING PRIORITIES C
+   Sanderson EW, 2002, BIOSCIENCE, V52, P891, DOI 10.1641/0006-3568(2002)052[0891:THFATL]2.0.CO;2
+   Silveira L, 2003, BIOL CONSERV, V114, P351, DOI 10.1016/S0006-3207(03)00063-6
+   Silver SC, 2004, ORYX, V38, P148, DOI 10.1017/S0030605304000286
+   Simcharoen S, 2007, ORYX, V41, P447, DOI 10.1017/S0030605307414107
+   SMITH JLD, 1993, BEHAVIOUR, V124, P165, DOI 10.1163/156853993X00560
+   Srbek-Araujo AC, 2005, J TROP ECOL, V21, P121, DOI 10.1017/S0266467404001956
+   TAYLOR BL, 1993, CONSERV BIOL, V7, P489, DOI 10.1046/j.1523-1739.1993.07030489.x
+   Wegge P, 2004, ANIM CONSERV, V7, P251, DOI 10.1017/S1367943004001441
+   WHITE GC, 1982, 8787NERP LA LOS AL N, P235
+   WILSON KR, 1985, J MAMMAL, V66, P13, DOI 10.2307/1380951
+NR 32
+TC 25
+Z9 26
+U1 0
+U2 30
+PU SPRINGER JAPAN KK
+PI TOKYO
+PA CHIYODA FIRST BLDG EAST, 3-8-1 NISHI-KANDA, CHIYODA-KU, TOKYO, 101-0065,
+   JAPAN
+SN 1438-3896
+EI 1438-390X
+J9 POPUL ECOL
+JI Popul. Ecol.
+PD JAN
+PY 2009
+VL 51
+IS 1
+BP 115
+EP 121
+DI 10.1007/s10144-008-0093-5
+PG 7
+WC Ecology
+SC Environmental Sciences & Ecology
+GA 387YE
+UT WOS:000261986700013
+DA 2019-08-05
+ER
+
+PT J
+AU Schaefer, RR
+   Fleet, RR
+   Rudolph, DC
+   Koerth, NE
+AF Schaefer, Richard R.
+   Fleet, Robert R.
+   Rudolph, D. Craig
+   Koerth, Nancy E.
+TI Habitat Selection by Anolis carolinensis (Green Anole) in Open Pine
+   Forests in Eastern Texas
+SO SOUTHEASTERN NATURALIST
+LA English
+DT Article; Proceedings Paper
+CT 4th Big Thicket Science Conference on Biodiversity and Ecology of the
+   West Gulf Coastal Plain Landscape
+CY MAR 22-25, 2007
+CL Beaumont, TX
+ID DYNAMICS; BEHAVIOR; FLORIDA; SHIFT
+AB We initiated a mark-recapture study to determine the effects of shrub density on Anolis carolinensis (Green Anole) populations. Green Anole perch site, shrub species, and shrub volume preferences were also examined. We established two study plots of different shrub densities in open pine forests on the Angelina National Forest in eastern Texas In late spring, the Green Anole population at the higher shrub-density plot was estimated to be 16 times greater than the population at the lower shrub-density plot. Green Anoles most commonly perched on live shrubs, but exhibited very little preference or avoidance of any particular species of live shrub or shrub-level vine However, shrubs used by Green Anoles were 4-6 times greater in volume than plot averages.
+C1 [Schaefer, Richard R.; Rudolph, D. Craig; Koerth, Nancy E.] US Forest Serv, Wildlife Habitat & Silviculture Lab, So Res Stn, USDA, Nacogdoches, TX 75965 USA.
+   [Fleet, Robert R.] Stephen F Austin State Univ, Dept Math & Stat, Nacogdoches, TX 75962 USA.
+RP Schaefer, RR (reprint author), US Forest Serv, Wildlife Habitat & Silviculture Lab, So Res Stn, USDA, 506 Hayter St, Nacogdoches, TX 75965 USA.
+EM rschaefer01@fs.fed.us
+CR Arndt Rudolf G., 1995, Florida Scientist, V58, P249
+   BOHALLWOOD P, 1987, ANCESTRAL KESTREL, P58
+   Collins J. T, 1998, FIELD GUIDE REPTILES
+   COREY DT, 1988, J ARACHNOL, V16, P392
+   DUNDEE H. A, 1989, AMPHIBIANS REPTILES
+   GILLIAM FS, 1993, B TORREY BOT CLUB, V120, P287, DOI 10.2307/2996993
+   GLITZENSTEIN JS, 1995, ECOL MONOGR, V65, P441, DOI 10.2307/2963498
+   HOFFMAN ML, 1988, WILSON BULL, V100, P91
+   Irschick DJ, 2005, BIOL J LINN SOC, V85, P223, DOI 10.1111/j.1095-8312.2005.00487.x
+   Jenssen TA, 1998, COPEIA, P774, DOI 10.2307/1447814
+   JENSSEN TA, 1973, ECOLOGY, V54, P863, DOI 10.2307/1935681
+   KENNEDY JP, 1964, TEX J SCI, V16, P210
+   Manly B., 1993, RESOURCE SELECTION A
+   Masters RE, 1996, WILDLIFE SOC B, V24, P77
+   NEILL WT, 1940, COPEIA, V4, P266
+   OTIS DL, 1978, WILDLIFE MONOGR, P1
+   PLATT WJ, 1988, AM NAT, V131, P491, DOI 10.1086/284803
+   Provencher L., 2001, ECOLOGICAL RESTORATI, V19, P92
+   Rodriguez-Robles JA, 2005, CAN J ZOOL, V83, P983, DOI 10.1139/Z05-082
+   SCHOENER TW, 1975, ECOL MONOGR, V45, P233, DOI 10.2307/1942423
+   SEBER GAF, 1986, BIOMETRICS, V42, P267, DOI 10.2307/2531049
+   Seber GAF, 2001, J AGR BIOL ENVIR ST, V6, P140, DOI 10.1198/108571101750524490
+   Smallwood JA, 2002, BIRDS N AM
+   Sykes PW, 2007, WILSON J ORNITHOL, V119, P508, DOI 10.1676/06-163.1
+   YOSEF R, 1993, CONDOR, V95, P127, DOI 10.2307/1369393
+NR 25
+TC 1
+Z9 1
+U1 0
+U2 10
+PU HUMBOLDT FIELD RESEARCH INST
+PI STEUBEN
+PA PO BOX 9, STEUBEN, ME 04680-0009 USA
+SN 1528-7092
+EI 1938-5412
+J9 SOUTHEAST NAT
+JI Southeast. Nat.
+PY 2009
+VL 8
+SI 2
+BP 63
+EP 76
+DI 10.1656/058.008.s210
+PG 14
+WC Biodiversity Conservation; Ecology
+SC Biodiversity & Conservation; Environmental Sciences & Ecology
+GA 585GO
+UT WOS:000276813000005
+DA 2019-08-05
+ER
+
+PT J
+AU Lin, HZ
+   Yip, PSF
+   Chen, F
+AF Lin, Huazhen
+   Yip, Paul S. F.
+   Chen, Feng
+TI ESTIMATING THE POPULATION SIZE FOR A MULTIPLE LIST PROBLEM WITH AN OPEN
+   POPULATION
+SO STATISTICA SINICA
+LA English
+DT Article
+DE Drug abusers; local polynomial; multiple-list; open population
+ID CAPTURE-RECAPTURE EXPERIMENTS; LOCAL ESTIMATING EQUATIONS; RECORD
+   SYSTEMS ESTIMATION; NONPARAMETRIC REGRESSION; MULTINOMIAL MODELS;
+   VARIABLE SELECTION; SAMPLE COVERAGE; LIKELIHOOD; INFERENCE; POISSON
+AB A semiparametric method using a local polynomial is proposed to estimate the population size at a specific time from multiple lists of an open population. The asymptotic distribution for the proposed estimators is derived. Simulation studies show that the proposed procedure works much better than existing methods. In addition, we provide a simple and efficient method to deal with the variable selection problem in a log-linear model when the number of the lists is large. The method is applied to estimate the number of drug-abusers in Hong Kong over the period 1977-1997.
+C1 [Lin, Huazhen] Sichuan Univ, Sch Math, Chengdu 610064, Peoples R China.
+   [Yip, Paul S. F.] Univ Hong Kong, Dept Social Work & Social Adm, Hong Kong, Hong Kong, Peoples R China.
+   [Chen, Feng] Univ New S Wales, Sch Math & Stat, Sydney, NSW 2052, Australia.
+RP Lin, HZ (reprint author), Sichuan Univ, Sch Math, Chengdu 610064, Peoples R China.
+EM huazhenlin@hotmail.com; sfpyip@hku.hk; feng.chen@unsw.edu.au
+RI Chen, Feng/B-5366-2009
+OI Chen, Feng/0000-0002-9646-3338
+FU Fund of National Natural Science of China [Grant 10771148]
+FX Lin's research was supported in part by the Fund of National Natural
+   Science (Grant 10771148) of China. The authors thank the Editors, an
+   associate editor, and a referee for their valuable comments that have
+   led to a significant improvement of this paper.
+CR Antoniadis A, 2001, J AM STAT ASSOC, V96, P939, DOI 10.1198/016214501753208942
+   CHAO A, 1992, J AM STAT ASSOC, V87, P210, DOI 10.2307/2290471
+   CORMACK RM, 1989, BIOMETRICS, V45, P395, DOI 10.2307/2531485
+   CORMACK RM, 1991, BIOMETRIKA, V78, P911
+   Fan J., 1996, LOCAL POLYNOMIAL MOD
+   Fan JQ, 2006, ANN STAT, V34, P290, DOI 10.1214/009053605000000796
+   Fan JQ, 2002, ANN STAT, V30, P74
+   Fan JQ, 2001, J AM STAT ASSOC, V96, P1348, DOI 10.1198/016214501753382273
+   FAN JQ, 1992, J AM STAT ASSOC, V87, P998, DOI 10.2307/2290637
+   FIENBERG SE, 1972, BIOMETRIKA, V59, P591, DOI 10.2307/2334810
+   Huggins R, 2003, J STAT PLAN INFER, V113, P699, DOI 10.1016/S0378-3758(02)00093-9
+   Huggins RM, 1999, BIOMETRICS, V55, P387, DOI 10.1111/j.0006-341X.1999.00387.x
+   POLLARD D, 1991, ECONOMET THEOR, V7, P186, DOI 10.1017/S0266466600004394
+   Rao C. R, 1973, LINEAR STAT INFERENC
+   Ruppert D, 1997, J AM STAT ASSOC, V92, P1049, DOI 10.2307/2965570
+   SANATHANAN L, 1972, ANN MATH STAT, V43, P142, DOI 10.1214/aoms/1177692709
+   SANDLAND RL, 1984, BIOMETRIKA, V71, P27, DOI 10.1093/biomet/71.1.27
+   Tibshirani R, 1996, J ROY STAT SOC B MET, V58, P267
+   Yang HC, 2003, STAT SINICA, V13, P673
+   Yang HC, 2003, BIOMETRICS, V59, P365, DOI 10.1111/1541-0420.00043
+   YIP PSF, 1995, AM J EPIDEMIOL, V142, P1059
+   YIP PSF, 1995, AM J EPIDEMIOL, V142, P1047
+   YIP PSF, 1991, COMMUNICATION STAT T, V6, P2045
+NR 23
+TC 2
+Z9 2
+U1 0
+U2 3
+PU STATISTICA SINICA
+PI TAIPEI
+PA C/O DR H C HO, INST STATISTICAL SCIENCE, ACADEMIA SINICA, TAIPEI 115,
+   TAIWAN
+SN 1017-0405
+EI 1996-8507
+J9 STAT SINICA
+JI Stat. Sin.
+PD JAN
+PY 2009
+VL 19
+IS 1
+BP 177
+EP 196
+PG 20
+WC Statistics & Probability
+SC Mathematics
+GA 397VJ
+UT WOS:000262690000015
+DA 2019-08-05
+ER
+
+PT J
+AU Korman, J
+   Yard, M
+   Walters, C
+   Coggins, LG
+AF Korman, Josh
+   Yard, Mike
+   Walters, Carl
+   Coggins, Lewis G.
+TI Effects of Fish Size, Habitat, Flow, and Density on Capture
+   Probabilities of Age-0 Rainbow Trout Estimated from Electrofishing at
+   Discrete Sites in a Large River
+SO TRANSACTIONS OF THE AMERICAN FISHERIES SOCIETY
+LA English
+DT Article
+ID MARK-RECAPTURE; ATLANTIC SALMON; CHINOOK SALMON; STREAMS; ABUNDANCE;
+   MOVEMENT; GROWTH; BROWN; BROOK
+AB We estimated size-specific capture probabilities of age-0 rainbow trout Oncorhynchus mykiss in the Lee's Ferry Reach of the Colorado River, Arizona, by backpack and boat electrofishing at discrete shoreline sites using both depletion and mark-recapture experiments. Our objectives were to evaluate the feasibility of estimating capture probability for juvenile fish in larger rivers: to determine how it is influenced by fish size, habitat, flow. density, and recovery period: and to test population closure assumptions. There was no mortality among the 35 1 rainbow trout that were captured by electrofishing, marked. and held for 24 h. Of a total of 2,966 fish that were marked and released, only 0.61% were captured outside of mark-recapture sites, and total emigration front mark-recapture sites was 2.2-2.6%. These data strongly suggest that populations within discrete sites can be treated as effectively closed for the 24-h period between marking and recapture. Eighty percent of capture probability estimates from 66 depletion experiments and 42 mark-recapture experiments ranged from 0.28 to 0.75 and from 0.17 to 0.45, respectively, and the average coefficient of variation of estimates was 0.26. There was strong support for a fish size-capture probability relationship that accounted for the differences in vulnerability across habitat types. Smaller fish were less vulnerable in high-angle shorelines that were sampled by boat electrofishing. There was little support for capture probability models that accounted for within-day and across-month variation in flow. The effects of fish density on capture probability were challenging to discern, variable among habitat types and estimation methodologies, and confounded with the effect of fish size. As capture probability estimates were generally precise and the closure assumption was met, our results demonstrate that electrofishing-based mark-recapture experiments at discrete sites can be used to estimate the abundance of juvenile fish in large rivers.
+C1 [Korman, Josh] Ecometr Res Inc, Vancouver, BC V6S 1J3, Canada.
+   [Korman, Josh] Univ British Columbia, Dept Zool, Vancouver, BC V6S 1J3, Canada.
+   [Yard, Mike] EcoNatura, Flagstaff, AZ 86001 USA.
+   [Walters, Carl] Univ British Columbia, Fisheries Ctr, Aquat Ecosyst Res Lab, Vancouver, BC V6T 1Z4, Canada.
+   [Coggins, Lewis G.] US Geol Survey, Grand Canyon Monitoring & Res Ctr, Flagstaff, AZ 86001 USA.
+RP Korman, J (reprint author), Ecometr Res Inc, 3560 W 22nd Ave, Vancouver, BC V6S 1J3, Canada.
+EM jkorman@ecometric.com
+RI Walters, Carl/D-5714-2012
+CR Ainslie Barbara J., 1998, North American Journal of Fisheries Management, V18, P905, DOI 10.1577/1548-8675(1998)018<0905:EOPACD>2.0.CO;2
+   ANDERSON CS, 1995, T AM FISH SOC, V124, P663, DOI 10.1577/1548-8659(1995)124<0663:MACFSS>2.3.CO;2
+   Armstrong JD, 1997, J ANIM ECOL, V66, P519, DOI 10.2307/5946
+   Bayley PB, 2002, T AM FISH SOC, V131, P435, DOI 10.1577/1548-8659(2002)131<0435:CEOABE>2.0.CO;2
+   Borgstrom R., 1993, NORDIC J FRESHWATER, V68, P14
+   Burnham K, 2002, MODEL SELECTION MULT
+   CROSS DG, 1975, J FISH BIOL, V7, P349, DOI 10.1111/j.1095-8649.1975.tb04609.x
+   Dunham KA, 2002, FISHERIES MANAG ECOL, V9, P249, DOI 10.1046/j.1365-2400.2002.00293.x
+   EDMUNDSON E, 1968, J FISH RES BOARD CAN, V25, P1453, DOI 10.1139/f68-126
+   Elliott J. M., 1994, QUANTITATIVE ECOLOGY
+   Gaines PC, 2004, N AM J FISH MANAGE, V24, P1456, DOI 10.1577/M03-195.1
+   Gelman A, 2004, BAYESIAN DATA ANAL
+   Hilborn R, 1992, QUANTITATIVE FISHERI
+   Imre I, 2005, J ANIM ECOL, V74, P508, DOI 10.1111/j.1365-2656.2005.00949.x
+   Jenkins TM, 1999, ECOLOGY, V80, P941, DOI 10.1890/0012-9658(1999)080[0941:EOPDOI]2.0.CO;2
+   Korman J., 2009, THESIS U BRIT COLUMB
+   Korman J, 2009, T AM FISH SOC, V138, P76, DOI 10.1577/T08-026.1
+   McKinney T, 2001, N AM J FISH MANAGE, V21, P216, DOI 10.1577/1548-8675(2001)021<0216:RTIARR>2.0.CO;2
+   MESA MG, 1989, T AM FISH SOC, V118, P644, DOI 10.1577/1548-8659(1989)118<0644:EMADME>2.3.CO;2
+   Mietz S. W., 2003, THESIS NO ARIZONA U
+   MITRO MG, 2002, N AM J FISH MANAGE, V22, P199
+   OTIS DL, 1978, WILDLIFE MONOGR, P1
+   *OTT RES, 2004, INTR AD MOD BUILD VE
+   Peterson JT, 2004, T AM FISH SOC, V133, P462, DOI 10.1577/03-044
+   Randle T.J., 1987, RESULTS ANAL STARS M
+   Rodriguez MA, 2002, ECOLOGY, V83, P1
+   Roni Philip, 2000, North American Journal of Fisheries Management, V20, P683, DOI 10.1577/1548-8675(2000)020<0683:EWSAIS>2.3.CO;2
+   Rosenberger AE, 2005, N AM J FISH MANAGE, V25, P1395, DOI 10.1577/M04-081.1
+   SCHNUTE J, 1983, CAN J FISH AQUAT SCI, V40, P2153, DOI 10.1139/f83-250
+   Speas DW, 2004, N AM J FISH MANAGE, V24, P586, DOI 10.1577/M02-193.1
+   Sweka JA, 2006, N AM J FISH MANAGE, V26, P995, DOI 10.1577/M05-079.1
+   Vernieu WS, 2005, STATE COLORADO RIVER
+   Voichick N, 2007, US GEOLOGICAL SURVEY, V251
+   Williams B. K., 2002, ANAL MANAGEMENT ANIM
+   Wyatt RJ, 2002, CAN J FISH AQUAT SCI, V59, P695, DOI 10.1139/F02-041
+   Young MK, 2004, J FISH BIOL, V64, P750, DOI 10.1111/j.1095-8649.2004.00345.x
+NR 36
+TC 31
+Z9 32
+U1 1
+U2 26
+PU TAYLOR & FRANCIS INC
+PI PHILADELPHIA
+PA 530 WALNUT STREET, STE 850, PHILADELPHIA, PA 19106 USA
+SN 0002-8487
+EI 1548-8659
+J9 T AM FISH SOC
+JI Trans. Am. Fish. Soc.
+PD JAN
+PY 2009
+VL 138
+IS 1
+BP 58
+EP 75
+DI 10.1577/T08-025.1
+PG 18
+WC Fisheries
+SC Fisheries
+GA 477EH
+UT WOS:000268500900006
+DA 2019-08-05
+ER
+
+PT J
+AU Robinson, SJ
+   Waits, LP
+   Martin, ID
+AF Robinson, Stacie J.
+   Waits, Lisette P.
+   Martin, Ian D.
+TI Estimating abundance of American black bears using DNA-based
+   capture-mark-recapture models
+SO URSUS
+LA English
+DT Article
+DE abundance estimation; Alaska; American black bear;
+   capture-mark-recapture; closed capture models; continuous-occasion
+   models; Kenai Fjords National Park; non-invasive genetic sampling; Ursus
+   americanus
+ID ESTIMATING POPULATION-SIZE; GENOTYPING ERRORS; BROWN BEARS; FECAL DNA;
+   DENSITY; AMPLIFICATION; GENETICS; ALASKA; FECES; BIAS
+AB Wildlife managers at Kenai Fjords (KEFJ) National Park, Alaska, are developing a comprehensive bear management plan. An important first step in this plan is to establish a baseline of bear abundance and inventory approaches for future monitoring efforts. In this Study We use non-invasive genetic sampling and DNA-based capture-mark-recapture (CMR) analysis to estimate abundance of American black bears (Ursus americanus) using coastal habitats in the park. We used 2 multi-session CMR models in program MARK and 2 continuous-occasion models specifically designed for DNA-based capture data in the programs CAPWIRE and BAYESN. The latter 2 models maximize data from non-invasive sampling by allowing the entire sampling period to be considered a single continuous capture-mark-recapture occasion. Although all models yielded similar point estimates of population size, confidence intervals varied widely among methods. CAPWIRE yielded the most precise estimates of bear abundance. The number of bears estimated in each KEFJ bay ranged from 73 in the least Populated to 324 in the most Populated bay. Overall, the continuous-occasion CMR models provided the best estimates with our dataset, and We found that this approach offers a practical option when trapping seasons are constrained by biological or logistical factors.
+C1 [Robinson, Stacie J.; Waits, Lisette P.] Univ Idaho, Dept Fish & Wildlife Resources, Coll Nat Resources, Moscow, ID 83844 USA.
+   [Martin, Ian D.] Kenai Fjords Natl Pk, Seward, AK 99664 USA.
+RP Robinson, SJ (reprint author), Univ Idaho, Dept Fish & Wildlife Resources, Coll Nat Resources, Room 105, Moscow, ID 83844 USA.
+EM lwaits@uidaho.edu
+OI Waits, Lisette/0000-0002-1323-0812
+FU National Park Service [CA9088A0008]; Environmental Science Department at
+   the University of Idaho
+FX We thank those who assisted in sample collection, particularly A.
+   Wright, M. Gray, J. Harvey, and others who worked or volunteered for
+   KEFJ. Laboratory assistance was provided by Dr. C. Anderson, S. Mallick,
+   and M. Sterling. We received advice on CMR analyses from C. Miller, E.
+   Petit, B. Thompson, and J. Manning. We thank J. Boulanger and P. Lukacs
+   for Valuable comments on previous versions of this manuscript. Funding
+   for this project was provided by the National Park Service under
+   cooperative agreement CA9088A0008 and the Environmental Science
+   Department at the University of Idaho.
+CR Bailey R. G., 1995, US FOREST SERVICE MI, P1391
+   Bellemain E, 2005, CONSERV BIOL, V19, P150, DOI 10.1111/j.1523-1739.2005.00549.x
+   Bonin A, 2004, MOL ECOL, V13, P3261, DOI 10.1111/j.1365-294X.2004.02346.x
+   Boulanger J, 2004, CAN J ZOOL, V82, P1267, DOI 10.1139/Z04-100
+   Boulanger J, 2004, J MAMMAL, V85, P618, DOI 10.1644/BRB-134
+   Boulanger J, 2004, J WILDLIFE MANAGE, V68, P457, DOI 10.2193/0022-541X(2004)068[0457:SDABID]2.0.CO;2
+   Boulanger J, 2001, CAN J ZOOL, V79, P642, DOI 10.1139/cjz-79-4-642
+   Broquet T, 2004, MOL ECOL, V13, P3601, DOI 10.1111/j.1365-294X.2004.02352.x
+   Cooch E., 2006, PROGRAM MARK GENTLE
+   CREWS CE, 2002, DIET HABITS COASTAL
+   *DUCKS UNL INC, 1999, KEN PEN EARTH COV CL
+   Farrell LE, 2000, MOL ECOL, V9, P1583, DOI 10.1046/j.1365-294x.2000.01037.x
+   FRENCH B, 2003, ASSESSING MANAGING I
+   GALLANT AL, 1995, 1567 US GEOL SURV
+   GAZEY WJ, 1986, ECOLOGY, V67, P941, DOI 10.2307/1939816
+   Gende SM, 2004, CAN J ZOOL, V82, P75, DOI 10.1139/Z03-226
+   HALL D, 2005, CHANGE ANAL GLACIAL
+   HUGGINS RM, 1989, BIOMETRIKA, V76, P133, DOI 10.1093/biomet/76.1.133
+   Kendall KC, 2008, J WILDLIFE MANAGE, V72, P1693, DOI 10.2193/2008-007
+   Kendall WL, 1999, ECOLOGY, V80, P2517, DOI 10.1890/0012-9658(1999)080[2517:ROCCRM]2.0.CO;2
+   Kohn MH, 1999, P ROY SOC B-BIOL SCI, V266, P657, DOI 10.1098/rspb.1999.0686
+   Lukacs P.M., 2007, Wildlife Biology in Practice, V3, P83
+   Lukacs PM, 2005, MOL ECOL, V14, P3909, DOI 10.1111/j.1365-294X.2005.02717.x
+   Lukacs PM, 2005, J WILDLIFE MANAGE, V69, P396, DOI 10.2193/0022-541X(2005)069<0396:EPSFDC>2.0.CO;2
+   McKelvey KS, 2004, J WILDLIFE MANAGE, V68, P439, DOI 10.2193/0022-541X(2004)068[0439:GEAWPE]2.0.CO;2
+   Miller CR, 2005, MOL ECOL, V14, P1991, DOI 10.1111/j.1365-294X.2005.02577.x
+   Mills L.S., 2000, ECOLOGICAL APPL, V10, P238
+   Murphy MA, 2007, CONSERV GENET, V8, P1219, DOI 10.1007/s10592-006-9264-0
+   *NAT PARK SERV, 2006, INV MON PROGR
+   *NAT PARK SERV, 1999, RES MAN PLAN KEN FJO
+   OTIS DL, 1978, WILDLIFE MONOGR, P1
+   Paetkau D, 2003, MOL ECOL, V12, P1375, DOI 10.1046/j.1365-294X.2003.01820.x
+   Paetkau D, 1998, MOL ECOL, V7, P1283, DOI 10.1046/j.1365-294x.1998.00440.x
+   PAETKAU D, 1995, MOL ECOL, V4, P347, DOI 10.1111/j.1365-294X.1995.tb00227.x
+   PEAKALL R, 2006, MOL ECOL NOTES, V6, P288, DOI DOI 10.1111/J.1471-8286.2005.01155.X
+   Petit E, 2006, CONSERV BIOL, V20, P1062, DOI 10.1111/j.1523-1739.2006.00417.x
+   Piggott MP, 2004, CONSERV GENET, V5, P417, DOI 10.1023/B:COGE.0000031138.67958.44
+   Puechmaille SJ, 2007, J APPL ECOL, V44, P843, DOI 10.1111/j.1365-2664.2007.01321.x
+   Roon DA, 2005, ANIM CONSERV, V8, P203, DOI 10.1017/S1367943005001976
+   Taberlet P, 1999, TRENDS ECOL EVOL, V14, P323, DOI 10.1016/S0169-5347(99)01637-7
+   Thompson WL, 1998, MONITORING VERTEBRAT
+   Waits LP, 2005, J WILDLIFE MANAGE, V69, P1419, DOI 10.2193/0022-541X(2005)69[1419:NGSTFW]2.0.CO;2
+   WAITS LP, 2004, SAMPLING RARE ELUSIV
+   WILES GC, 1994, GEOL SOC AM BULL, V106, P281, DOI 10.1130/0016-7606(1994)106<0281:LHHRGC>2.3.CO;2
+NR 44
+TC 20
+Z9 20
+U1 0
+U2 39
+PU INT ASSOC BEAR RESEARCH & MANAGEMENT-IBA
+PI KNOXVILLE
+PA C/O TERRY WHITE, UNIV TENNESSEE, DEPT FORESTRY, WILDLIFE & FISHERIES, PO
+   BOX 1071, KNOXVILLE, TN 37901-1071 USA
+SN 1537-6176
+EI 1938-5439
+J9 URSUS
+JI Ursus
+PY 2009
+VL 20
+IS 1
+BP 1
+EP 11
+DI 10.2192/08GR022R.1
+PG 11
+WC Zoology
+SC Zoology
+GA 456ST
+UT WOS:000266869300001
+DA 2019-08-05
+ER
+
+PT J
+AU Zhan, XJ
+   Tao, Y
+   Li, M
+   Zhang, ZJ
+   Goossens, B
+   Chen, YP
+   Wang, HJ
+   Bruford, M
+   Wei, FW
+AF Zhan Xiangjiang
+   Tao Yi
+   Li Ming
+   Zhang Zejun
+   Goossens, Benoit
+   Chen Youping
+   Wang Hongjia
+   Bruford, Michael
+   Wei Fuwen
+TI Accurate population size estimates are vital parameters for conserving
+   the giant panda
+SO URSUS
+LA English
+DT Article
+DE Ailuropoda melanoleuca; bamboo stem; genotyping error; giant panda;
+   molecular enumeration; population geographic closure; population size
+ID GENOTYPING FECES; DNA; CONSERVATION; SAMPLES
+AB Although the Chinese government and international organizations have spent millions of dollars estimating the population size of giant pandas (Ailuropoda melanoleuca), the outcomes of such surveys have been debated because the methods used had uncertain ability to differentiate individuals. Our work in Wanglang Reserve was the first attempt at using fecal microsatellite analysis to enumerate giant pandas (Zhan et al. 2006), and we found the molecular enumeration for the reserve more than doubled that estimated in the third National Survey. Recently, Garshelis et al. (2008) challenged our DNA estimate on the grounds that our study lacked geographic closure and that genotyping errors confounded our results. We challenge both assertions. First, we realize the violation of the assumption of geographic closure is a common problem for noninvasive genetic capture-recapture studies; therefore, we tried in our methodology to minimize geographic closure effects. We conclude that immigration did not greatly affect our main conclusions because of a geographic barrier circling the study area, the limited mobility of giant pandas, and the same sampling intensity was applied to the whole study area. Second, internationally accepted standards were applied to our molecular analysis and appropriate laboratory procedures were taken to produce reliable genotypes. Although we did not report an estimate of genotyping error in our previous work (Zhan et al. 2006), genotyping error rates have now been estimated, but are still pending publication. Based on the Wanglang result, we raised the possibility that there might be more giant pandas in the wild than previously thought. If our prediction is shown to be correct, we do not believe the new estimate will serve to downgrade current endangered status of the giant panda, because population numbers remain very low and panda habitats are fragmented (even more so since the 2008 earthquake). For future conservation of giant pandas, we suggest more attention should be paid to panda habitat conservation, including habitat restoration at the landscape scale and scientific research on detailed population processes.
+C1 [Zhan Xiangjiang; Tao Yi; Li Ming; Wei Fuwen] Chinese Acad Sci, Key Lab Anim Ecol & Conservat Biol, Inst Zool, Beijing 100101, Peoples R China.
+   [Zhang Zejun; Goossens, Benoit] Cardiff Univ, Biodivers & Ecol Proc Grp, Cardiff Sch Biosci, Cardiff CF10 3AX, S Glam, Wales.
+   [Chen Youping] Wanglang Nat Reserve, Pingwu Cty 622550, Sichuan, Peoples R China.
+   [Wang Hongjia] Sichuan Forestry Dept, Wildlife Conservat Div, Chengdu 610081, Sichuan, Peoples R China.
+RP Zhan, XJ (reprint author), Chinese Acad Sci, Key Lab Anim Ecol & Conservat Biol, Inst Zool, Beijing 100101, Peoples R China.
+EM weifw@ioz.ac.cn
+RI Goossens, Benoit/E-8812-2010; Bruford, Michael W/D-3750-2009
+OI Bruford, Michael W/0000-0001-6357-6080
+FU Natural Science Foundation of China [30830020]; Giant Panda
+   International Cooperation Fund of State Forestry Administration
+   [MP0308]; Royal Society (UK)
+FX This work was supported by National Natural Science Foundation of China
+   (30830020), the Giant Panda International Cooperation Fund of State
+   Forestry Administration (MP0308), and the Royal Society (UK). Special
+   thanks to colleagues at Wanglang, Wujiao, Huanglong, and Jiuzhaigou
+   Nature Reserves for their hard work during the sampling.
+CR Bellemain E, 2005, CONSERV BIOL, V19, P150, DOI 10.1111/j.1523-1739.2005.00549.x
+   Boulanger J, 2001, CAN J ZOOL, V79, P642, DOI 10.1139/cjz-79-4-642
+   David VA, 2006, GIANT PANDAS: BIOLOGY, VETERINARY MEDICINE AND MANAGEMENT, P245, DOI 10.1017/CBO9780511542244.011
+   Fang Shengguo, 1996, Acta Theriologica Sinica, V16, P166
+   FENG WH, 1991, J SICHUAN U NATR SCI, V28, P1
+   Garshelis DL, 2008, URSUS, V19, P168, DOI 10.2192/07PER011.1
+   Giant Panda Expedition of the Wanglang Nature Reserve, 1974, ACTA ZOOL SINICA, V20, P162
+   Guo J, 2007, SCIENCE, V316, P974, DOI 10.1126/science.316.5827.974
+   Guo Jian, 2002, Journal for Nature Conservation (Jena), V10, P35, DOI 10.1078/1617-1381-00004
+   He W, 2008, CONSERV GENET, V9, P1541, DOI 10.1007/s10592-007-9493-x
+   Hu J., 1990, RES PROGR BIOL GIANT
+   Hu J. C., 1985, GIANT PANDA WOLONG
+   JOHNSON KG, 1988, NATL GEOGR RES, V4, P161
+   Kohn MH, 1999, P ROY SOC B-BIOL SCI, V266, P657, DOI 10.1098/rspb.1999.0686
+   Lukacs PM, 2005, MOL ECOL, V14, P3909, DOI 10.1111/j.1365-294X.2005.02717.x
+   Miller CR, 2005, MOL ECOL, V14, P1991, DOI 10.1111/j.1365-294X.2005.02577.x
+   Miller Sterling D., 1997, Wildlife Monographs, V133, P1
+   Pan W., 1988, GIANT PANDAS NATURAL
+   Pan W. S., 2001, CHANCE LASTING SURVI
+   Prugh LR, 2005, MOL ECOL, V14, P1585, DOI 10.1111/j.1365-294X.2005.02533.x
+   RUTTIMANN J, 2006, NATURE NEWS     0620
+   SCHALLER GB, 1989, CARNIVORE BEHAV ECOL, V1, P212
+   Schaller GB, 1985, GIANT PANDAS WOLONG
+   Solberg KH, 2006, BIOL CONSERV, V128, P158, DOI 10.1016/j.biocon.2005.09.025
+   State Forestry Administration, 2006, REP 3 NAT SURV GIANT
+   Taberlet P, 1996, NUCLEIC ACIDS RES, V24, P3189, DOI 10.1093/nar/24.16.3189
+   UNGER K, 2006, SCIENCE NEWS, V619, P2
+   Yong Yange, 2004, P159
+   Zhan XJ, 2006, CURR BIOL, V16, pR451, DOI 10.1016/j.cub.2006.05.042
+   Zhang BW, 2006, BIOCHEM GENET, V44, P503, DOI 10.1007/s10528-006-9050-1
+   ZHAO XM, 2007, ADV GIANT PANDA RES
+NR 31
+TC 3
+Z9 5
+U1 2
+U2 35
+PU INT ASSOC BEAR RESEARCH & MANAGEMENT-IBA
+PI KNOXVILLE
+PA C/O TERRY WHITE, UNIV TENNESSEE, DEPT FORESTRY, WILDLIFE & FISHERIES, PO
+   BOX 1071, KNOXVILLE, TN 37901-1071 USA
+SN 1537-6176
+EI 1938-5439
+J9 URSUS
+JI Ursus
+PY 2009
+VL 20
+IS 1
+BP 56
+EP 62
+PG 7
+WC Zoology
+SC Zoology
+GA 456ST
+UT WOS:000266869300008
+DA 2019-08-05
+ER
+
+PT J
+AU Hanson, LB
+   Mitchell, MS
+   Grand, JB
+   Jolley, DB
+   Sparklin, BD
+   Ditchkoff, SS
+AF Hanson, Laura B.
+   Mitchell, Michael S.
+   Grand, James B.
+   Jolley, D. Buck
+   Sparklin, Bill D.
+   Ditchkoff, Stephen S.
+TI Effect of experimental manipulation on survival and recruitment of feral
+   pigs
+SO WILDLIFE RESEARCH
+LA English
+DT Article
+ID SUS-SCROFA; NATIONAL-PARK; WILD BOAR; POPULATION; RANGELANDS; AUSTRALIA;
+   PROGRAM; ERADICATION; MANAGEMENT; VEGETATION
+AB Lethal removal is commonly used to reduce the density of invasive-species populations, presuming it reduces population growth rate; the actual effect of lethal removal on the vital rates contributing to population growth, however, is rarely tested. We implemented a manipulative experiment of feral pig (Sus scrofa) populations at Fort Benning, Georgia, USA, to assess the demographic effects of harvest intensity. Using mark-recapture data, we estimated annual survival, recruitment, and population growth rates of populations in a moderately harvested area and a heavily harvested area for 2004-06. Population growth rates did not differ between the populations. The top-ranked model for survival included a harvest intensity effect; model-averaged survival was lower for the heavily harvested population than for the moderately harvested population. Increased immigration and reproduction likely compensated for the increased mortality in the heavily harvested population. We conclude that compensatory responses in feral pig recruitment can limit the success of lethal control efforts.
+C1 [Hanson, Laura B.; Jolley, D. Buck; Ditchkoff, Stephen S.] Auburn Univ, Sch Forestry & Wildlife Sci, Auburn, AL 36849 USA.
+   [Mitchell, Michael S.] Univ Montana, Montana Cooperat Wildlife Res Unit, US Geol Survey, Missoula, MT 59812 USA.
+   [Grand, James B.] Auburn Univ, Alabama Cooperat Wildlife Res Unit, US Geol Survey, Auburn, AL 36849 USA.
+   [Sparklin, Bill D.] Univ Montana, Montana Cooperat Wildlife Res Unit, Missoula, MT 59812 USA.
+RP Hanson, LB (reprint author), Idaho Dept Fish & Game, POB 1336, Salmon, ID 83467 USA.
+EM laurabhanson@hotmail.com
+RI Mitchell, Michael/H-1117-2011
+FU US Department of Defense; Fort Benning Military Reservation
+FX We give much thanks to the Mitchell 'wet lab' for their support,
+   assistance with critical thinking and comments on earlier drafts. We
+   appreciate all who helped with fieldwork, especially B. Williams, C.
+   Newbolt and K. Hasapes. Thank you to P. Swiderek, R. Thornton and B.
+   Miley at the Fort Benning Conservation Branch for their ideas and
+   support of this research. We thank E. Hellgren, B. Ackerman and two
+   anonymous reviewers for comments on this manuscript. This research was
+   funded by the US Department of Defense, Fort Benning Military
+   Reservation.
+CR Akaike H., 1973, 2 INT S INF THEOR, P267, DOI DOI 10.1007/978-1-4612-1694-0_
+   Barker RJ, 1997, BIOMETRICS, V53, P666, DOI 10.2307/2533966
+   BOREHAM P, 1981, 10 ACT CONS SERV
+   Burnham K, 2002, MODEL SELECTION MULT
+   CHAO A, 1988, J WILDLIFE MANAGE, V52, P295, DOI 10.2307/3801237
+   CHOQUENOT D, 1990, J WILDLIFE MANAGE, V54, P353, DOI 10.2307/3809054
+   Choquenot D, 1998, J ANIM ECOL, V67, P887, DOI 10.1046/j.1365-2656.1998.6760887.x
+   Choquenot D, 1999, WILDLIFE RES, V26, P251, DOI 10.1071/WR98006
+   Choquenot D, 1997, J APPL ECOL, V34, P1445, DOI 10.2307/2405260
+   Cowled BD, 2006, WILDLIFE RES, V33, P427, DOI 10.1071/WR05083
+   Cruz F, 2005, BIOL CONSERV, V121, P473, DOI 10.1016/j.biocon.2004.05.018
+   Dickson JG, 2001, WILDLIFE SO FORESTS, P191
+   Dilustro JJ, 2002, J TORREY BOT SOC, V129, P289, DOI 10.2307/3088700
+   DZIECIOLOWSKI RM, 1992, ACTA THERIOL, V37, P259
+   Gabor TM, 1999, J ZOOL, V247, P311, DOI 10.1111/j.1469-7998.1999.tb00994.x
+   Gaillard JM, 2000, ANNU REV ECOL SYST, V31, P367, DOI 10.1146/annurev.ecolsys.31.1.367
+   GREEN R. G., 1940, JOUR WILDLIFE MANAGEMENT, V4, P347, DOI 10.2307/3796003
+   GREENWOOD PJ, 1980, ANIM BEHAV, V28, P1140, DOI 10.1016/S0003-3472(80)80103-5
+   Hanson LB, 2008, WILDLIFE RES, V35, P695, DOI 10.1071/WR08076
+   HONE J, 1983, AUST WILDLIFE RES, V10, P499, DOI 10.1071/WR9830499
+   Hone J, 2002, BIOL CONSERV, V105, P231, DOI 10.1016/S0006-3207(01)00185-9
+   HONE J, 1989, WILDLIFE SOC B, V17, P419
+   HONE J, 1980, Proceedings of the Vertebrate Pest Conference, P176
+   Huxel GR, 1999, BIOL CONSERV, V89, P143, DOI 10.1016/S0006-3207(98)00153-0
+   JEZIERSKI W, 1977, ACTA THERIOL, V22, P337, DOI 10.4098/AT.arch.77-31
+   Kaminski G, 2005, CAN J ZOOL, V83, P474, DOI 10.1139/Z05-019
+   KATAHIRA LK, 1993, WILDLIFE SOC B, V21, P269
+   King TG, 1998, WILSON BULL, V110, P570
+   KOTANEN PM, 1995, ECOGRAPHY, V18, P190, DOI 10.1111/j.1600-0587.1995.tb00340.x
+   Massei G, 1997, J ZOOL, V242, P394
+   MILLER B, 1985, BIOL CONSERV, V34, P55, DOI 10.1016/0006-3207(85)90057-6
+   Pimentel D, 2001, AGR ECOSYST ENVIRON, V84, P1, DOI 10.1016/S0167-8809(00)00178-X
+   SAUNDERS G, 1990, AUST WILDLIFE RES, V17, P525
+   SAUNDERS G, 1993, WILDLIFE RES, V20, P559, DOI 10.1071/WR9930559
+   Saunders G, 1999, AUST J ECOL, V24, P538, DOI 10.1046/j.1442-9993.1999.01001.x
+   SAUNDERS G, 1988, AUST WILDLIFE RES, V15, P73, DOI 10.1071/WR9880073
+   Schuyler P. T., 2002, TURNING TIDE ERADICA, P274
+   SPARKLIN BD, J WILDLIFE IN PRESS
+   Spencer PBS, 2005, WILDLIFE RES, V32, P297, DOI 10.1071/WR04076
+   Taylor RB, 1998, J MAMMAL, V79, P1325, DOI 10.2307/1383024
+   White GC, 1999, BIRD STUDY, V46, P120
+   WHITE GC, 2005, PROGRAM MARK GENTLE
+   Williams B. K., 2002, ANAL MANAGEMENT ANIM
+NR 43
+TC 23
+Z9 25
+U1 3
+U2 28
+PU CSIRO PUBLISHING
+PI COLLINGWOOD
+PA 150 OXFORD ST, PO BOX 1139, COLLINGWOOD, VICTORIA 3066, AUSTRALIA
+SN 1035-3712
+J9 WILDLIFE RES
+JI Wildl. Res.
+PY 2009
+VL 36
+IS 3
+BP 185
+EP 191
+DI 10.1071/WR08077
+PG 7
+WC Ecology; Zoology
+SC Environmental Sciences & Ecology; Zoology
+GA 432MD
+UT WOS:000265137500002
+DA 2019-08-05
+ER
+
+PT J
+AU Vernes, K
+   Freeman, M
+   Nesbitt, B
+AF Vernes, Karl
+   Freeman, Melissa
+   Nesbitt, Brad
+TI Estimating the density of free-ranging wild horses in rugged gorges
+   using a photographic mark-recapture technique
+SO WILDLIFE RESEARCH
+LA English
+DT Article
+ID AERIAL SURVEY; CAPTURE-RECAPTURE; VISIBILITY BIAS; LINE-TRANSECT;
+   ABUNDANCE; POPULATIONS; DEER
+AB Estimating the density of large, feral species such as wild horses at landscape scales can present a logistical hurdle for wildlife managers attempting to set density-based management targets. We undertook aerial surveys of wild horses by using a helicopter in Guy Fawkes River National Park in north-eastern New South Wales across 3 years to determine whether meaningful density estimates could be obtained efficiently by a mark-recapture technique based on recognition of individual horses. Horse groups photographed from the air on the first of two surveys conducted each year were 'marked' on the basis of a unique combination of colours and natural markings, and 'recaptured' if they were photographed and identified on the second survey. Population size was estimated with the program MARK using a range of population estimators; however, because horses appeared to be evading detection on the second survey of each year, we chose a final estimation model that accounted for detection shyness in the study species. In 2005, the density estimate was 3.8 horses per km(2) (upper and lower 95% CL = 3.5-5.7 horses per km(2)). Following horse control in these catchments, the estimate in 2007 was 2.3 horses per km(2) (upper and lower 95% CL = 2.1-3.4 horses per km(2)), and this change in density can be accounted for by the known number of horses removed from the survey area between survey periods. Overall, the technique proved useful for estimating densities of wild horses in deeply dissected gorge country where other estimation techniques (such as line transects) are not practical; however, low recapture rates in one of the years of the study shows that the technique may not always be applicable. Our technique should also be suitable for surveying other large mammals with broad ranges in open environments, provided recognition of individuals from unique marks is possible.
+C1 [Vernes, Karl; Freeman, Melissa] Univ New England, Armidale, NSW 2351, Australia.
+   [Nesbitt, Brad] Dept Environm & Climate Change NSW, Pk & Wildlife Grp, Dorrigo, NSW 2453, Australia.
+RP Vernes, K (reprint author), Univ New England, Armidale, NSW 2351, Australia.
+EM kvernes@une.edu.au
+RI Vernes, Karl/A-2925-2011; Management, Ecosystem/C-2259-2011
+OI Vernes, Karl/0000-0003-1635-9950; 
+CR BARTMANN RM, 1987, J WILDLIFE MANAGE, V51, P41, DOI 10.2307/3801626
+   BERMAN D, 1991, THESIS U NEW ENGLAND
+   BLACK S, 2000, THESIS U NEW ENGLAND
+   Calambokidis J, 2004, MAR MAMMAL SCI, V20, P63, DOI 10.1111/j.1748-7692.2004.tb01141.x
+   CAUGHLEY G, 1974, J WILDLIFE MANAGE, V38, P921, DOI 10.2307/3800067
+   CAUGHLEY G, 1976, J WILDLIFE MANAGE, V40, P290, DOI 10.2307/3800428
+   CAUGHLEY G, 1994, WILDLIFE ECOLOGY MAN
+   Dawson MJ, 2008, WILDLIFE RES, V35, P365, DOI 10.1071/WR07075
+   Henderson MK, 2002, AUSTRAL ECOL, V27, P121, DOI 10.1046/j.1442-9993.2002.01162.x
+   KARANTH KU, 1995, BIOL CONSERV, V71, P333, DOI 10.1016/0006-3207(94)00057-W
+   Karanth KU, 1998, ECOLOGY, V79, P2852
+   Krebs CJ, 1999, ECOLOGICAL METHODOLO
+   Laake J, 2008, WILDLIFE RES, V35, P299, DOI 10.1071/WR07034
+   LERESCHE RE, 1974, J WILDLIFE MANAGE, V38, P175, DOI 10.2307/3800722
+   Linklater WL, 2000, BIOL REV, V75, P1, DOI 10.1017/S0006323199005411
+   Linklater WL, 2002, WILDLIFE RES, V29, P221, DOI 10.1071/WR01063
+   MACE RD, 1994, WILDLIFE SOC B, V22, P64
+   OTIS DL, 1978, WILDLIFE MONOGR, P1
+   POLLOCK KH, 1983, BIOMETRICS, V39, P1035, DOI 10.2307/2531337
+   POLLOCK KH, 1987, J WILDLIFE MANAGE, V51, P502, DOI 10.2307/3801040
+   RICE WR, 1977, J WILDLIFE MANAGE, V41, P197, DOI 10.2307/3800595
+   Seber GA, 1982, ESTIMATION ANIMAL AB
+   SEBER GAF, 1992, INT STAT REV, V60, P129, DOI 10.2307/1403646
+   Thompson WL, 1998, MONITORING VERTEBRAT
+   Walter MJ, 2003, WILDLIFE SOC B, V31, P1138
+NR 25
+TC 4
+Z9 5
+U1 1
+U2 11
+PU CSIRO PUBLISHING
+PI CLAYTON
+PA UNIPARK, BLDG 1, LEVEL 1, 195 WELLINGTON RD, LOCKED BAG 10, CLAYTON, VIC
+   3168, AUSTRALIA
+SN 1035-3712
+EI 1448-5494
+J9 WILDLIFE RES
+JI Wildl. Res.
+PY 2009
+VL 36
+IS 5
+BP 361
+EP 367
+DI 10.1071/WR07126
+PG 7
+WC Ecology; Zoology
+SC Environmental Sciences & Ecology; Zoology
+GA 472LJ
+UT WOS:000268132500001
+DA 2019-08-05
+ER
+
+PT J
+AU Fenner, S
+   Kortner, G
+   Vernes, K
+AF Fenner, Sally
+   Koertner, Gerhard
+   Vernes, Karl
+TI Aerial baiting with 1080 to control wild dogs does not affect the
+   populations of two common small mammal species
+SO WILDLIFE RESEARCH
+LA English
+DT Article
+ID QUOLLS DASYURUS-MACULATUS; NEW-SOUTH-WALES; SPOTTED-TAILED QUOLL; MEAT
+   BAITS; AUSTRALIAN ANIMALS; POISONING CAMPAIGNS; SENSITIVITY; IMPACT;
+   MANAGEMENT
+AB More than most other animal control techniques, toxic baiting is fraught with the potential impact on non-target species. In the present study, we investigated the effect of aerial baiting with 1080 to control wild dogs in north-eastern New South Wales (NSW), Australia, on populations of southern bush rats (Rattus fuscipes assimilis) and brown antechinus (Antechinus stuartii), using a controlled experiment. Six populations, three each within widely spaced baited and unbaited trapping grids, were monitored before and after bait laying. To develop capture-mark-recapture indices, separate 4-day trapping surveys were undertaken twice before and twice after meat baits (250 g containing 6 mg sodium fluoroacetate, 1080) were delivered from a helicopter at 40 baits per kilometre. To assess non-fatal bait consumption, all baits contained rhodamine B (RhB), which gets incorporated into the vibrissae of animals that have ingested this marker. Neither mammal population decreased in size after baiting, nor was there any increase in population turnover rates or changes in the movement patterns of either species. Furthermore, no trapped animal tested positive for RhB, suggesting that these small mammals rarely consume meat baits, and that, at the population level, the impact of baiting on them was likely negligible. It is therefore unlikely that the current practise of aerial baiting in NSW, although effective in reducing dog activity, threatens populations of these two common species and perhaps small mammals in general.
+C1 [Koertner, Gerhard] Univ New England, Ctr Behav & Physiol Ecol, Armidale, NSW 2351, Australia.
+RP Kortner, G (reprint author), Univ New England, Ctr Behav & Physiol Ecol, Armidale, NSW 2351, Australia.
+EM gkoertne@une.edu.au
+RI Management, Ecosystem/C-2259-2011; Vernes, Karl/A-2925-2011
+OI Vernes, Karl/0000-0003-1635-9950; Koertner, Gerhard/0000-0001-8230-0709
+CR ALLEN LR, 1989, AUST WILDLIFE RES, V16, P593
+   Claridge AW, 2007, WILDLIFE RES, V34, P116, DOI 10.1071/WR06151
+   Claridge AW, 2006, WILDLIFE RES, V33, P85, DOI 10.1071/WR05039
+   Fairbridge David, 2003, Australian Mammalogy, V25, P31
+   Fairbridge David, 2000, Australian Mammalogy, V22, P125
+   Fisher P, 1999, WILDLIFE SOC B, V27, P318
+   Fleming P., 2001, MANAGING IMPACT DING
+   Fleming PJS, 2006, AUST J EXP AGR, V46, P753, DOI 10.1071/EA06009
+   Fleming PJS, 1996, WILDLIFE RES, V23, P665, DOI 10.1071/WR9960665
+   FLEMING PJS, 1991, WILDLIFE RES, V18, P729, DOI 10.1071/WR9910729
+   Glen AS, 2003, WILDLIFE RES, V30, P29, DOI 10.1071/WR01059
+   KING DR, 1989, AUST WILDLIFE RES, V16, P569, DOI 10.1071/WR9890569
+   Kortner G, 2007, WILDLIFE RES, V34, P48, DOI 10.1071/WR06076
+   Kortner G, 2003, WILDLIFE RES, V30, P111, DOI 10.1071/WR02107
+   KORTNER G, 2005, WILDLIFE RES, V32, P1
+   Lemckert F., 2006, Australian Mammalogy, V28, P201
+   LINDSTEDT SL, 1986, ECOLOGY, V67, P413, DOI 10.2307/1938584
+   MCALLAN BM, 1986, OECOLOGIA, V68, P259, DOI 10.1007/BF00384797
+   McIlroy J. C., 1982, CARNIVOROUS MARSUPIA, P267
+   MCILROY JC, 1986, AUST WILDLIFE RES, V13, P535
+   MCILROY JC, 1981, AUST WILDLIFE RES, V8, P385, DOI 10.1071/WR9810385
+   MCILROY JC, 1986, AUST WILDLIFE RES, V13, P39
+   MCILROY JC, 1986, AUST WILDLIFE RES, V13, P447
+   MCILROY JC, 1988, AUST WILDLIFE RES, V15, P473, DOI 10.1071/WR9880473
+   MCILROY JC, 1982, AUST WILDLIFE RES, V9, P505
+   MCILROY JC, 1999, SPECIES IMPACT STATE
+   Menkhorst P., 2001, FIELD GUIDE MAMMALS
+   MORGAN DR, 1982, NEW ZEAL J ECOL, V5, P36
+   Morgan DR, 1996, WILDLIFE RES, V23, P207, DOI 10.1071/WR9960207
+   Murray AJ, 2004, WILDLIFE RES, V31, P639, DOI 10.1071/WR03067
+   O'Connor C, 2005, P 13 AUSTR VERT PEST, P102
+   SINCLAIR RG, 1984, AUST WILDLIFE RES, V11, P501
+   Sokal RR, 1981, BIOMETRY
+   THOMPSON JA, 1990, AUST WILDLIFE RES, V17, P209
+NR 34
+TC 5
+Z9 5
+U1 0
+U2 23
+PU CSIRO PUBLISHING
+PI CLAYTON
+PA UNIPARK, BLDG 1, LEVEL 1, 195 WELLINGTON RD, LOCKED BAG 10, CLAYTON, VIC
+   3168, AUSTRALIA
+SN 1035-3712
+EI 1448-5494
+J9 WILDLIFE RES
+JI Wildl. Res.
+PY 2009
+VL 36
+IS 6
+BP 528
+EP 532
+DI 10.1071/WR08134
+PG 5
+WC Ecology; Zoology
+SC Environmental Sciences & Ecology; Zoology
+GA 499SN
+UT WOS:000270245900009
+DA 2019-08-05
+ER
+
+PT J
+AU Ruibal, M
+   Peakall, R
+   Claridge, A
+   Firestone, K
+AF Ruibal, Monica
+   Peakall, Rod
+   Claridge, Andrew
+   Firestone, Karen
+TI Field-based evaluation of scat DNA methods to estimate population
+   abundance of the spotted-tailed quoll (Dasyurus maculatus), a rare
+   Australian marsupial
+SO WILDLIFE RESEARCH
+LA English
+DT Article
+ID MARK-RECAPTURE DATA; FECAL DNA; HOME-RANGE; INDIVIDUAL IDENTIFICATION;
+   MICROSATELLITE GENOTYPES; RAINSHADOW WOODLAND; EASTERN AUSTRALIA; SIZE;
+   BEHAVIOR; SAMPLES
+AB Context. DNA extracted non-invasively from remotely collected scat samples has been used successfully to enumerate populations of a few endangered mammal species. However, scat DNA surveys relying on scent-marking behaviours need to identify if age-or sex-specific variations or seasonal changes in scat scent-marking patterns affect population estimates. Furthermore, owing to the low quantity and quality of scat DNA, a thorough assessment of the technique is needed when it is applied to different species to ensure that individual identification is reliable.
+   Aims. In the current study, microsatellite genetic profiles derived from 208 remotely collected scats of the spotted-tailed quoll (Dasyurus maculatus), a rare Australian marsupial carnivore, were compared with DNA profiles from tissue of 22 live-trapped individuals from the same study area to critically assess the reliability of the non-invasive method to estimate population abundance.
+   Methods. Scat samples were collected at scent-marking sites over 4 consecutive months (April-July 2005), 7 weeks of which overlapped with the trapping program to allow direct comparisons of population estimates.
+   Key results. Combining a multiple-tubes approach with error checking analyses provided reliable genetic tags and resulted in the detection of the majority of the live- trapped population (18 of 22 individuals). Ten additional individuals not known from trapping were also observed from scat DNA. A longer-term sampling regime was required for scats than for trapping to allow direct detection of a large proportion of the population and to provide a comparable population estimate. Critically, the 4-month scat collection period highlighted the importance of performing scat surveys during the mating season when scat scent marking is more frequent, and to avoid sex and age biases in scat marking patterns.
+   Implications. Non-invasive scat DNA sampling methods that rely on scent-marking behaviours need to consider the duration of the sampling period and temporal differences in behaviours by the sexes and age groups to ensure that meaningful population estimates are achieved.
+C1 [Ruibal, Monica; Peakall, Rod] Australian Natl Univ, Res Sch Biol, Canberra, ACT 0200, Australia.
+   [Claridge, Andrew] Pk & Wildlife Grp, Planning & Performance Unit, Dept Environm & Climate Change, Southern Branch, Queanbeyan, NSW 2620, Australia.
+   [Claridge, Andrew] Univ New S Wales, Australian Def Force Acad, Sch Phys Environm & Math Sci, Canberra, ACT 2620, Australia.
+   [Firestone, Karen] Univ New S Wales, Sch Biol Earth & Environm Sci, Sydney, NSW 2052, Australia.
+RP Ruibal, M (reprint author), Australian Natl Univ, Res Sch Biol, GPO Box 4, Canberra, ACT 0200, Australia.
+EM monica.ruibal@anu.edu.au
+RI Peakall, Rod/C-9623-2009
+OI Peakall, Rod/0000-0001-9407-8404
+FU The Australian National University; Sophie Danforth Conservation Biology
+   Fund; The Australian Academy of Science; M. A Ingram Trust,; Estate of
+   the Late Winifred Violet Scott; Wildlife Protection Society of
+   Australia; NSW National Parks and Wildlife Service; ARC [LP0454947]; APA
+FX We thank Debbie Claridge, Doug Mills, Fred Ford, Ross Meggs and Pam
+   O'Brien for their assistance in the trapping program, and Alex Martin
+   and Chris Howard and two anonymous reviewers for improving earlier
+   drafts of the manuscript. Funding for this project was provided to M.
+   Ruibal from The Australian National University, Sophie Danforth
+   Conservation Biology Fund, The Australian Academy of Science, M. A
+   Ingram Trust, Estate of the Late Winifred Violet Scott, Wildlife
+   Protection Society of Australia and NSW National Parks and Wildlife
+   Service; K. Firestone and W. Sherwin received an ARC grant linkage grant
+   LP0454947. The primary author was supported by an APA PhD scholarship.
+   All fieldwork and tissue collections were conducted under ethics
+   approvals from the Animal Experimentation Ethics Committee, The
+   Australian National University, F.BTZ.75.04 & F.BTZ.78.04, and under the
+   auspices of a NSW National Parks and Wildlife Service Section 120
+   Scientific Investigation Licence (S11472).
+CR ALEXANDER D, 1980, THESIS U NEW ENGLAND
+   Andrew D, 2005, THESIS U WOLLONGONG
+   Banks SC, 2003, ANIM CONSERV, V6, P101, DOI 10.1017/S1367943003003135
+   Banks SC, 2002, AUST J ZOOL, V50, P193, DOI 10.1071/ZO01072
+   Begg CM, 2003, ANIM BEHAV, V66, P917, DOI 10.1006/anbe.2003.2223
+   Belcher CA, 2004, J ZOOL, V262, P271, DOI 10.1017/S0952836903004631
+   BELCHER CA, 2000, THESIS DEAKIN U MELB
+   BELCHER CA, 1994, THESIS LA TROBE U ME
+   Boulanger J, 2001, CAN J ZOOL, V79, P642, DOI 10.1139/cjz-79-4-642
+   Broquet T, 2004, MOL ECOL, V13, P3601, DOI 10.1111/j.1365-294X.2004.02352.x
+   BRUFORD M. W, 1992, SINGLE LOCUS MULTILO
+   BURNETT S, 2001, THESIS J COOK U TOWN
+   Burnham KP, 1998, MODEL SELECTION MULT
+   Claridge AW, 2007, WILDLIFE RES, V34, P116, DOI 10.1071/WR06151
+   Claridge AW, 2005, WILDLIFE RES, V32, P7, DOI 10.1071/WR04031
+   Claridge AW, 2004, WILDLIFE RES, V31, P645, DOI 10.1071/WR03072
+   Creel S, 2003, MOL ECOL, V12, P2003, DOI 10.1046/j.1365-294X.2003.01868.x
+   Dallas JF, 2003, MOL ECOL, V12, P275, DOI 10.1046/j.1365-294X.2003.01712.x
+   DAWSON J, 2002, P CEL MOUNT INT YEAR, P429
+   Dawson JP, 2005, THESIS U NEW S WALES
+   DEUTER R, 1995, NUCLEIC ACIDS RES, V23, P3800, DOI 10.1093/nar/23.18.3800
+   DeWoody JA, 2006, MOL ECOL NOTES, V6, P951, DOI 10.1111/j.1471-8286.2006.01449.x
+   EDGAR R, 1995, MAMMALS AUSTR, P67
+   Eggert LS, 2003, MOL ECOL, V12, P1389, DOI 10.1046/j.1365-294X.2003.01822.x
+   Firestone KB, 1999, MOL ECOL, V8, P1084, DOI 10.1046/j.1365-294X.1999.00655_6.x
+   Frantz AC, 2003, MOL ECOL, V12, P1649, DOI 10.1046/j.1365-294X.2003.01848.x
+   Glen AS, 2006, J ZOOL, V268, P347, DOI 10.1111/j.1469-7998.2006.00064.x
+   Godsell J., 1983, THESIS AUSTR NATL U
+   Henegariu O, 1997, BIOTECHNIQUES, V23, P504, DOI 10.2144/97233rr01
+   Jones ME, 1996, PRELIMINARY ASSESSME
+   Kohn MH, 1999, P ROY SOC B-BIOL SCI, V266, P657, DOI 10.1098/rspb.1999.0686
+   Kortner G, 2004, WILDLIFE RES, V31, P475, DOI 10.1071/WR03041
+   KRUUK H, 1995, J ZOOL, V236, P345, DOI 10.1111/j.1469-7998.1995.tb04501.x
+   Lee A.K., 1982, P1
+   Lindenmayer D.B, 2002, CONSERVING FOREST BI
+   LONG K, 2008, NATL RECOVE IN PRESS
+   Lukacs PM, 2005, J WILDLIFE MANAGE, V69, P396, DOI 10.2193/0022-541X(2005)069<0396:EPSFDC>2.0.CO;2
+   LUKACS PM, 2005, THESIS COLORADO STAT
+   McCullagh P., 1989, GEN LINEAR MODELS
+   McKelvey KS, 2005, MOL ECOL NOTES, V5, P716, DOI 10.1111/j.1471-8286.2005.01038.x
+   Miller CR, 2005, MOL ECOL, V14, P1991, DOI 10.1111/j.1365-294X.2005.02577.x
+   Molina R., 2007, CONSERVATION RARE LI, P67
+   NAVIDI W, 1992, AM J HUM GENET, V50, P347
+   Oakwood M, 2002, J ZOOL, V257, P237, DOI 10.1017/S0952836902000833
+   OTIS DL, 1978, WILDLIFE MONOGR, P1
+   Peakall R, 2006, J ZOOL, V268, P207, DOI 10.1111/j.1469-7998.2005.00011.x
+   PEAKALL R, 2006, MOL ECOL NOTES, V6, P288, DOI DOI 10.1111/J.1471-8286.2005.01155.X
+   Petit E, 2006, CONSERV BIOL, V20, P1062, DOI 10.1111/j.1523-1739.2006.00417.x
+   Piggott MP, 2006, MOL ECOL, V15, P81, DOI 10.1111/j.1365-294X.2005.02783.x
+   Piggott MP, 2004, CONSERV GENET, V5, P417, DOI 10.1023/B:COGE.0000031138.67958.44
+   Piggott MP, 2003, WILDLIFE RES, V30, P1, DOI 10.1071/WR02077
+   Pollock K.H., 1990, WILDLIFE MONOGR, V107, P97
+   Ruell EW, 2009, J MAMMAL, V90, P129, DOI 10.1644/07-MAMM-A-249.1
+   RUIBAL MP, 2008, THESIS AUSTR NATL U
+   RYON J, 1990, CHEM SIGNAL, V5, P346
+   *SEFSTQWG, 2003, QUOLLTR 1 SPOT SPOTT
+   Smith DA, 2006, MOL ECOL, V15, P387, DOI 10.1111/j.1365-294X.2005.02841.x
+   Soderquist TR, 2000, AUST J ZOOL, V48, P551, DOI 10.1071/ZO00029
+   Solberg KH, 2006, BIOL CONSERV, V128, P158, DOI 10.1016/j.biocon.2005.09.025
+   Spencer PBS, 2007, MOL ECOL NOTES, V7, P1100, DOI 10.1111/j.1471-8286.2007.01791.x
+   Stoddart DM, 1976, MAMMALIAN ODOURS PHE
+   Taberlet P, 1999, BIOL J LINN SOC, V68, P41, DOI 10.1111/j.1095-8312.1999.tb01157.x
+   Taberlet P, 1996, NUCLEIC ACIDS RES, V24, P3189, DOI 10.1093/nar/24.16.3189
+   Triggs B, 2004, TRACKS SCATS OTHER T
+   Valiere N, 2002, MOL ECOL NOTES, V2, P377, DOI 10.1046/j.1471-8286.2002.00228.x
+   Waits JL, 2000, ANIM CONSERV, V3, P191, DOI 10.1017/S1367943000000901
+   Waits Lisette P., 2004, P211
+   Waits LP, 2001, MOL ECOL, V10, P249, DOI 10.1046/j.1365-294X.2001.01185.x
+   WATT A, 1993, CONSERVATION STATUS
+   White GC, 1999, BIRD STUDY, V46, P120
+   Wilson GJ, 2003, J APPL ECOL, V40, P658, DOI 10.1046/j.1365-2664.2003.00835.x
+NR 71
+TC 12
+Z9 12
+U1 1
+U2 25
+PU CSIRO PUBLISHING
+PI CLAYTON
+PA UNIPARK, BLDG 1, LEVEL 1, 195 WELLINGTON RD, LOCKED BAG 10, CLAYTON, VIC
+   3168, AUSTRALIA
+SN 1035-3712
+EI 1448-5494
+J9 WILDLIFE RES
+JI Wildl. Res.
+PY 2009
+VL 36
+IS 8
+BP 721
+EP 736
+DI 10.1071/WR09086
+PG 16
+WC Ecology; Zoology
+SC Environmental Sciences & Ecology; Zoology
+GA 532JA
+UT WOS:000272742400008
+DA 2019-08-05
+ER
+
+EF
