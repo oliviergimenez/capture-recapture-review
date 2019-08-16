@@ -171,7 +171,7 @@ dat %>%
   labs(title = "Nb of papers per journal")
 ```
 
-![](bibliometric_analysis_files/figure-markdown_github/unnamed-chunk-4-1.png)
+![](figs/unnamed-chunk-4-1.png)
 
 Wordcloud
 
@@ -182,7 +182,7 @@ abs_dfm <- dfm(abs_corpus, remove = stopwords("en"), remove_numbers = TRUE, remo
 textplot_wordcloud(abs_dfm, min_count = 1500)
 ```
 
-![](bibliometric_analysis_files/figure-markdown_github/unnamed-chunk-5-1.png)
+![](figs/unnamed-chunk-5-1.png)
 
 Most common words in titles
 
@@ -227,7 +227,7 @@ wordft %>%
   coord_flip()
 ```
 
-![](bibliometric_analysis_files/figure-markdown_github/unnamed-chunk-6-1.png)
+![](figs/unnamed-chunk-6-1.png)
 
 ``` r
   labs(title = "Most common words in titles")
@@ -282,7 +282,7 @@ wordab %>%
   coord_flip()
 ```
 
-![](bibliometric_analysis_files/figure-markdown_github/unnamed-chunk-7-1.png)
+![](figs/unnamed-chunk-7-1.png)
 
 ``` r
   labs(title = "Most common words in abstracts")
@@ -453,7 +453,7 @@ Visualize
 plot(x = results, k = 10, pause = FALSE)
 ```
 
-![](bibliometric_analysis_files/figure-markdown_github/unnamed-chunk-9-1.png)![](bibliometric_analysis_files/figure-markdown_github/unnamed-chunk-9-2.png)![](bibliometric_analysis_files/figure-markdown_github/unnamed-chunk-9-3.png)![](bibliometric_analysis_files/figure-markdown_github/unnamed-chunk-9-4.png)![](bibliometric_analysis_files/figure-markdown_github/unnamed-chunk-9-5.png)
+![](figs/unnamed-chunk-9-1.png)![](figs/unnamed-chunk-9-2.png)![](figs/unnamed-chunk-9-3.png)![](figs/unnamed-chunk-9-4.png)![](figs/unnamed-chunk-9-5.png)
 
 The 100 most frequent cited manuscripts:
 
@@ -604,7 +604,7 @@ Top authors productivity over time:
 topAU <- authorProdOverTime(M, k = 10, graph = TRUE)
 ```
 
-![](bibliometric_analysis_files/figure-markdown_github/unnamed-chunk-12-1.png)
+![](figs/unnamed-chunk-12-1.png)
 
 Network analyses
 ----------------
@@ -620,7 +620,7 @@ NetMatrix <- biblioNetwork(M, analysis = "collaboration", network = "authors", s
 net <- networkPlot(NetMatrix, n = 30, Title = "Collaboration network", type = "fruchterman", size=TRUE, remove.multiple=FALSE,labelsize=0.7,cluster="louvain")
 ```
 
-![](bibliometric_analysis_files/figure-markdown_github/unnamed-chunk-13-1.png)
+![](figs/unnamed-chunk-13-1.png)
 
 Country collaborations
 
@@ -629,7 +629,7 @@ NetMatrix <- biblioNetwork(M, analysis = "collaboration", network = "countries",
 net <- networkPlot(NetMatrix, n = 20, Title = "Country collaborations", type = "fruchterman", size=TRUE, remove.multiple=FALSE,labelsize=0.7,cluster="louvain")
 ```
 
-![](bibliometric_analysis_files/figure-markdown_github/unnamed-chunk-14-1.png)
+![](figs/unnamed-chunk-14-1.png)
 
 A keyword co-occurrences network
 
@@ -657,7 +657,7 @@ summary(netstat, k = 10)
 net <- networkPlot(NetMatrix, normalize="association", weighted=T, n = 50, Title = "Keyword co-occurrences", type = "fruchterman", size=T,edgesize = 5,labelsize=0.7)
 ```
 
-![](bibliometric_analysis_files/figure-markdown_github/unnamed-chunk-15-1.png)
+![](figs/unnamed-chunk-15-1.png)
 
 Co-citation network
 
@@ -668,7 +668,7 @@ NetMatrix <- biblioNetwork(M, analysis = "co-citation", network = "references", 
 net <- networkPlot(NetMatrix, n = 10, Title = "Co-citation Network", type = "fruchterman", size=T, remove.multiple=FALSE, labelsize=0.7,edgesize = 5)
 ```
 
-![](bibliometric_analysis_files/figure-markdown_github/unnamed-chunk-16-1.png)
+![](figs/unnamed-chunk-16-1.png)
 
 Topic modelling
 ---------------
@@ -726,7 +726,7 @@ top_terms %>%
   facet_wrap(~ topic, ncol = 4, scales = "free")
 ```
 
-![](bibliometric_analysis_files/figure-markdown_github/unnamed-chunk-20-1.png)
+![](figs/unnamed-chunk-20-1.png)
 
 ``` r
 #ggsave('topic_abstracts.png', dpi = 600)
@@ -784,7 +784,7 @@ top_terms %>%
   facet_wrap(~ topic, ncol = 4, scales = "free")
 ```
 
-![](bibliometric_analysis_files/figure-markdown_github/unnamed-chunk-24-1.png)
+![](figs/unnamed-chunk-24-1.png)
 
 ``` r
 #ggsave('topic_titles.png', dpi = 600)
