@@ -5,7 +5,7 @@ In this document, I carry out a bibliometric analysis of the
 capture-recapture literature over the last 10 years. To do so, I follow
 the excellent [vignette of the `R` bibliometrix
 package](http://htmlpreview.github.io/?https://github.com/massimoaria/bibliometrix/master/vignettes/bibliometrix-vignette.html).
-I also carry out a text analysis using topic modelling.
+I also carry out a text analysis using topic modelling; I followed the steps [here](https://yufree.cn/en/2017/07/07/text-mining/) and went back to the [Text Mining with R](https://www.tidytextmining.com/) excellent book many times. 
 
 Data collection
 ---------------
