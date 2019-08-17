@@ -71,7 +71,7 @@ Capture-recapture methods
 -   Method 6: Combination of information! **Integrated population
     models** as seen by Andy Royle:
 
-![](images/raft.gif)
+![](images/raft.mp4)
 
 -   Method 7: **Continuous capture-recapture**? Opportunist data?
     Citizen science data?
