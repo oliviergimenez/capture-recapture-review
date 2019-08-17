@@ -1,3 +1,6 @@
+Making sense of the corpus of scientific papers on capture-recapture
+---
+
 ``` r
 library(tidyverse)
 ```
