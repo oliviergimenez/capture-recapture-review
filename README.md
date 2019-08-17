@@ -23,10 +23,8 @@ papers are gathered in the file
 [crdat.csv](https://github.com/oliviergimenez/capture-recapture-review/blob/master/crdat.csv).
 To make sense of this big corpus, I carried out biliometric and textual
 analyses in the spirit of [this
-paper](https://www.cell.com/trends/ecology-evolution/fulltext/S0169-5347(18)30278-7).
-I also inspected a sample of methodological and ecological papers. More
-explanations along with the code and results are
-[here](https://github.com/oliviergimenez/capture-recapture-review/blob/master/bibliometric_analysis.md).
+paper](https://www.cell.com/trends/ecology-evolution/fulltext/S0169-5347(18)30278-7). More explanations along with the code and results are [here](https://github.com/oliviergimenez/capture-recapture-review/blob/master/bibliometric_analysis.md). I also inspected a sample of methodological and ecological papers, see [there](https://github.com/oliviergimenez/capture-recapture-review/blob/master/make_sense.md) for more details. 
+
 Below is a synthesis of my findings.
 
 Ecological questions
