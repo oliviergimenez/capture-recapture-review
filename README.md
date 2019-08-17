@@ -11,9 +11,8 @@ the last 10 years with clever methods being developed and exciting
 ecological questions being addressed. Let’s have a look in more details
 to the period 2009-2019.
 
-<center>
-![](Recapture.png)
-</center>
+![](images/Recapture.png)
+
 Bibliometric and textual analyses
 =================================
 
@@ -72,9 +71,8 @@ Capture-recapture methods
 -   Method 6: Combination of information! **Integrated population
     models** as seen by Andy Royle:
 
-<center>
-![](raft.gif)
-</center>
+![](images/raft.gif)
+
 -   Method 7: **Continuous capture-recapture**? Opportunist data?
     Citizen science data?
 
@@ -83,9 +81,8 @@ Capture-recapture methods
     <a href="https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/eap.1876" class="uri">https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/eap.1876</a>
     ; see also review by Andy in Ecography + Camera-traps.
 
-<center>
-![](dna_ClaytonTLamb.png)
-</center>
+![](images/dna_ClaytonTLamb.png)
+
 What do we miss?
 ================
 
@@ -138,7 +135,3 @@ Recommandations (if I may)
 
 Take-home message
 =================
-
-<center>
-![](benaffleck.gif)
-</center>
