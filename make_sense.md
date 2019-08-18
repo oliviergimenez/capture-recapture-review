@@ -1,9 +1,8 @@
 Making sense of the corpus of scientific papers on capture-recapture
 ---
 
-``` r
-library(tidyverse)
-```
+Motivation
+----------
 
 My objective is to make a list of ecological questions and methods that
 are addressed in these papers. I ended up with more than 5000 papers.
@@ -18,6 +17,7 @@ search on journals that have published more than 10 papers about
 capture-recapture over the last 10 years:
 
 ``` r
+library(tidyverse)
 raw_dat <- read_csv(file = 'crdat.csv')
 ```
 
