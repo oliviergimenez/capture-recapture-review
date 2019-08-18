@@ -156,5 +156,4 @@ ecol %>%
   write_csv('papers_in_ecological_journals.csv')
 ```
 
-Again, annotation was made by hand. Took me several hours. I mainly focused my reading on the titles. The results are in [that file](https://github.com/oliviergimenez/capture-recapture-review/blob/master/papers_in_ecolological_journals_annotated.csv).
-
+Again, I inspected the papers one by one. Took me several hours as there were >1300 papers! I mainly focused my reading on the titles. I didn't annotate the papers.
