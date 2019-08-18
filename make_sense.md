@@ -96,16 +96,9 @@ raw_dat %>%
   write_csv('papers_in_methodological_journals.csv')
 ```
 
-The next step is to annotate this file to determine the methods used.
-I’m afraid `R` cannot help, and I do it by hand. Takes me an hour or so.
+The next step is to annotate this file to determine the methods used. I’m afraid `R` cannot help, and I had to do it by hand. I read the >200 titles and abstracts and added my tags in an extra column. Took me 2 hours or so. The task was cumbersome but very interesting. I enjoyed seeing what my colleagues have been working on. There were a few papers that I didn't know the existence of, and several others that was pleased to spot again. The results are in [this file](https://github.com/oliviergimenez/capture-recapture-review/blob/master/papers_in_methodological_journals_annotated.csv).
 
-By focusing the annotation on the methodological journals, I ignore all
-the methodological papers that have been published in other
-non-methodological journals like, among others, Ecology, Journal of
-Applied Ecology, Conservation Biology and Plos One which welcome
-methods. With the uptake of Methods in Ecology and Evolution, I assume
-that folks tend to publish more and more their methods here rather than
-Methods section of ecological journal.
+By focusing the annotation on the methodological journals, I ignore all the methodological papers that have been published in other non-methodological journals like, among others, Ecology, Journal of Applied Ecology, Conservation Biology and Plos One which welcome methods. With the uptake of Methods in Ecology and Evolution, I assume that folks tend to publish more and more their methods here rather than Methods section of ecological journal.
 
 Ecological papers
 -----------------
@@ -163,4 +156,5 @@ ecol %>%
   write_csv('papers_in_ecological_journals.csv')
 ```
 
-Again, annotation is made by hand.
+Again, annotation was made by hand. Took me several hours. I mainly focused my reading on the titles. The results are in [that file](https://github.com/oliviergimenez/capture-recapture-review/blob/master/papers_in_ecolological_journals_annotated.csv).
+
