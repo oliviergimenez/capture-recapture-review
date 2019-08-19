@@ -30,6 +30,8 @@ Below is a synthesis of my findings.
 Ecological questions
 ====================
 
+- In the 80s and 90s, shift in emphasis from population size estimation to survival rate estimation (Lebreton et al. 1992), seems like the balance is achieved, lot of work on both now.
+
 -   What are the fields interested by capture-recapture?
 
 -   Question 1: **Dispersal** w/ Hugo’s review, papers by Jean-Do;
@@ -81,20 +83,60 @@ Capture-recapture methods
 
 ![](images/dna_ClaytonTLamb.png)
 
-What do we miss?
-================
+What do we miss? My two cents insights.
+=======================================
 
--   Sampling design: Model- and design-based design (adaptive sampling
-    proposed, power analyses)
+**Methods**
 
--   A proper treatment of missing and censored data
+- Data entry error? Data wrangling, procedures. Everything that happens before the actual analysis?!!!!
 
--   Population dynamics to be coupled with movement ecology,
+- Sampling design: Model- and design-based design (adaptive sampling
+    proposed, power analyses). Lebreton et al. 1992: 'An applied statistician knowledgeable in capture-recapture should often be consulted for both the design and analysis of capturerecapture or capture-resighting studies, especially if the population issues are complex.'
+
+- A proper treatment of missing and censored data
+
+- Covariates in non-spatial models. What about in SCR models?
+
+- Visualisation tools - how to get. back to raw data?
+
+- New data technology. Big data (work by S. Bonner) mais aussi small data? Model selection via reduction techniques (Lasso, papier par je sais plus qui qui fait du boosting).
+
+**Ecology**
+
+-  Population dynamics to be coupled with movement ecology,
     ecophysiology, etc; see figure in network paper by Réale in which
     capture-recapture cluster à part… Foster collaboration.
 
+- Not so new in disease ecology, mais underused. Link of population dynamics w/ other disciplines of ecology (functional ecology [see our special issue], quantitative genetics, …).
+
+- What about predictive ecology? Context of global change. Link with mechanistic approaches.
+
+- Faire un parallèle. Avec ce qui se passe dans les survival models en médecine? C’est quoi qui se développe?
+
+Big deal. Heterogeneity in individuals. Cf vol special Sandra Hamel. 
+
+- Metanalyses. Of survival. Other demos parameters. Effect of climate on demography?
+
+- Big databases. Comme les trucs de Rob. Citer le truc de Sébastien DEvillard.  
+
+- Reproducibility crisis. Monopole de l’AIC?
+
+- Brian McGill attack on detection; statistical machismo
+
+- Animal welfare? Impact of marking on animals?
+
+
 Capture-recapture is dead, long live the capture-recapture!
 ===========================================================
+
+- In 1992, Lebreton et al. predicted : 'New developments will appear, in at least four directions: first, new methods of marking are appearing; second, the model-building and computations will be made easy for the users of estimators and test statistics; third, some technical (statistical) shortcomings of the present procedures will be overcome; and fourth, more
+sophisticated models will appear as deeper biological questions will be asked through more sophisticated experiments.' Pretty much happened. Shall i take the risk to make a prediction for the next 10 years? Heeeeeeelp.
+
+- About the fourth point, more sophisticated models will broaden biological relevance. One of the most
+promising directions will be to allow capture-recapture models to include recruitment and dispersal. Such
+models would be able to address questions relative to trade-offs between dispersal and survival, and to the
+regulation of spatially organized populations. More generally, multi-site models, and models considering
+individual covariates susceptible of changing through time, provide a challenging direction of development
 
 -   eDNA
 
@@ -114,7 +156,7 @@ Capture-recapture is dead, long live the capture-recapture!
 -   Big data? Citizen science protocols? Improve MCMC - Nimble? Stan?
     TMB?
 
--   Voir mon repertoire futur
+- Intake of Bayesian analyses. Kéry and Schaub books. Importance of workshops. And software. And small conferences (Euring). Now ISEC. And people. Friendly. Inclusive. 
 
 Recommandations (if I may)
 ==========================
@@ -133,3 +175,5 @@ Recommandations (if I may)
 
 Take-home message
 =================
+
+'Even the most general mathematical model is a plaything relative to the complexity of an animal population' Cormack (1968) cited in Lebreton et al. (1992).
