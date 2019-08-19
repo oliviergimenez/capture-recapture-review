@@ -98,7 +98,7 @@ raw_dat %>%
 
 The next step is to annotate this file to determine the methods used. I’m afraid `R` cannot help, and I had to do it by hand. I read the >200 titles and abstracts and added my tags in an extra column. Took me 2 hours or so. The task was cumbersome but very interesting. I enjoyed seeing what my colleagues have been working on. There were a few papers that I didn't know the existence of, and several others that was pleased to spot again. The results are in [this file](https://github.com/oliviergimenez/capture-recapture-review/blob/master/papers_in_methodological_journals_annotated.csv).
 
-By focusing the annotation on the methodological journals, I ignore all the methodological papers that have been published in other non-methodological journals like, among others, Ecology, Journal of Applied Ecology, Conservation Biology and Plos One which welcome methods. With the uptake of Methods in Ecology and Evolution, I assume that folks tend to publish more and more their methods here rather than Methods section of ecological journal.
+By focusing the annotation on the methodological journals, I ignore all the methodological papers that have been published in other non-methodological journals like, among others, Ecology, Journal of Applied Ecology, Conservation Biology and Plos One which welcome methods. I address this issue below. In brief, I scanned the corpus of ecological papers and tagged all methodological papers; I also moved them to the [file of methodological papers](https://github.com/oliviergimenez/capture-recapture-review/blob/master/papers_in_methodological_journals_annotated.csv) and added a column to keep track of the paper original (methodological vs ecological corpus).
 
 Ecological papers
 -----------------
@@ -156,4 +156,4 @@ ecol %>%
   write_csv('papers_in_ecological_journals.csv')
 ```
 
-Again, I inspected the papers one by one. Took me several hours as there were >1300 papers! I mainly focused my reading on the titles. I didn't annotate the papers.
+Again, I inspected the papers one by one. Took me several hours as there were >1000 papers! I mainly focused my reading on the titles. I didn't annotate the papers.
