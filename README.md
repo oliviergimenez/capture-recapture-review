@@ -54,7 +54,15 @@ Capture-recapture methods
     flexibility by decomposing obs vs state! Multistate (Lebreton) and
     multievent (Pradel) are actually HMM (particular case of SSM), and I
     recommend we use this terminology as tools are readily available.
-    (Le fils tue le pere 💀)
+    (Le fils tue le pere 💀). King (2012): 'The application of state-space models to capture–recapture–
+    recovery data is very appealing due to its simplicity
+    and ease with which models can be generalized. Partitioning
+    the system and observation processes into
+    distinct components leads to the natural identification
+    of each individual process operating. This allows a complex
+    model to be constructed using a sequence of simpler
+    models, corresponding to each individual process acting
+    on the study population'.
 
 -   Method 2: **Bayes analysis**: we now can fit complex models with,
     e.g., random effects or spatial component and estimate latent
@@ -105,7 +113,8 @@ What do we miss? My two cents insights.
 
 -  Population dynamics to be coupled with movement ecology,
     ecophysiology, etc; see figure in network paper by Réale in which
-    capture-recapture cluster à part… Foster collaboration.
+    capture-recapture cluster à part… Foster collaboration. Pollock (1981 in JASA): 'Cross-fertilization with human 
+    capturerecapture. Cell phone e.g., and movements.'
 
 - Not so new in disease ecology, mais underused. Link of population dynamics w/ other disciplines of ecology (functional ecology [see our special issue], quantitative genetics, …).
 
