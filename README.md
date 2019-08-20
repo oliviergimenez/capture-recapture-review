@@ -70,9 +70,9 @@ Capture-recapture methods
     e.g., random effects or a spatial component, and estimate latent variables (disease or breeding status in multistate 
     models, home ranges (activity centers) in spatial explicit models).
 
-- **Spatially-explicit models** are a bid deal, for closed and open population, frequentist and Bayes framework, can help answering many ecological questions (see recent reviews by Clayton Lamb and Andy Royle).
+- **Spatially-explicit models** are a big deal, for closed and open population, in the frequentist and Bayes frameworks, and can help answering many ecological questions (see reviews by Borchers, Lamb et al. and Royle et al.).
 
-- It is not only about individual identification, methods for **unmarked individuals** (N-mixture, occupancy, random-encounter, batch marking, and mark-resight models) are widely used to say something about abundance and demography.
+- Capture-recapture is not only about individual identification, methods for **unmarked individuals** (N-mixture, occupancy, random-encounter, batch marking, and mark-resight models) are widely used to say something about abundance and demography.
 
 - We can now consider **random effects** like in generalized mixed models (time random effects are still difficult to fit in a frequentist framework though).
 
