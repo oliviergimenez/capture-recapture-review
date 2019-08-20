@@ -5,10 +5,10 @@ I will be attending the [Wildlife Research and Conservation 2019
 conference](http://www.izw-berlin.de/welcome-234.html) in Berlin end of
 September. At the time I was proposed to come, I thought it’d be cool to
 review recent advances in capture-recapture, which I have been thinking
-to do for a while. Now time to actually do something. I am a
-capture-recapture aficionado, and I have witnessed the awesomeness of
-the last 10 years with clever methods being developed and exciting
-ecological questions being addressed. Let’s have a look in more details
+to do for a while. Now time to actually do something. As a
+capture-recapture aficionado, I have witnessed the awesomeness of
+the last 10 years: clever methods have been developed and exciting
+ecological questions have been asked and answered. Let’s have a look in more details
 to the period 2009-2019.
 
 ![](images/Recapture.png)
@@ -16,33 +16,27 @@ to the period 2009-2019.
 Bibliometric and textual analyses
 =================================
 
-To determine the questions and methods colleagues have been interested
+To determine the questions and methods folks have been interested
 in, I searched for capture-recapture papers in the Web of Science. I
 found more than 5000 relevant papers on the 2009-2019 period. These
 papers are gathered in the file
 [crdat.csv](https://github.com/oliviergimenez/capture-recapture-review/blob/master/crdat.csv).
 To make sense of this big corpus, I carried out biliometric and textual
 analyses in the spirit of [this
-paper](https://www.cell.com/trends/ecology-evolution/fulltext/S0169-5347(18)30278-7). More explanations along with the code and results are [here](https://github.com/oliviergimenez/capture-recapture-review/blob/master/bibliometric_analysis.md). I also inspected a sample of methodological and ecological papers, see [there](https://github.com/oliviergimenez/capture-recapture-review/blob/master/make_sense.md) for more details. 
+paper](https://www.cell.com/trends/ecology-evolution/fulltext/S0169-5347(18)30278-7). Explanations along with the code and results are [here](https://github.com/oliviergimenez/capture-recapture-review/blob/master/bibliometric_analysis.md). I also inspected a sample of methodological and ecological papers, see [there](https://github.com/oliviergimenez/capture-recapture-review/blob/master/make_sense.md) for more details. 
 
 Below is a synthesis of my findings.
 
 Ecological questions
 ====================
 
-- In the 80s and 90s, shift in emphasis from population size estimation to survival rate estimation (Lebreton et al. 1992), seems like the balance is achieved, lot of work on both now.
+- Note: In the 80s and 90s, there was a shift in emphasis from abundance estimation to survival estimation (Lebreton et al. 1992). Well, it seems like things are more balanced, and there is clearly a lot of work on both topics now. This is probably thanks to spatial capture-recapture models and their ability to make use of all available data (spatial info above all), produce density estimates and account for individual heterogeneity regain of interest in estimating abundance and density.
 
--   What are the fields interested by capture-recapture?
+- Question 1: The study of **dispersal** is a big deal.
 
--   Question 1: **Dispersal** w/ Hugo’s review, papers by Jean-Do;
-    papiers Paméla
+- Question 2: There is been a growing interest in studying the **threats on biodiversity** by determining the impact of climate change, pollution, or overexploitation on animal demography.
 
--   Question 2: If interest in **climate change**, ok, mais attention,
-    nb occz is nb annees (cf Frederiksen). Du coup deux reflexions :
-    -   long-term monitoring (paper Sheldon et Clutton-Brock. Nichols)
-    -   IPM et go for adaptive monitoring et management; learning while
-        doing
--   Question 3: Life-history trade-offs
+- Question 3: The field of **evolutionary ecology** has been using capture-recapture to quantifying life-history trade-offs, estimating heritability of demographic parameters, describing senescence patterns or assessing selection gradients.
 
 Capture-recapture methods
 =========================
@@ -181,6 +175,12 @@ Recommandations (if I may)
 
 -   Don’t reinvent the wheel - read your classics: Lebreton. Cormack.
     Jolly. Arnason. Otis.
+    
+-   Relatively short time-series (nb occz is nb annees cf Frederiksen). Du coup deux reflexions :
+    -   long-term monitoring (paper Sheldon et Clutton-Brock. Nichols)
+    -   IPM et go for adaptive monitoring et management; learning while
+        doing
+
 
 Take-home message
 =================
