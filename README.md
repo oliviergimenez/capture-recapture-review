@@ -182,7 +182,9 @@ Recommandations (if I may)
         doing
 
 
-Take-home message
+Useful quotes
 =================
 
 > Even the most general mathematical model is a plaything relative to the complexity of an animal population (Cormack 1968 cited in Lebreton et al. 1992).
+
+> Counting fish is just like counting trees — except that they are invisible and keep moving (John Sheperd; [original statement](http://jgshepherd.com/thoughts/) a bit different)
