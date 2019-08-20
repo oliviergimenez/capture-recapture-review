@@ -34,17 +34,26 @@ Ecological questions
 
 - In the 80s and 90s, there was a shift in emphasis from abundance estimation to survival estimation (Lebreton et al. 1992). Well, My general impression is that things are more balanced nowadays, with a lot of work on both topics. This is probably due to the uptake of spatial capture-recapture models and their ability to make use of all available data (spatial info above all), produce density estimates and account for individual heterogeneity regain of interest in estimating abundance and density.
 
-- Question 1: The study of **dispersal** is a big deal, as well as **population growth**, **recruitment** and **stopover duration** in relation to migration; **species richness** is also of interest (big influence of A. Chao's work).
+- Question 1: The study of **dispersal** is a big deal, as well as **population growth**, **recruitment** and **stopover duration** in relation to migration; **species richness** is also of interest (big influence of A. Chao's work). Obviously, the study of survival remains the focus of much interest, in particular the consideration of competing risks and estimation of cause-specific mortality rates.
 
 - Question 2: There is been a growing interest in studying the **threats on biodiversity** by determining the impact of climate conditions and change, pollution, poaching, invasive species, habitat loss, deforestation, human infrastructure (road, power lines, wind turbine) or overexploitation (fishing, hunting) on animal demographic parameters and performance. 
 
 - Question 3: The field of **evolutionary ecology** has resorted to capture-recapture to quantifying life-history trade-offs, estimating heritability of demographic parameters, describing senescence patterns or assessing selection gradients.
 
-- Question 4: The demographic component of interest varies according to animal class: in **birds**, the interest is in studying migration and breeding; in **fish**, folks are more into individual growth, movement and survival; in **marine mammals** and **large carnivores**, it is all about estimating abundance/density using photo-identification, camera-trapping and genetic tagging; 
+- Question 4: In relation to the previous item, **individual heterogeneity** has become the focus of interest - no longer considered as a nuisance parameter only.
 
-- Question 5: The field of **disease ecology** is using capture-recapture more and more for estimating prevalence, studying the transmission, exposure, etc...
+- Question 5: The demographic component of interest varies according to animal class: in **birds**, the interest is in studying migration and breeding; in **fish**, folks are more into individual growth, movement and survival; in **marine mammals** and **large carnivores**, it is all about estimating abundance/density using photo-identification, camera-trapping and genetic tagging; 
 
-- Question 6: Lots of different organisms studied: birds, mammals, fishes, insects, reptiles, amphibians, plants
+- Question 6: The field of **disease ecology** is using capture-recapture more and more for estimating prevalence, infection rates, studying transmission, exposure, etc...
+
+- Question 7: Lots of **different organisms** are studied: birds, mammals, fishes, insects, reptiles, amphibians, plants.
+
+- Question 8: How to **manage populations** (conservation, regulation, harvesting, reintroduction) is keeping folks busy: population size and population trends are used as ecological indicators.
+
+- Question 9: Ecologists are concerned about the **effects of marking on animals** and devote efforts to quantify these effects.
+
+- Question 10: Folks are using **genetic information** in new innovative ways to estimate demographic parameters (close-kin method, population assignment) 
+
 
 Capture-recapture methods
 =========================
@@ -112,13 +121,11 @@ What do we miss? My two cents insights.
     capturerecapture. Cell phone e.g., and movements.' Byron dans Preface au bouquin sur Capture-recapture pour social and medical science 'I would expect this book to facilitate cross-fertilisation of new methods between ecological
 and non-ecological areas, for instance in the area of spatial capture recapture.' epidemiology, public health
 
-- Not so new in disease ecology, mais underused. Link of population dynamics w/ other disciplines of ecology (functional ecology [see our special issue], quantitative genetics, …).
+- Link of population dynamics w/ other disciplines of ecology (functional ecology [see our special issue], quantitative genetics, …).
 
 - What about predictive ecology? Context of global change. Link with mechanistic approaches.
 
 - Faire un parallèle. Avec ce qui se passe dans les survival models en médecine? C’est quoi qui se développe?
-
-Big deal. Heterogeneity in individuals. Cf vol special Sandra Hamel. 
 
 - Metanalyses. Of survival. Other demos parameters. Effect of climate on demography?
 
