@@ -36,9 +36,9 @@ Ecological questions
 
 - There is been a growing interest in studying the **threats on biodiversity** by determining the impact of climate conditions and change, pollution, poaching, invasive species, habitat loss, deforestation, human infrastructure (road, power lines, wind turbine) or overexploitation (fishing, hunting) on animal demographic parameters and performance. 
 
-- The field of **evolutionary ecology** has resorted to capture-recapture to quantifying life-history trade-offs, estimating heritability of demographic parameters, describing senescence patterns or assessing selection gradients.
+- The field of **evolutionary ecology** has resorted to capture-recapture to quantify life-history trade-offs and costs, estimate heritability of demographic parameters, describe senescence patterns or assess selection gradients.
 
-- In relation to the previous item, **individual heterogeneity** has become the focus of interest - no longer considered as a nuisance parameter only.
+- In relation to the previous item, **individual heterogeneity** has become a focus of interest, and is no longer considered as a nuisance parameter only.
 
 - The demographic component of interest varies according to animal class: in **birds**, the interest is in studying migration and breeding; in **fish**, folks are more into individual growth, movement and survival; in **marine mammals** and **large carnivores**, it is all about estimating abundance/density using photo-identification, camera-trapping and genetic tagging; 
 
