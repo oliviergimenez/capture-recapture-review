@@ -118,7 +118,7 @@ In this section, I list a few thoughts I had while reading the corpus of papers.
     - In the frequentist framework, model (and covariate) selection is mainly accomplished w/ AIC; regularisation tools (e.g. Lasso or boosting) could be explored further, with the help of machine learning specialists. Regarding the Bayesian framework, efforts have been made to review and explain methods. The insight of **statisticians** is important here.
     - Folks are beginning to use deep learning for to identify species and individuals on camera-trap images; useful for genetic tagging? **AI scientists** help is needed.
     - Wildlife monitoring technology (e.g. eDNA, bioacoustics, drones) is rapidly evolving, and methods need to keep up. In passing, technology doesn’t have to be about mechanic, could be organic as well, e.g. detection dogs. Fielwork will remain key and the input of **naturalists** essential.
-    - - There has been several calls for making ecology more predictive, in particular in the context of the impacts of global changes on biodiversity. Capture-recapture contributes to the collective effort by providing the ingredient for demographic projections. Here I guess collaboration with **climate scientists** should be encouraged.
+    - There has been several calls for making ecology more predictive, in particular in the context of the impacts of global changes on biodiversity. Capture-recapture contributes to the collective effort by providing the ingredient for demographic projections. Here I guess collaboration with **climate scientists** should be encouraged.
 
 
 Random thoughts
