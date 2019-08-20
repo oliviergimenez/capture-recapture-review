@@ -60,7 +60,7 @@ Capture-recapture methods
 
 - Method 4: It is not only about individual identification, methods for **unmarked individuals** (N-mixture, occupancy, random-encounter, batch marking, and mark-resight models) are widely used to say something about abundance and demography.
 
-- Method 5: We can now consider **Random effects** like in generalized mixed models.
+- Method 5: We can now consider **random effects** like in generalized mixed models (time random effects are still difficult to fit in a frequentist framework though).
 
 - Method 6: **Combination of information** makes a lof of sense, i) from different protocols like recaptures, recoveries or telemetry (not to be called 'integrated population models' in my opinion) and ii) using a matrix pop model at its core to combine individual- and population-level information in **integrated population models (IPM)** (not to be confused w/ integral projection models). In passing, I loved Andy Royle's tweet about his visual representation of an IPM:
 
