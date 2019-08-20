@@ -30,7 +30,7 @@ Below is a synthesis of my findings. I will add the references later on.
 Ecological questions
 ====================
 
-- To list the relevant questions or topics, I used the results of a [topic modeling analysis](https://github.com/oliviergimenez/capture-recapture-review/blob/master/bibliometric_analysis.md#topic-modelling) and [my reading of the papers](https://github.com/oliviergimenez/capture-recapture-review/blob/master/make_sense.md) published in the most population journals.  
+- To list the relevant questions or topics, I used the results of a [topic modeling analysis](https://github.com/oliviergimenez/capture-recapture-review/blob/master/bibliometric_analysis.md#topic-modelling) and [my reading of the papers](https://github.com/oliviergimenez/capture-recapture-review/blob/master/make_sense.md) published in the most popular journals.  
 
 - In the 80s and 90s, there was a shift in emphasis from abundance estimation to survival estimation (Lebreton et al. 1992). Well, my general impression is that things are more balanced nowadays, with a lot of work on both topics. This is probably due to the uptake of spatial capture-recapture models and their ability to make use of all available data (spatial info above all), produce density estimates and account for individual heterogeneity regain of interest in estimating abundance and density.
 
