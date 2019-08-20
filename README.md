@@ -21,7 +21,7 @@ in, I searched for capture-recapture papers in the Web of Science. I
 found more than 5000 relevant papers on the 2009-2019 period. These
 papers are gathered in the file
 [crdat.csv](https://github.com/oliviergimenez/capture-recapture-review/blob/master/crdat.csv).
-To make sense of this big corpus, I carried out biliometric and textual
+To make sense of this big corpus, I carried out bibliometric and textual
 analyses in the spirit of [this
 paper](https://www.cell.com/trends/ecology-evolution/fulltext/S0169-5347(18)30278-7). Explanations along with the code and results are [here](https://github.com/oliviergimenez/capture-recapture-review/blob/master/bibliometric_analysis.md). I also inspected a sample of methodological and ecological papers, see [there](https://github.com/oliviergimenez/capture-recapture-review/blob/master/make_sense.md) for more details. 
 
