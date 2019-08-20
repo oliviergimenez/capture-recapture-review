@@ -80,7 +80,7 @@ Capture-recapture methods
 
 ![](images/raftstack.jpg)
 
-- There has been some interest in developing methods for **continuous capture-recapture** to deal w/ opportunistic data.
+- There has been some interest in developing methods for **continuous capture-recapture** to deal w/ opportunistic data or. data collected w/ remote sensors.
 
 - Folks have spent a lot of energy on the issue of **heterogeneity** (individual, temporal). Often, mixtures or random effects are used if unobserved.
 
