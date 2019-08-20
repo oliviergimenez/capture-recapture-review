@@ -735,6 +735,9 @@ top_terms %>%
 #ggsave('topic_abstracts.png', dpi = 600)
 ```
 
+This is quite informative! Topics monitoring of marine mammals, fish biology, birds and migration, conservation of large carnivores (tigers, leopards), disease ecology, capture-recapture for social and medical sciences and disease ecology.
+
+
 ### On titles
 
 ``` r
