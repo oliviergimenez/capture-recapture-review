@@ -56,45 +56,44 @@ Ecological questions
 Capture-recapture methods
 =========================
 
-- Note: By focusing on journals where folks mostly published, we might miss methodological papers in non common journals. For example, Cole and Choquet have published important work on identifiability that does not appear here (advice for young researchers: if you want your work to be seen and hopefully read by colleagues, publish in journals that they’re familiar with; ok, somehow, if the work is useful, it'll get spotted and cited anyway). 
+- Note: By focusing on journals where folks mostly published, we might miss methodological papers in non common journals. For example, Cole and Choquet have published important work on identifiability that does not appear here. 
 
-- 0: **Non-invasive methods** have revolutionalized the field: photo-identification, acoustic, camera-trapping or genetic tagging. This has stimulated a lot of work on **identification issues** including misidentification, incomplete identification, partial identification, non-identification (dna not amplified, allelic dropout), missed matches (in photo-id).
+- **Non-invasive methods** have revolutionalized the field: photo-identification, acoustic, camera-trapping or genetic tagging. This has stimulated a lot of work on **identification issues** including misidentification, incomplete identification, partial identification, non-identification (dna not amplified, allelic dropout), missed matches (in photo-id).
 
-- 1: There has been an uptake of **hidden Markov models (HMM)** (possibly >1st order - memory), and models w/ **hidden
+- There has been an uptake of **hidden Markov models (HMM)** (possibly >1st order - memory), and models w/ **hidden
     variables** in general; we can deal w/ complexity and uncertainty, while having great
     flexibility in the modelling by i) distinguishing what we see, what we observe from what is actually going on and ii) 
     decomposing a complex problems in several simpler problems; note that HMM are a special case of **state-space models**, 
     and that multistate/multievent models are HMMs (shall we use only the HMM .
     terminology?). 
 
-- 2: **Bayesian analyses** of capture-recapture data are quite common now: we can fit complex models with,
+- **Bayesian analyses** of capture-recapture data are quite common now: we can fit complex models with,
     e.g., random effects or a spatial component, and estimate latent variables (disease or breeding status in multistate 
     models, home ranges (activity centers) in spatial explicit models).
 
-- 3: **Spatially-explicit models** are a bid deal, for closed and open population, frequentist and Bayes framework, can help answering many ecological questions (see recent reviews by Clayton Lamb and Andy Royle).
+- **Spatially-explicit models** are a bid deal, for closed and open population, frequentist and Bayes framework, can help answering many ecological questions (see recent reviews by Clayton Lamb and Andy Royle).
 
-- 4: It is not only about individual identification, methods for **unmarked individuals** (N-mixture, occupancy, random-encounter, batch marking, and mark-resight models) are widely used to say something about abundance and demography.
+- It is not only about individual identification, methods for **unmarked individuals** (N-mixture, occupancy, random-encounter, batch marking, and mark-resight models) are widely used to say something about abundance and demography.
 
-- 5: We can now consider **random effects** like in generalized mixed models (time random effects are still difficult to fit in a frequentist framework though).
+- We can now consider **random effects** like in generalized mixed models (time random effects are still difficult to fit in a frequentist framework though).
 
-- 6: **Combination of information** makes a lof of sense, i) from different protocols like recaptures, recoveries or telemetry (not to be called 'integrated population models' in my opinion) and ii) using a matrix pop model at its core to combine individual- and population-level information in **integrated population models (IPM)** (not to be confused w/ integral projection models). In passing, I loved Andy Royle's tweet about his visual representation of an IPM:
+- **Combination of information** makes a lof of sense, i) from different protocols like recaptures, recoveries or telemetry (not to be called 'integrated population models' in my opinion) and ii) using a matrix pop model at its core to combine individual- and population-level information in **integrated population models (IPM)** (not to be confused w/ integral projection models). In passing, I loved Andy Royle's tweet about his visual representation of an IPM:
 
 ![](images/raftstack.jpg)
 
-- 7: There has been some interest in developing methods for **continuous capture-recapture** to deal w/ opportunistic data.
+- There has been some interest in developing methods for **continuous capture-recapture** to deal w/ opportunistic data.
 
-- 8: Folks have spent a lot of energy on the issue of **heterogeneity** (individual, temporal). Often, mixtures or random effects are used if unobserved.
+- Folks have spent a lot of energy on the issue of **heterogeneity** (individual, temporal). Often, mixtures or random effects are used if unobserved.
 
-- 9: As anticipated by Lebreton et al. (1992), how to properly deal with **covariates** has generated a lot of work (measurement error, missing data, flexible functional form, covariate selection, collinearity, indirect/direct effects).
+- As anticipated by Lebreton et al. (1992), how to properly deal with **covariates** has generated a lot of work (measurement error, missing data, flexible functional form, covariate selection, collinearity, indirect/direct effects).
 
-- 10: **Temporary emigration** is a serious concern (combine w/ telemetry data, use robust design, consider unobservable states).
+- **Temporary emigration** is a serious concern (combine w/ telemetry data, use robust design, consider unobservable states).
 
-- 11: Folks spend a lot of energy the **evaluation of methods** (often via simulations), thinking about assumptions, developing goodness-of-fit procedures.
+- Folks spend a lot of energy the **evaluation of methods** (often via simulations), thinking about assumptions, developing goodness-of-fit procedures.
 
-- 12: In relation to the previous item, the **lack of independence between individuals** is of interest, in particular for social species (random effects, social network, sampling design).
+- In relation to the previous item, the **lack of independence between individuals** is of interest, in particular for social species (random effects, social network, sampling design).
 
-- 13: There are huge efforts made to make methods available to ecologists via the development of computer programs, mainly **R packages**. 
-
+- There are huge efforts made to make methods available to ecologists via the development of computer programs, mainly **R packages**. 
 
 Capture-recapture is dead, long live capture-recapture! 
 ===========================================================
