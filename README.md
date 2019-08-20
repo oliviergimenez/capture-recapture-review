@@ -64,8 +64,7 @@ Capture-recapture methods
     variables** in general; we can deal w/ complexity and uncertainty, while having great
     flexibility in the modelling by i) distinguishing what we see, what we observe from what is actually going on and ii) 
     decomposing a complex problems in several simpler problems; note that HMM are a special case of **state-space models**, 
-    and that multistate/multievent models are HMMs (shall we use only the HMM .
-    terminology?). 
+    and that multistate/multievent models are HMMs (shall we use only the HMM terminology?). 
 
 - **Bayesian analyses** of capture-recapture data are quite common now: we can fit complex models with,
     e.g., random effects or a spatial component, and estimate latent variables (disease or breeding status in multistate 
