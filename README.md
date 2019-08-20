@@ -30,29 +30,29 @@ Below is a synthesis of my findings. I will add the references later on.
 Ecological questions
 ====================
 
-- To list the relevant questions, I used the results of a [topic modeling analysis](https://github.com/oliviergimenez/capture-recapture-review/blob/master/bibliometric_analysis.md#topic-modelling) and [my reading of the papers](https://github.com/oliviergimenez/capture-recapture-review/blob/master/make_sense.md) published in the most population journals.  
+- To list the relevant questions or topics, I used the results of a [topic modeling analysis](https://github.com/oliviergimenez/capture-recapture-review/blob/master/bibliometric_analysis.md#topic-modelling) and [my reading of the papers](https://github.com/oliviergimenez/capture-recapture-review/blob/master/make_sense.md) published in the most population journals.  
 
 - In the 80s and 90s, there was a shift in emphasis from abundance estimation to survival estimation (Lebreton et al. 1992). Well, my general impression is that things are more balanced nowadays, with a lot of work on both topics. This is probably due to the uptake of spatial capture-recapture models and their ability to make use of all available data (spatial info above all), produce density estimates and account for individual heterogeneity regain of interest in estimating abundance and density.
 
-- Question 1: The study of **dispersal** is a big deal, as well as **population growth**, **recruitment** and **stopover duration** in relation to migration; **species richness** is also of interest (big influence of A. Chao's work). Obviously, the study of survival remains the focus of much interest, in particular the consideration of competing risks and estimation of cause-specific mortality rates.
+- 1: The study of **dispersal** is a big deal, as well as **population growth**, **recruitment** and **stopover duration** in relation to migration; **species richness** is also of interest (big influence of A. Chao's work). Obviously, the study of survival remains the focus of much interest, in particular the consideration of competing risks and estimation of cause-specific mortality rates.
 
-- Question 2: There is been a growing interest in studying the **threats on biodiversity** by determining the impact of climate conditions and change, pollution, poaching, invasive species, habitat loss, deforestation, human infrastructure (road, power lines, wind turbine) or overexploitation (fishing, hunting) on animal demographic parameters and performance. 
+- 2: There is been a growing interest in studying the **threats on biodiversity** by determining the impact of climate conditions and change, pollution, poaching, invasive species, habitat loss, deforestation, human infrastructure (road, power lines, wind turbine) or overexploitation (fishing, hunting) on animal demographic parameters and performance. 
 
-- Question 3: The field of **evolutionary ecology** has resorted to capture-recapture to quantifying life-history trade-offs, estimating heritability of demographic parameters, describing senescence patterns or assessing selection gradients.
+- 3: The field of **evolutionary ecology** has resorted to capture-recapture to quantifying life-history trade-offs, estimating heritability of demographic parameters, describing senescence patterns or assessing selection gradients.
 
-- Question 4: In relation to the previous item, **individual heterogeneity** has become the focus of interest - no longer considered as a nuisance parameter only.
+- 4: In relation to the previous item, **individual heterogeneity** has become the focus of interest - no longer considered as a nuisance parameter only.
 
-- Question 5: The demographic component of interest varies according to animal class: in **birds**, the interest is in studying migration and breeding; in **fish**, folks are more into individual growth, movement and survival; in **marine mammals** and **large carnivores**, it is all about estimating abundance/density using photo-identification, camera-trapping and genetic tagging; 
+- 5: The demographic component of interest varies according to animal class: in **birds**, the interest is in studying migration and breeding; in **fish**, folks are more into individual growth, movement and survival; in **marine mammals** and **large carnivores**, it is all about estimating abundance/density using photo-identification, camera-trapping and genetic tagging; 
 
-- Question 6: The field of **disease ecology** is using capture-recapture more and more for estimating prevalence, infection rates, studying transmission, exposure, etc...
+- 6: The field of **disease ecology** is using capture-recapture more and more for estimating prevalence, infection rates, studying transmission, exposure, etc...
 
-- Question 7: Lots of **different organisms** are studied: birds, mammals, fishes, insects, reptiles, amphibians, plants.
+- 7: Lots of **different organisms** are studied: birds, mammals, fishes, insects, reptiles, amphibians, plants.
 
-- Question 8: How to **manage populations** (conservation, regulation, harvesting, reintroduction) is keeping folks busy: population size and population trends are used as ecological indicators.
+- 8: How to **manage populations** (conservation, regulation, harvesting, reintroduction) is keeping folks busy: population size and population trends are used as ecological indicators.
 
-- Question 9: Ecologists are concerned about animal welfare and the **effects of marking on animals** and devote efforts to quantify these effects.
+- 9: Ecologists are concerned about animal welfare and the **effects of marking on animals** and devote efforts to quantify these effects.
 
-- Question 10: Folks are using **genetic information** in new innovative ways to estimate demographic parameters (close-kin method, population assignment) 
+- 10: Folks are using **genetic information** in new innovative ways to estimate demographic parameters (close-kin method, population assignment) 
 
 
 Capture-recapture methods
@@ -60,45 +60,45 @@ Capture-recapture methods
 
 - Note: By focusing on journals where folks mostly published, we might miss methodological papers in non common journals. For example, Cole and Choquet have published important work on identifiability that does not appear here (advice for young researchers: if you want your work to be seen and hopefully read by colleagues, publish in journals that they’re familiar with; ok, somehow, if the work is useful, it'll get spotted and cited anyway). 
 
-- Method 0: **Non-invasive methods** have revolutionalized the field: photo-identification, acoustic, camera-trapping or genetic tagging. This has stimulated a lot of work on **identification issues** including misidentification, incomplete identification, partial identification, non-identification (dna not amplified, allelic dropout), missed matches (in photo-id).
+- 0: **Non-invasive methods** have revolutionalized the field: photo-identification, acoustic, camera-trapping or genetic tagging. This has stimulated a lot of work on **identification issues** including misidentification, incomplete identification, partial identification, non-identification (dna not amplified, allelic dropout), missed matches (in photo-id).
 
-- Method 1: There has been an uptake of **hidden Markov models (HMM)** (possibly >1st order - memory), and models w/ **hidden
+- 1: There has been an uptake of **hidden Markov models (HMM)** (possibly >1st order - memory), and models w/ **hidden
     variables** in general; we can deal w/ complexity and uncertainty, while having great
     flexibility in the modelling by i) distinguishing what we see, what we observe from what is actually going on and ii) 
     decomposing a complex problems in several simpler problems; note that HMM are a special case of **state-space models**, 
     and that multistate/multievent models are HMMs (shall we use only the HMM .
     terminology?). 
 
-- Method 2: **Bayesian analyses** of capture-recapture data are quite common now: we can fit complex models with,
+- 2: **Bayesian analyses** of capture-recapture data are quite common now: we can fit complex models with,
     e.g., random effects or a spatial component, and estimate latent variables (disease or breeding status in multistate 
     models, home ranges (activity centers) in spatial explicit models).
 
-- Method 3: **Spatially-explicit models** are a bid deal, for closed and open population, frequentist and Bayes framework, can help answering many ecological questions (see recent reviews by Clayton Lamb and Andy Royle).
+- 3: **Spatially-explicit models** are a bid deal, for closed and open population, frequentist and Bayes framework, can help answering many ecological questions (see recent reviews by Clayton Lamb and Andy Royle).
 
-- Method 4: It is not only about individual identification, methods for **unmarked individuals** (N-mixture, occupancy, random-encounter, batch marking, and mark-resight models) are widely used to say something about abundance and demography.
+- 4: It is not only about individual identification, methods for **unmarked individuals** (N-mixture, occupancy, random-encounter, batch marking, and mark-resight models) are widely used to say something about abundance and demography.
 
-- Method 5: We can now consider **random effects** like in generalized mixed models (time random effects are still difficult to fit in a frequentist framework though).
+- 5: We can now consider **random effects** like in generalized mixed models (time random effects are still difficult to fit in a frequentist framework though).
 
-- Method 6: **Combination of information** makes a lof of sense, i) from different protocols like recaptures, recoveries or telemetry (not to be called 'integrated population models' in my opinion) and ii) using a matrix pop model at its core to combine individual- and population-level information in **integrated population models (IPM)** (not to be confused w/ integral projection models). In passing, I loved Andy Royle's tweet about his visual representation of an IPM:
+- 6: **Combination of information** makes a lof of sense, i) from different protocols like recaptures, recoveries or telemetry (not to be called 'integrated population models' in my opinion) and ii) using a matrix pop model at its core to combine individual- and population-level information in **integrated population models (IPM)** (not to be confused w/ integral projection models). In passing, I loved Andy Royle's tweet about his visual representation of an IPM:
 
 ![](images/raftstack.jpg)
 
-- Method 7: There has been some interest in developing methods for **continuous capture-recapture** to deal w/ opportunistic data.
+- 7: There has been some interest in developing methods for **continuous capture-recapture** to deal w/ opportunistic data.
 
-- Method 8: Folks have spent a lot of energy on the issue of **heterogeneity** (individual, temporal). Often, mixtures or random effects are used if unobserved.
+- 8: Folks have spent a lot of energy on the issue of **heterogeneity** (individual, temporal). Often, mixtures or random effects are used if unobserved.
 
-- Method 9: As anticipated by Lebreton et al. (1992), how to properly deal with **covariates** has generated a lot of work (measurement error, missing data, flexible functional form, covariate selection, collinearity, indirect/direct effects).
+- 9: As anticipated by Lebreton et al. (1992), how to properly deal with **covariates** has generated a lot of work (measurement error, missing data, flexible functional form, covariate selection, collinearity, indirect/direct effects).
 
-- Method 10: **Temporary emigration** is a serious concern (combine w/ telemetry data, use robust design, consider unobservable states).
+- 10: **Temporary emigration** is a serious concern (combine w/ telemetry data, use robust design, consider unobservable states).
 
-- Method 11: Folks spend a lot of energy the **evaluation of methods** (often via simulations), thinking about assumptions, developing goodness-of-fit procedures.
+- 11: Folks spend a lot of energy the **evaluation of methods** (often via simulations), thinking about assumptions, developing goodness-of-fit procedures.
 
-- Method 12: In relation to the previous item, the **lack of independence between individuals** is of interest, in particular for social species (random effects, social network, sampling design).
+- 12: In relation to the previous item, the **lack of independence between individuals** is of interest, in particular for social species (random effects, social network, sampling design).
 
-- Method 13: There are huge efforts made to make methods available to ecologists via the development of computer programs, mainly **R packages**. 
+- 13: There are huge efforts made to make methods available to ecologists via the development of computer programs, mainly **R packages**. 
 
 
-Capture-recapture is dead, long live the capture-recapture! 
+Capture-recapture is dead, long live capture-recapture! 
 ===========================================================
 
 In this section, I list a few thoughts I had while reading the corpus of papers. I try to answer the question "What do we miss?" and provide my two cents insights.
