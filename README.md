@@ -50,7 +50,7 @@ Ecological questions
 
 - Question 8: How to **manage populations** (conservation, regulation, harvesting, reintroduction) is keeping folks busy: population size and population trends are used as ecological indicators.
 
-- Question 9: Ecologists are concerned about the **effects of marking on animals** and devote efforts to quantify these effects.
+- Question 9: Ecologists are concerned about animal welfare and the **effects of marking on animals** and devote efforts to quantify these effects.
 
 - Question 10: Folks are using **genetic information** in new innovative ways to estimate demographic parameters (close-kin method, population assignment) 
 
@@ -103,15 +103,15 @@ What do we miss? My two cents insights.
 
 **Methods**
 
-- Data entry error? Data wrangling, procedures. Everything that happens before the actual analysis?!!!!
+- **Data science** is the new kid on the block, and we could probably learn from it. It is said that 80% of the work of a data scientist is about cleaning, wrangling and preparing data. What about capture-recapture? To my knowledge, we don't talk much about anything that happens before the actual analysis. Shall we think of pipelines to build encounter histories? What about outliers? How to visualise the raw data? What about data archiving, versioning (updates over the years) and sharing?
 
-- Sampling design: Model- and design-based design (adaptive sampling proposed, power analyses).
+- In relation to the previous item, there have been tremedous efforts to build **databases in demography** (e.g. [comadre](http://www.comadre-db.org/)). I know of several initiatives to gather demographic parameters, should be pursued. 
 
-- Covariates in non-spatial models. What about in SCR models?
+- In the frequentist framework, model (and covariate) selection is mainly accomplished w/ AIC; **regularisation tools** (e.g. Lasso or boosting) should be explored further. Regarding the Bayesian framework, efforts have been made to review and explain methods.
 
-- Visualisation tools - how to get. back to raw data?
+- We are a bit short I think in terms of **designing capture-recapture protocols**: more work needed on adaptive sampling, power analyses and practical tools and recommandations. 
 
-- New data technology. Big data (work by S. Bonner) mais aussi small data? Model selection via reduction techniques (Lasso, papier par je sais plus qui qui fait du boosting).
+- Data are getting bigger and bigger (shall I dare using the word 'Big data'?). Computer scientists may be embarked to think of parallelisation, cloud computing, improved MCMC algorithms (the Nimble team efforts are great in that respect), etc... 
 
 **Ecology**
 
@@ -121,21 +121,13 @@ What do we miss? My two cents insights.
     capturerecapture. Cell phone e.g., and movements.' Byron dans Preface au bouquin sur Capture-recapture pour social and medical science 'I would expect this book to facilitate cross-fertilisation of new methods between ecological
 and non-ecological areas, for instance in the area of spatial capture recapture.' epidemiology, public health
 
-- Link of population dynamics w/ other disciplines of ecology (functional ecology [see our special issue], quantitative genetics, …).
+- Cross-fertilization with other disciplines is happening (in ecology, statistics, social and medical sciences) and should be pursued.
 
 - What about predictive ecology? Context of global change. Link with mechanistic approaches.
 
-- Faire un parallèle. Avec ce qui se passe dans les survival models en médecine? C’est quoi qui se développe?
-
 - Metanalyses. Of survival. Other demos parameters. Effect of climate on demography?
 
-- Big databases. Comme les trucs de Rob. Citer le truc de Sébastien DEvillard.  
-
-- Reproducibility crisis. Monopole de l’AIC?
-
-- Brian McGill attack on detection; statistical machismo
-
-- Animal welfare? Impact of marking on animals?
+- There is a replication and reproducibility crisis in science and ecology in particular. Where do we stand in capture-recapture? 
 
 - Stable isotope?
 
@@ -186,7 +178,7 @@ Random thoughts
     
 - When it comes to determine the effect of time-varying covariates (e.g. climatic conditions), we need to remember that we have relatively short time-series and that it might be difficult to detect anything (see review by Morten Frederiksen).
 
-- In relation the previous item, we will never say it often enough: long-term monitoring are so so important (see TREE paper by Sheldon and Clutton-Brock and recent ARES paper)
+- In relation the previous item, we will never say it often enough: long-term monitoring are so so important (see TREE paper by Sheldon and Clutton-Brock and recent ARES paper by Reinke, Miller and Janzen)
         
 - Methods are getting more and more complex (true?), and this should reflect in the training we give to our students: how to teach spatial statistics, point process, HMM, Bayesian thinking, mixed models on top of everything else?
 
