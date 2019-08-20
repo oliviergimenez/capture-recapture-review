@@ -32,7 +32,7 @@ Ecological questions
 
 - To list the relevant questions, I used the results of a [topic modeling analysis](https://github.com/oliviergimenez/capture-recapture-review/blob/master/bibliometric_analysis.md#topic-modelling) and [my reading of the papers](https://github.com/oliviergimenez/capture-recapture-review/blob/master/make_sense.md) published in the most population journals.  
 
-- In the 80s and 90s, there was a shift in emphasis from abundance estimation to survival estimation (Lebreton et al. 1992). Well, My general impression is that things are more balanced nowadays, with a lot of work on both topics. This is probably due to the uptake of spatial capture-recapture models and their ability to make use of all available data (spatial info above all), produce density estimates and account for individual heterogeneity regain of interest in estimating abundance and density.
+- In the 80s and 90s, there was a shift in emphasis from abundance estimation to survival estimation (Lebreton et al. 1992). Well, my general impression is that things are more balanced nowadays, with a lot of work on both topics. This is probably due to the uptake of spatial capture-recapture models and their ability to make use of all available data (spatial info above all), produce density estimates and account for individual heterogeneity regain of interest in estimating abundance and density.
 
 - Question 1: The study of **dispersal** is a big deal, as well as **population growth**, **recruitment** and **stopover duration** in relation to migration; **species richness** is also of interest (big influence of A. Chao's work). Obviously, the study of survival remains the focus of much interest, in particular the consideration of competing risks and estimation of cause-specific mortality rates.
 
@@ -95,33 +95,27 @@ Capture-recapture methods
 
 - Method 12: In relation to the previous item, the **lack of independence between individuals** is of interest, in particular for social species (random effects, social network, sampling design).
 
-- Method 13: There are remarkable efforts made to make methods available to ecologists via the development of computer programs, mainly **R packages**. 
+- Method 13: There are huge efforts made to make methods available to ecologists via the development of computer programs, mainly **R packages**. 
 
 
 What do we miss? My two cents insights.
 =======================================
 
-**Methods**
+- **Data science** is the new kid on the block, and we could learn from it. It is said that 80% of the work of a data scientist is about cleaning, wrangling and preparing data. What about capture-recapture? To my knowledge, we don't talk much about anything that happens before the actual analysis. Shall we think of pipelines to build encounter histories? What about outliers? How to visualise the raw data? What about data archiving, versioning (updates over the years) and sharing?
 
-- **Data science** is the new kid on the block, and we could probably learn from it. It is said that 80% of the work of a data scientist is about cleaning, wrangling and preparing data. What about capture-recapture? To my knowledge, we don't talk much about anything that happens before the actual analysis. Shall we think of pipelines to build encounter histories? What about outliers? How to visualise the raw data? What about data archiving, versioning (updates over the years) and sharing?
+- In relation to the previous item, there have been tremedous efforts to build **databases in demography** (e.g. [comadre](http://www.comadre-db.org/)). I know of several initiatives to gather demographic parameters, there should be pursued. 
 
-- In relation to the previous item, there have been tremedous efforts to build **databases in demography** (e.g. [comadre](http://www.comadre-db.org/)). I know of several initiatives to gather demographic parameters, should be pursued. 
+- In the frequentist framework, model (and covariate) selection is mainly accomplished w/ AIC; **regularisation tools** (e.g. Lasso or boosting) could be explored further. Regarding the Bayesian framework, efforts have been made to review and explain methods.
 
-- In the frequentist framework, model (and covariate) selection is mainly accomplished w/ AIC; **regularisation tools** (e.g. Lasso or boosting) should be explored further. Regarding the Bayesian framework, efforts have been made to review and explain methods.
+- We are a bit short I think in terms of **designing capture-recapture protocols**: more work is probably needed on adaptive sampling, power analyses and providing ecologists w/ practical tools and recommandations. 
 
-- We are a bit short I think in terms of **designing capture-recapture protocols**: more work needed on adaptive sampling, power analyses and practical tools and recommandations. 
-
-- Data are getting bigger and bigger (shall I dare using the word 'Big data'?). Computer scientists may be embarked to think of parallelisation, cloud computing, improved MCMC algorithms (the Nimble team efforts are great in that respect), etc... 
-
-**Ecology**
+- Data are getting bigger and bigger (shall I dare using the word 'Big data'?). Computer scientists could be enroled to think of parallelisation, cloud computing, improved MCMC algorithms (the Nimble team efforts are great in that respect), etc... Probably already the case. 
 
 -  Population dynamics to be coupled with movement ecology,
     ecophysiology, etc; see figure in network paper by Réale in which
     capture-recapture cluster à part… Foster collaboration. Pollock (1981 in JASA): 'Cross-fertilization with human 
     capturerecapture. Cell phone e.g., and movements.' Byron dans Preface au bouquin sur Capture-recapture pour social and medical science 'I would expect this book to facilitate cross-fertilisation of new methods between ecological
 and non-ecological areas, for instance in the area of spatial capture recapture.' epidemiology, public health
-
-- Cross-fertilization with other disciplines is happening (in ecology, statistics, social and medical sciences) and should be pursued.
 
 - What about predictive ecology? Context of global change. Link with mechanistic approaches.
 
@@ -131,35 +125,22 @@ and non-ecological areas, for instance in the area of spatial capture recapture.
 
 - Stable isotope?
 
+- Cross-fertilization with other disciplines is happening (in ecology, statistics, social and medical sciences) and should be pursued.
+
 Capture-recapture is dead, long live the capture-recapture!
 ===========================================================
 
-- In 1992, Lebreton et al. predicted : 'New developments will appear, in at least four directions: first, new methods of marking are appearing; second, the model-building and computations will be made easy for the users of estimators and test statistics; third, some technical (statistical) shortcomings of the present procedures will be overcome; and fourth, more
-sophisticated models will appear as deeper biological questions will be asked through more sophisticated experiments.' Pretty much happened. Shall i take the risk to make a prediction for the next 10 years? Heeeeeeelp.
+- In their landmark 1992 Ecol Monog paper, Lebreton et al. predicted new developments in the field, and it is striking to see that they did a damn good job at it! 
 
-- About the fourth point, more sophisticated models will broaden biological relevance. One of the most
-promising directions will be to allow capture-recapture models to include recruitment and dispersal. Such
-models would be able to address questions relative to trade-offs between dispersal and survival, and to the
-regulation of spatially organized populations. More generally, multi-site models, and models considering
-individual covariates susceptible of changing through time, provide a challenging direction of development
+![](images/lebreton_predictions.jpg)
 
--   eDNA
+- The field is centered on populations; some work is done on communities (species interactions), more to come hopefully.
 
--   multispecies - ecosystem based approach (SNA at species level), cf Forcada’s paper
+- Folks are beginning to use deep learning for to identify species and individuals on camera-trap images; 
 
--   machine learning
+- The expertise of social scientists could be used to improve the modeling of detection, in particular in citizen science programs to better understand motivation, heterogeneities, etc.
 
--   social sciences to improve detection (cf papier X Lambin)
-
--   technology doesn’t have to be about mechanic, organic as well,
-    e.g. detection dogs (mettre def technologie, et photo iris ours
-    phyrénées)
-
--   Marking evolves: DNA, cameras, acoustics, drone. Methods need to
-    keep up. Wildlife monitoring technology is advancing rapidly.
-
--   Big data? Citizen science protocols? Improve MCMC - Nimble? Stan?
-    TMB?
+-   Wildlife monitoring technology (e.g. eDNA, bioacoustics, drones) is rapidly evolving, and methods need to keep up. In passing, technology doesn’t have to be about mechanic, could be organic as well, e.g. detection dogs.
 
 - Intake of Bayesian analyses. Kéry and Schaub books. Importance of workshops. And software. And small conferences (Euring). Now ISEC. And people. Friendly. Inclusive. 
 
@@ -170,17 +151,17 @@ Random thoughts
 
 - New methods need to be evaluated (virtual ecologist approach ie w/ simulation, or empirically) - there is an actual niche there.
 
-- Clearly, workshops are important to disseminate methods, foster new collaborations and build a community.
+- Clearly, workshops (and conferences like EURING or ISEC) are important to disseminate methods, foster new collaborations and build a friendly and inclusive community.
 
-- A plethora of software: E-SURGE, MARK, marked, etc; we don't necessarily need the mother-of-all (reference to a paper by Matt and Richard) program, diversity is nice, but I guess at some stage we'll need a taxonomy. Also, we need to thank in one way or another and anytime we. have the opportunity fols who invest time in building these tools.
+- A plethora of software: E-SURGE, MARK, marked, etc; we don't necessarily need the mother-of-all (reference to a paper by Matt and Richard) program, diversity is nice, but I guess at some stage we'll need a taxonomy. Also, we need to thank developers who invest time in building these tools.
 
-- It might be because I'm getting old, but sometimes I feel like we reinvent the wheel - read the classics: Cormack. Jolly. Seber. Burnham. Lebreton. Arnason. Otis. And many others. It's also an inspiration on how to write. 
+- It might be because I'm getting old, but sometimes I feel like we reinvent the wheel. Always a good experience to read the classics: Cormack, Jolly, Seber, Brownie, Chao, Lebreton, Otis and many others (. I find it also inspirational for my writing. 
     
 - When it comes to determine the effect of time-varying covariates (e.g. climatic conditions), we need to remember that we have relatively short time-series and that it might be difficult to detect anything (see review by Morten Frederiksen).
 
-- In relation the previous item, we will never say it often enough: long-term monitoring are so so important (see TREE paper by Sheldon and Clutton-Brock and recent ARES paper by Reinke, Miller and Janzen)
+- In relation the previous item, we will never say it often enough: long-term monitoring are so so important (see TREE paper by Sheldon and Clutton-Brock and recent ARES paper by Reinke, Miller and Janzen).
         
-- Methods are getting more and more complex (true?), and this should reflect in the training we give to our students: how to teach spatial statistics, point process, HMM, Bayesian thinking, mixed models on top of everything else?
+- Methods are getting more and more complex (true?), and this should be reflected (I guess) in the training we give to our students: how to teach spatial statistics, point process, HMM, Bayesian thinking, mixed models on top of everything else?
 
 Useful quotes
 =================
