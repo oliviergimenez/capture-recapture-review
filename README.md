@@ -185,5 +185,4 @@ Recommandations (if I may)
 Take-home message
 =================
 
-> Even the most general mathematical model is a plaything relative to the complexity of an animal population 
-Cormack (1968) cited in Lebreton et al. (1992).
+> Even the most general mathematical model is a plaything relative to the complexity of an animal population (Cormack 1968 cited in Lebreton et al. 1992).
