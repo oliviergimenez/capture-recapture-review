@@ -30,27 +30,27 @@ Below is a synthesis of my findings. I will add the references later on.
 Ecological questions
 ====================
 
-- In the 80s and 90s, there was a shift in emphasis from abundance estimation to survival estimation (Lebreton et al. 1992). Well, my general impression is that things are more balanced nowadays, with a lot of work on both topics. This is probably due to the uptake of spatial capture-recapture models and their ability to make use of all available data (spatial info above all), produce density estimates and account for individual heterogeneity regain of interest in estimating abundance and density.
+- In the 80s and 90s, there was a shift in emphasis from abundance estimation to survival estimation (Lebreton et al. 1992). Well, my general impression is that things are more balanced nowadays, with a lot of work on both topics. This is probably due to the uptake of spatial capture-recapture models and the possibility to produce density estimates and account for individual heterogeneity.
 
-- 1: The study of **dispersal** is a big deal, as well as **population growth**, **recruitment** and **stopover duration** in relation to migration; **species richness** is also of interest (big influence of A. Chao's work). Obviously, the study of survival remains the focus of much interest, in particular the consideration of competing risks and estimation of cause-specific mortality rates.
+- The study of **dispersal** is a big deal, as well as **population growth**, **recruitment** and **stopover duration** in relation to migration; **species richness** is also of interest (big influence of A. Chao's work). Obviously, the study of survival remains the focus of much interest, in particular the consideration of competing risks and estimation of cause-specific mortality rates.
 
-- 2: There is been a growing interest in studying the **threats on biodiversity** by determining the impact of climate conditions and change, pollution, poaching, invasive species, habitat loss, deforestation, human infrastructure (road, power lines, wind turbine) or overexploitation (fishing, hunting) on animal demographic parameters and performance. 
+- There is been a growing interest in studying the **threats on biodiversity** by determining the impact of climate conditions and change, pollution, poaching, invasive species, habitat loss, deforestation, human infrastructure (road, power lines, wind turbine) or overexploitation (fishing, hunting) on animal demographic parameters and performance. 
 
-- 3: The field of **evolutionary ecology** has resorted to capture-recapture to quantifying life-history trade-offs, estimating heritability of demographic parameters, describing senescence patterns or assessing selection gradients.
+- The field of **evolutionary ecology** has resorted to capture-recapture to quantifying life-history trade-offs, estimating heritability of demographic parameters, describing senescence patterns or assessing selection gradients.
 
-- 4: In relation to the previous item, **individual heterogeneity** has become the focus of interest - no longer considered as a nuisance parameter only.
+- In relation to the previous item, **individual heterogeneity** has become the focus of interest - no longer considered as a nuisance parameter only.
 
-- 5: The demographic component of interest varies according to animal class: in **birds**, the interest is in studying migration and breeding; in **fish**, folks are more into individual growth, movement and survival; in **marine mammals** and **large carnivores**, it is all about estimating abundance/density using photo-identification, camera-trapping and genetic tagging; 
+- The demographic component of interest varies according to animal class: in **birds**, the interest is in studying migration and breeding; in **fish**, folks are more into individual growth, movement and survival; in **marine mammals** and **large carnivores**, it is all about estimating abundance/density using photo-identification, camera-trapping and genetic tagging; 
 
-- 6: The field of **disease ecology** is using capture-recapture more and more for estimating prevalence, infection rates, studying transmission, exposure, etc...
+- The field of **disease ecology** is using capture-recapture more and more for estimating prevalence, infection rates, studying transmission, exposure, etc...
 
-- 7: Lots of **different organisms** are studied: birds, mammals, fishes, insects, reptiles, amphibians, plants.
+- Lots of **different organisms** are studied: birds, mammals, fishes, insects, reptiles, amphibians, plants.
 
-- 8: How to **manage populations** (conservation, regulation, harvesting, reintroduction) is keeping folks busy: population size and population trends are used as ecological indicators.
+- How to **manage populations** (conservation, regulation, harvesting, reintroduction) is keeping folks busy: population size and population trends are used as ecological indicators.
 
-- 9: Ecologists are concerned about animal welfare and the **effects of marking on animals** and devote efforts to quantify these effects.
+- Ecologists are concerned about animal welfare and the **effects of marking on animals** and devote efforts to quantify these effects.
 
-- 10: Folks are using **genetic information** in new innovative ways to estimate demographic parameters (close-kin method, population assignment) 
+- Folks are using **genetic information** in new innovative ways to estimate demographic parameters (close-kin method, population assignment) 
 
 
 Capture-recapture methods
