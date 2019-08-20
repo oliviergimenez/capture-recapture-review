@@ -6,14 +6,14 @@ Motivation
 
 My objective was to make a list of ecological questions and methods that
 are addressed in these papers. I ended up with more than 5000 papers.
-The bibliometric and text analyses were somehow useful, but I need to
-dig a bit deeper to achieve the objective. Here how I will proceed.
+The bibliometric and text analyses were somehow useful, but I needed to
+dig a bit deeper to achieve the objective. Here how I did.
 
 Methodological papers
 ---------------------
 
-First, I isolate the methodological journals. To do so, I focus the
-search on journals that have published more than 10 papers about
+First, I isolated the methodological journals. To do so, I focused the
+search on journals that had published more than 10 papers about
 capture-recapture over the last 10 years:
 
 ``` r
@@ -53,7 +53,7 @@ raw_dat %>%
     ## 10 ARDEA                                                    12
     ## # … with 97 more rows
 
-By inspecting the list, I end up with these journals:
+By inspecting the list, I ended up with these journals:
 
 ``` r
 methods <- raw_dat %>% 
@@ -65,7 +65,7 @@ methods <- raw_dat %>%
                         'ENVIRONMENTAL AND ECOLOGICAL STATISTICS'))
 ```
 
-The number of papers published in each of them is:
+The number of papers published in each of them was:
 
 ``` r
 methods %>%
@@ -82,7 +82,7 @@ methods %>%
     ## 5 JOURNAL OF AGRICULTURAL BIOLOGICAL AND ENVIRONMENTAL STATISTICS    33
     ## 6 METHODS IN ECOLOGY AND EVOLUTION                                   77
 
-Now I export the 219 papers published in these methodological journals
+Now I exported the 219 papers published in these methodological journals
 in a csv file:
 
 ``` r
@@ -96,16 +96,16 @@ raw_dat %>%
   write_csv('papers_in_methodological_journals.csv')
 ```
 
-The next step is to annotate this file to determine the methods used. I’m afraid `R` cannot help, and I had to do it by hand. I read the >200 titles and abstracts and added my tags in an extra column. Took me 2 hours or so. The task was cumbersome but very interesting. I enjoyed seeing what my colleagues have been working on. There were a few papers that I didn't know the existence of, and several others that was pleased to spot again. The results are in [this file](https://github.com/oliviergimenez/capture-recapture-review/blob/master/papers_in_methodological_journals_annotated.csv).
+The next step was to annotate this file to determine the methods used. I’m afraid `R` cannot help, and I had to do it by hand. I read the >200 titles and abstracts and added my tags in an extra column. Took me 2 hours or so. The task was cumbersome but very interesting. I enjoyed seeing what my colleagues have been working on. There were a few papers that I didn't know the existence of, and several others that was pleased to spot again. The results are in [this file](https://github.com/oliviergimenez/capture-recapture-review/blob/master/papers_in_methodological_journals_annotated.csv).
 
-By focusing the annotation on the methodological journals, I ignore all the methodological papers that have been published in other non-methodological journals like, among others, Ecology, Journal of Applied Ecology, Conservation Biology and Plos One which welcome methods. I address this issue below. In brief, I scanned the corpus of ecological papers and tagged all methodological papers; I also moved them to the [file of methodological papers](https://github.com/oliviergimenez/capture-recapture-review/blob/master/papers_in_methodological_journals_annotated.csv) and added a column to keep track of the paper original (methodological vs ecological corpus).
+By focusing the annotation on the methodological journals, I ignored all the methodological papers that had been published in other non-methodological journals like, among others, Ecology, Journal of Applied Ecology, Conservation Biology and Plos One which welcome methods. I address this issue below. In brief, I scanned the corpus of ecological papers and tagged all methodological papers; I also moved them to the [file of methodological papers](https://github.com/oliviergimenez/capture-recapture-review/blob/master/papers_in_methodological_journals_annotated.csv) and added a column to keep track of the paper original (methodological vs ecological corpus).
 
 Ecological papers
 -----------------
 
-Second, I isolate the ecological journals. To do so, I focus the search
-on journals that have published more than 50 papers about
-capture-recapture over the last 10 years, and I exclude the
+Second, I isolated the ecological journals. To do so, I focused the search
+on journals that had been published more than 50 papers about
+capture-recapture over the last 10 years, and I excluded the
 methodological journals
 
 ``` r
