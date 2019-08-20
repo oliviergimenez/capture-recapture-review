@@ -44,7 +44,7 @@ Ecological questions
 
 - The field of **disease ecology** is using capture-recapture more and more for estimating prevalence, infection rates, studying transmission, exposure, etc...
 
-- Lots of **different organisms** are studied: birds, mammals, fishes, insects, reptiles, amphibians, plants.
+- Lots of **different organisms** are studied: birds, mammals (including humans, but I will focus on non-humans here), fishes, insects, reptiles, amphibians, plants.
 
 - How to **manage populations** (conservation, regulation, harvesting, reintroduction) is keeping folks busy: population size and population trends are used as ecological indicators.
 
