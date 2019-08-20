@@ -25,7 +25,7 @@ To make sense of this big corpus, I carried out biliometric and textual
 analyses in the spirit of [this
 paper](https://www.cell.com/trends/ecology-evolution/fulltext/S0169-5347(18)30278-7). Explanations along with the code and results are [here](https://github.com/oliviergimenez/capture-recapture-review/blob/master/bibliometric_analysis.md). I also inspected a sample of methodological and ecological papers, see [there](https://github.com/oliviergimenez/capture-recapture-review/blob/master/make_sense.md) for more details. 
 
-Below is a synthesis of my findings.
+Below is a synthesis of my findings. I will add the references later on.
 
 Ecological questions
 ====================
@@ -34,7 +34,7 @@ Ecological questions
 
 - Question 1: The study of **dispersal** is a big deal.
 
-- Question 2: There is been a growing interest in studying the **threats on biodiversity** by determining the impact of climate change, pollution, or overexploitation on animal demography.
+- Question 2: There is been a growing interest in studying the **threats on biodiversity** by determining the impact of climate change, pollution, or overexploitation on animal demography. (what about invasive species? deforestation and habitat loss?).
 
 - Question 3: The field of **evolutionary ecology** has been using capture-recapture to quantifying life-history trade-offs, estimating heritability of demographic parameters, describing senescence patterns or assessing selection gradients.
 
