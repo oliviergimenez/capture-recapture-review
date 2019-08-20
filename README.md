@@ -32,7 +32,7 @@ Ecological questions
 
 - Note: In the 80s and 90s, there was a shift in emphasis from abundance estimation to survival estimation (Lebreton et al. 1992). Well, it seems like things are more balanced, and there is clearly a lot of work on both topics now. This is probably thanks to spatial capture-recapture models and their ability to make use of all available data (spatial info above all), produce density estimates and account for individual heterogeneity regain of interest in estimating abundance and density.
 
-- Question 1: The study of **dispersal** is a big deal.
+- Question 1: The study of **dispersal** is a big deal, as well as **recruitment** and **stopover duration** in relation to migration; species richness is also studied (big influence of A. Chao's work).
 
 - Question 2: There is been a growing interest in studying the **threats on biodiversity** by determining the impact of climate change, pollution, or overexploitation on animal demography. (what about invasive species? deforestation and habitat loss?).
 
@@ -41,9 +41,11 @@ Ecological questions
 Capture-recapture methods
 =========================
 
-- Method 0: **Non-invasive methods** have revolutionalized the field: photo-identification, acoustic, camera-trapping or genetic tagging. 
+- Note: By focusing on journals where folks mostly published, we might miss methodological papers in non common journals. For example, Cole and Choquet have published important work on identifiability that does not appear here (advice for young researchers: if you want your work to be seen and hopefully read by colleagues, publish in journals that they’re familiar with; ok, somehow, if the work is useful, it'll get spotted and cited anyway). 
 
-- Method 1: There has been an uptake of **hidden Markov models (HMM)**, and models w/ **hidden
+- Method 0: **Non-invasive methods** have revolutionalized the field: photo-identification, acoustic, camera-trapping or genetic tagging. This has stimulated a lot of work on **identification issues** like misidentification, incomplete identification, partial identification, non-identification (dna not amplified, allelic dropout), missed matches (in photo-id).
+
+- Method 1: There has been an uptake of **hidden Markov models (HMM)** (possibly >1st order - memory), and models w/ **hidden
     variables** in general; we can deal w/ complexity and uncertainty, while having great
     flexibility in the modelling by i) distinguishing what we see, what we observe from what is actually going on and ii) 
     decomposing a complex problems in several simpler problems; note that HMM are a special case of **state-space models**, 
@@ -56,15 +58,28 @@ Capture-recapture methods
 
 - Method 3: **Spatially-explicit models** are a bid deal, for closed and open population, frequentist and Bayes framework, can help answering many ecological questions (see recent reviews by Clayton Lamb and Andy Royle).
 
-- Method 4: It is not only about individual identification, methods for **unmarked individuals** (N-mixture, occupancy, random-encounter and mark-resight models) are widely used to say something about abundance and demography.
+- Method 4: It is not only about individual identification, methods for **unmarked individuals** (N-mixture, occupancy, random-encounter, batch marking, and mark-resight models) are widely used to say something about abundance and demography.
 
 - Method 5: We can now consider **Random effects** like in generalized mixed models.
 
-- Method 6: **Combination of information** makes a lof of sense, i) from different protocols like recaptures, recoveries or telemetry and ii) using a matrix pop model at its core to combine individual- and population-level information in **integrated population models (IPM)**. In passing, I loved Andy Royle's tweet about his visual representation of an IPM:
+- Method 6: **Combination of information** makes a lof of sense, i) from different protocols like recaptures, recoveries or telemetry (not to be called 'integrated population models' in my opinion) and ii) using a matrix pop model at its core to combine individual- and population-level information in **integrated population models (IPM)** (not to be confused w/ integral projection models). In passing, I loved Andy Royle's tweet about his visual representation of an IPM:
 
 ![](images/raftstack.jpg)
 
 - Method 7: The has been some interest in developing methods for **continuous capture-recapture** to deal w/ opportunistic data.
+
+- Method 8: Folks have spent a lot of energy on the issue of **heterogeneity** (individual, temporal). Often, mixtures or random effects are used if unobserved.
+
+- Method 9: As anticipated by Lebreton et al. (1992), how to properly deal with **covariates** has generated a lot of work (measurement error, missing data, flexible functional form, covariate selection, collinearity, indirect/direct effects).
+
+- Method 10: **Temporary emigration** is a serious concern (combine w/ telemetry data, use robust design, consider unobservable states).
+
+- Method 11: Folks spend a lot of energy the **evaluation of methods** (often via simulations), thinking about assumptions, developing goodness-of-fit procedures.
+
+- Method 12: In relation to the previous item, the **lack of independence between individuals** is of interest, in particular for social species (random effects, social network, sampling design).
+
+- Method 13: There are remarkable efforts made to make methods available to ecologists via the development of computer programs, mainly **R packages**. 
+
 
 What do we miss? My two cents insights.
 =======================================
@@ -73,10 +88,7 @@ What do we miss? My two cents insights.
 
 - Data entry error? Data wrangling, procedures. Everything that happens before the actual analysis?!!!!
 
-- Sampling design: Model- and design-based design (adaptive sampling
-    proposed, power analyses). Lebreton et al. 1992: 'An applied statistician knowledgeable in capture-recapture should often be consulted for both the design and analysis of capturerecapture or capture-resighting studies, especially if the population issues are complex.'
-
-- A proper treatment of missing and censored data
+- Sampling design: Model- and design-based design (adaptive sampling proposed, power analyses).
 
 - Covariates in non-spatial models. What about in SCR models?
 
@@ -89,7 +101,8 @@ What do we miss? My two cents insights.
 -  Population dynamics to be coupled with movement ecology,
     ecophysiology, etc; see figure in network paper by Réale in which
     capture-recapture cluster à part… Foster collaboration. Pollock (1981 in JASA): 'Cross-fertilization with human 
-    capturerecapture. Cell phone e.g., and movements.'
+    capturerecapture. Cell phone e.g., and movements.' Byron dans Preface au bouquin sur Capture-recapture pour social and medical science 'I would expect this book to facilitate cross-fertilisation of new methods between ecological
+and non-ecological areas, for instance in the area of spatial capture recapture.' epidemiology, public health
 
 - Not so new in disease ecology, mais underused. Link of population dynamics w/ other disciplines of ecology (functional ecology [see our special issue], quantitative genetics, …).
 
@@ -124,7 +137,7 @@ individual covariates susceptible of changing through time, provide a challengin
 
 -   eDNA
 
--   multispecies
+-   multispecies - ecosystem based approach (SNA at species level), cf Forcada’s paper
 
 -   machine learning
 
@@ -142,26 +155,22 @@ individual covariates susceptible of changing through time, provide a challengin
 
 - Intake of Bayesian analyses. Kéry and Schaub books. Importance of workshops. And software. And small conferences (Euring). Now ISEC. And people. Friendly. Inclusive. 
 
-Recommandations (if I may)
+Random thoughts
 ==========================
 
--   New methods need to be evaluated - there is an actual niche there
+- New methods need to be evaluated (virtual ecologist approach ie w/ simulation, or empirically) - there is an actual niche there.
 
--   Importance of **workshops** to disseminate and form new
-    collaborations
+- Clearly, workshops are important to disseminate methods, foster new collaborations and build a community.
 
--   A plethora of **software**: E-SURGE, MARK, marked, etc; some
-    homogeneization, importance of portage in R, how to value the work
-    of these folks investing months and years in this.
+- A plethora of software: E-SURGE, MARK, marked, etc; we don't necessarily need the mother-of-all (reference to a paper by Matt and Richard) program, diversity is nice, but I guess at some stage we'll need a taxonomy. Also, we need to thank in one way or another and anytime we. have the opportunity fols who invest time in building these tools.
 
--   Don’t reinvent the wheel - read your classics: Lebreton. Cormack.
-    Jolly. Arnason. Otis.
+- It might be because I'm getting old, but sometimes I feel like we reinvent the wheel - read the classics: Cormack. Jolly. Seber. Burnham. Lebreton. Arnason. Otis. And many others. It's also an inspiration on how to write. 
     
--   Relatively short time-series (nb occz is nb annees cf Frederiksen). Du coup deux reflexions :
-    -   long-term monitoring (paper Sheldon et Clutton-Brock. Nichols)
-    -   IPM et go for adaptive monitoring et management; learning while
-        doing
+- When it comes to determine the effect of time-varying covariates (e.g. climatic conditions), we need to remember that we have relatively short time-series and that it might be difficult to detect anything (see review by Morten Frederiksen).
 
+- In relation the previous item, we will never say it often enough: long-term monitoring are so so important (see TREE paper by Sheldon and Clutton-Brock and recent ARES paper)
+        
+- Methods are getting more and more complex (true?), and this should reflect in the training we give to our students: how to teach spatial statistics, point process, HMM, Bayesian thinking, mixed models on top of everything else?
 
 Useful quotes
 =================
@@ -169,3 +178,5 @@ Useful quotes
 > Even the most general mathematical model is a plaything relative to the complexity of an animal population (Cormack 1968 cited in Lebreton et al. 1992).
 
 > Counting fish is just like counting trees — except that they are invisible and keep moving (John Sheperd; [original statement](http://jgshepherd.com/thoughts/) a bit different)
+
+> An applied statistician knowledgeable in capture-recapture should often be consulted for both the design and analysis of capture-recapture or capture-resighting studies, especially if the population issues are complex. (Lebreton et al. 1992)
