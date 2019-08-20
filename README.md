@@ -97,49 +97,45 @@ Capture-recapture methods
 Capture-recapture is dead, long live capture-recapture! 
 ===========================================================
 
-In this section, I list a few thoughts I had while reading the corpus of papers. I try to answer the question "What do we miss?" and provide my two cents insights.
+In this section, I list a few thoughts I had while reading the corpus of papers. I try to answer the question "What do we miss?". I also provide my two cents insights and a few random throughts.
 
 - **Data science** is the new kid on the block, and we could learn from it. It is said that 80% of the work of a data scientist is about cleaning, wrangling and preparing data. What about capture-recapture? To my knowledge, we don't talk much about anything that happens before the actual analysis. Shall we think of pipelines to build encounter histories? What about outliers? How to visualise the raw data? What about data archiving, versioning (updates over the years) and sharing?
 
 - We are a bit short I think in terms of **designing capture-recapture protocols**: more work is probably needed on adaptive sampling, power analyses and providing ecologists w/ practical tools and recommandations. 
 
-- There have been tremedous efforts to build **databases in demography** (e.g. [comadre](http://www.comadre-db.org/)). I know of several initiatives to gather demographic parameters, there should be pursued, would be useful to carry out meta-analyses (e.g. the effects of climate on survival)
+- New methods need to be evaluated (virtual ecologist approach ie w/ simulation, or empirically) - there is an actual niche there.
+
+- There have been tremedous efforts to build **databases in demography** (e.g. [comadre](http://www.comadre-db.org/)). I know of several initiatives to gather demographic parameters, which should be pursued. Such databases would be useful to carry out meta-analyses (e.g. the effects of climate on survival) in the framework of comparative demography.
 
 - The field is centered on populations; some work is done on communities (species interactions), more to come hopefully.
 
 - There is a **replication and reproducibility crisis** in science and ecology in particular. Where do we stand in capture-recapture? 
 
-- The field is mainly about correlative studies; can we do more to go for experimental studies?
+- The field is mainly about correlative studies; can we have more experimental studies using capture-recapture (is it actually relevant?)?
 
 - **Cross-fertilization with other disciplines** happens (between ecology, statistics, social and medical sciences) and should be pursued. A few ideas:
     - Data are getting bigger and bigger (shall I dare using the word Big data?). **Computer scientists** could be enroled to think of parallelisation, cloud computing, improved MCMC algorithms (the Nimble team efforts are great in that respect), etc... Probably already the case. 
     - The expertise of **social scientists** could be used to improve the modeling of detection, in particular in citizen science programs to better understand motivation, heterogeneities, etc.
-    - In the frequentist framework, model (and covariate) selection is mainly accomplished w/ AIC; regularisation tools (e.g. Lasso or boosting) could be explored further, with the help of machine learning specialists. Regarding the Bayesian framework, efforts have been made to review and explain methods. The insight of **statisticians** is important here.
-    - Folks are beginning to use deep learning for to identify species and individuals on camera-trap images; useful for genetic tagging? **AI scientists** help is needed.
-    - Wildlife monitoring technology (e.g. eDNA, bioacoustics, drones) is rapidly evolving, and methods need to keep up. In passing, technology doesn’t have to be about mechanic, could be organic as well, e.g. detection dogs. Fielwork will remain key and the input of **naturalists** essential.
-    - There has been several calls for making ecology more predictive, in particular in the context of the impacts of global changes on biodiversity. Capture-recapture contributes to the collective effort by providing the ingredient for demographic projections. Here I guess collaboration with **climate scientists** should be encouraged.
+    - In the frequentist framework, model (and covariate) selection is mainly accomplished w/ AIC; regularisation tools (e.g. Lasso or boosting) could be explored further, with the help of machine learning specialists. Regarding the Bayesian framework, efforts have been made to review and explain methods. The insight of **statisticians** is obviously important here.
+    - Folks are beginning to use deep learning to identify species and individuals on camera-trap images; would it be useful for genetic tagging? **AI scientists** help is needed.
+    - Wildlife monitoring technology (e.g. eDNA, bioacoustics, drones) is rapidly evolving, and methods need to keep up. In passing, technology may be animal inspired, e.g. detection dogs. Fielwork will remain key and the input of **naturalists** essential.
+    - There has been several calls for making ecology more predictive, in particular in the context of the impacts of global changes on biodiversity. Capture-recapture contributes to the collective effort by providing the ingredients for demographic projections. Here I guess collaboration with **climate scientists** should be encouraged (and are already happening).
 
+- In their landmark 1992 Ecol Monog paper, Lebreton et al. predicted new developments in the field, and they did a damn good job at it! We pretty much have been doing what they anticipated in the last decade (walking in the footsteps of giants...)
 
-Random thoughts
-==========================
+- Clearly, **workshops and conferences** (like EURING or ISEC) are important to disseminate methods, foster new collaborations and build a friendly and inclusive community.
 
-- In their landmark 1992 Ecol Monog paper, Lebreton et al. predicted new developments in the field, and it is striking to see that they did a damn good job at it! We pretty much having doing what they anticipated in the last decade (walking in the footsteps of giants...)
+- A plethora of software exist: E-SURGE, MARK, marked, etc; we don't necessarily need the mother-of-all (reference to a paper by Matt and Richard) program, diversity is nice, but I guess at some stage we'll need a taxonomy (even though it'll be quickly outdated). Also, we need to thank developers who invest time in building these tools.
 
-- What I really like w/ capture-recapture (and science in general I guess) is that you can work with folks from (almost) anywhere in the world on basically anything you like: ecology or statistics; terrestrial or marine species; plants (yes!), insects, birds, fishes, mammals (including humans), reptiles, amphibians; conservation biology, population management, behavioral ecology, evolutionary ecology, population dynamics, population genetics, etc.
-
-- New methods need to be evaluated (virtual ecologist approach ie w/ simulation, or empirically) - there is an actual niche there.
-
-- Clearly, workshops (and conferences like EURING or ISEC) are important to disseminate methods, foster new collaborations and build a friendly and inclusive community.
-
-- A plethora of software: E-SURGE, MARK, marked, etc; we don't necessarily need the mother-of-all (reference to a paper by Matt and Richard) program, diversity is nice, but I guess at some stage we'll need a taxonomy. Also, we need to thank developers who invest time in building these tools.
-
-- It might be because I'm getting old, but sometimes I feel like we reinvent the wheel. Always a good experience to read the classics: Cormack, Jolly, Seber, Brownie, Chao, Lebreton, Otis and many others (. I find it also inspirational for my writing. 
+- It might be because I'm getting old, but sometimes I feel like we reinvent the wheel. Always a good experience to read the classics: Cormack, Jolly, Seber, Arnason, Brownie, Chao, Lebreton, Otis and many others (nice to see that the sex-ratio is more balanced nowadays). I find it also inspirational for my writing. 
     
-- When it comes to determine the effect of time-varying covariates (e.g. climatic conditions), we need to remember that we have relatively short time-series and that it might be difficult to detect anything (see review by Morten Frederiksen).
+- When it comes to determine the effects of time-varying covariates (e.g. climatic conditions), we need to remember that we have relatively short time-series and that it might be difficult to detect anything (see review by Morten Frederiksen).
 
-- In relation the previous item, we will never say it often enough: long-term monitoring are so so important (see TREE paper by Sheldon and Clutton-Brock and recent ARES paper by Reinke, Miller and Janzen).
+- In relation the previous item, we will never say it often enough: long-term monitoring are so so important (see TREE paper by Sheldon and Clutton-Brock and recent ARES paper by Reinke, Miller and Janzen). Always worht thinking of adaptive monitoring, and the motto 'learning while doing'. 
         
-- Methods are getting more and more complex (true?), and this should be reflected (I guess) in the training we give to our students: how to teach spatial statistics, point process, HMM, Bayesian thinking, mixed models on top of everything else?
+- Methods are getting more and more complex (true?), and this should be reflected in the training we give to our students: how to teach spatial statistics, point process, HMM, Bayesian thinking, mixed models on top of everything else?
+
+- What I really like w/ capture-recapture (and science in general I guess) is that you can work with folks from (almost) anywhere in the world on basically anything you'd like: ecology or statistics; terrestrial or marine species; plants (yes!), insects, birds, fishes, mammals (including humans), reptiles, amphibians; conservation biology, population management, behavioral ecology, evolutionary ecology, population dynamics, population genetics, etc.
 
 Useful quotes
 =================
