@@ -137,11 +137,11 @@ In this section, I list a few thoughts I had while reading the corpus of papers.
 
 - What I really like w/ capture-recapture (and science in general I guess) is that you can work with folks from (almost) anywhere in the world on basically anything you'd like: ecology or statistics; terrestrial or marine species; plants (yes!), insects, birds, fishes, mammals (including humans), reptiles, amphibians; conservation biology, population management, behavioral ecology, evolutionary ecology, population dynamics, population genetics, etc.
 
-Useful quotes
+Some useful quotes
 =================
 
 > Even the most general mathematical model is a plaything relative to the complexity of an animal population (Cormack 1968 cited in Lebreton et al. 1992).
-
+Some 
 > Counting fish is just like counting trees — except that they are invisible and keep moving (John Sheperd; [original statement](http://jgshepherd.com/thoughts/) a bit different)
 
 > An applied statistician knowledgeable in capture-recapture should often be consulted for both the design and analysis of capture-recapture or capture-resighting studies, especially if the population issues are complex. (Lebreton et al. 1992)
