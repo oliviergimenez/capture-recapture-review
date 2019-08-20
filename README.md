@@ -88,7 +88,7 @@ Capture-recapture methods
 
 - **Temporary emigration** is a serious concern (combine w/ telemetry data, use robust design, consider unobservable states).
 
-- Folks spend a lot of energy the **evaluation of methods** (often via simulations), thinking about assumptions, developing goodness-of-fit procedures.
+- Folks devote a lot of energy in the **evaluation of methods** (often via simulations), thinking about assumptions, developing goodness-of-fit procedures.
 
 - In relation to the previous item, the **lack of independence between individuals** is of interest, in particular for social species (random effects, social network, sampling design).
 
