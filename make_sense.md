@@ -4,7 +4,7 @@ Making sense of the corpus of scientific papers on capture-recapture
 Motivation
 ----------
 
-My objective is to make a list of ecological questions and methods that
+My objective was to make a list of ecological questions and methods that
 are addressed in these papers. I ended up with more than 5000 papers.
 The bibliometric and text analyses were somehow useful, but I need to
 dig a bit deeper to achieve the objective. Here how I will proceed.
