@@ -41,49 +41,30 @@ Ecological questions
 Capture-recapture methods
 =========================
 
--   Method 1: uptake of hidden Markov models, and models w/ **hidden
-    variables**; turning point w/ realization of hidden structure
-    (partially-observed process - graph of HMM). State-space and HMM.
-    Why? Deal w/ complexity and uncertainty, while offering great
-    flexibility by decomposing obs vs state! Multistate (Lebreton) and
-    multievent (Pradel) are actually HMM (particular case of SSM), and I
-    recommend we use this terminology as tools are readily available.
-    (Le fils tue le pere 💀). King (2012): 'The application of state-space models to capture–recapture–
-    recovery data is very appealing due to its simplicity
-    and ease with which models can be generalized. Partitioning
-    the system and observation processes into
-    distinct components leads to the natural identification
-    of each individual process operating. This allows a complex
-    model to be constructed using a sequence of simpler
-    models, corresponding to each individual process acting
-    on the study population'.
+- Method 0: **Non-invasive methods** have revolutionalized the field: photo-identification, acoustic, camera-trapping or genetic tagging. 
 
--   Method 2: **Bayes analysis**: we now can fit complex models with,
-    e.g., random effects or spatial component and estimate latent
-    variables (disease or breeding status in multistate models, home
-    range (activity) centers in spatial explicit models)
+- Method 1: There has been an uptake of **hidden Markov models (HMM)**, and models w/ **hidden
+    variables** in general; we can deal w/ complexity and uncertainty, while having great
+    flexibility in the modelling by i) distinguishing what we see, what we observe from what is actually going on and ii) 
+    decomposing a complex problems in several simpler problems; note that HMM are a special case of **state-space models**, 
+    and that multistate/multievent models are HMMs (shall we use only the HMM .
+    terminology?). 
 
--   Method 3: **spatial capture-recapture**
+- Method 2: **Bayesian analyses** of capture-recapture data are quite common now: we can fit complex models with,
+    e.g., random effects or a spatial component, and estimate latent variables (disease or breeding status in multistate 
+    models, home ranges (activity centers) in spatial explicit models).
 
--   Method 4: Importance of methods for **unmarked individuals**
-    (N-mixture, occupancy, mark-resight)
+- Method 3: **Spatially-explicit models** are a bid deal, for closed and open population, frequentist and Bayes framework, can help answering many ecological questions (see recent reviews by Clayton Lamb and Andy Royle).
 
--   Method 5: **Random effects**
+- Method 4: It is not only about individual identification, methods for **unmarked individuals** (N-mixture, occupancy, random-encounter and mark-resight models) are widely used to say something about abundance and demography.
 
--   Method 6: Combination of information! **Integrated population
-    models** as seen by Andy Royle:
+- Method 5: We can now consider **Random effects** like in generalized mixed models.
+
+- Method 6: **Combination of information** makes a lof of sense, i) from different protocols like recaptures, recoveries or telemetry and ii) using a matrix pop model at its core to combine individual- and population-level information in **integrated population models (IPM)**. In passing, I loved Andy Royle's tweet about his visual representation of an IPM:
 
 ![](images/raftstack.jpg)
 
--   Method 7: **Continuous capture-recapture**? Opportunist data?
-    Citizen science data?
-
--   Method 8: **Non-invasive methods** - Genetics: see excellent paper
-    by C.T. Lamb
-    <a href="https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/eap.1876" class="uri">https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/eap.1876</a>
-    ; see also review by Andy in Ecography + Camera-traps.
-
-![](images/dna_ClaytonTLamb.png)
+- Method 7: The has been some interest in developing methods for **continuous capture-recapture** to deal w/ opportunistic data.
 
 What do we miss? My two cents insights.
 =======================================
@@ -154,7 +135,7 @@ individual covariates susceptible of changing through time, provide a challengin
     phyrénées)
 
 -   Marking evolves: DNA, cameras, acoustics, drone. Methods need to
-    keep up.
+    keep up. Wildlife monitoring technology is advancing rapidly.
 
 -   Big data? Citizen science protocols? Improve MCMC - Nimble? Stan?
     TMB?
