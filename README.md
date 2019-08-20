@@ -30,7 +30,7 @@ Below is a synthesis of my findings. I will add the references later on.
 Ecological questions
 ====================
 
-- In the 80s and 90s, there was a shift in emphasis from abundance estimation to survival estimation (Lebreton et al. 1992). Well, my general impression is that things are more balanced nowadays, with a lot of work on both topics. This is probably due to the uptake of spatial capture-recapture models and the possibility to produce density estimates and account for individual heterogeneity.
+- In the 80s and 90s, there was a shift in emphasis from **abundance** estimation to **survival** estimation (Lebreton et al. 1992). Well, my general impression is that things are more balanced nowadays, with a lot of work on both topics. This is probably due to the uptake of spatial capture-recapture models and the possibility to produce density estimates and account for individual heterogeneity.
 
 - The study of **dispersal** is a big deal, as well as **population growth**, **recruitment** and **stopover duration** in relation to migration; **species richness** is also of interest (big influence of A. Chao's work). Obviously, the study of survival remains the focus of much interest, in particular the consideration of competing risks and estimation of cause-specific mortality rates.
 
