@@ -30,13 +30,19 @@ Below is a synthesis of my findings. I will add the references later on.
 Ecological questions
 ====================
 
+- To list the relevant questions, I rely on the results of a [topic modeling analysis](https://github.com/oliviergimenez/capture-recapture-review/blob/master/bibliometric_analysis.md#topic-modelling) and [my reading of the papers](https://github.com/oliviergimenez/capture-recapture-review/blob/master/make_sense.md) published in the most population journals.  
+
 - Note: In the 80s and 90s, there was a shift in emphasis from abundance estimation to survival estimation (Lebreton et al. 1992). Well, it seems like things are more balanced, and there is clearly a lot of work on both topics now. This is probably thanks to spatial capture-recapture models and their ability to make use of all available data (spatial info above all), produce density estimates and account for individual heterogeneity regain of interest in estimating abundance and density.
 
-- Question 1: The study of **dispersal** is a big deal, as well as **recruitment** and **stopover duration** in relation to migration; species richness is also studied (big influence of A. Chao's work).
+- Question 1: The study of **dispersal** is a big deal, as well as **population growth**, **recruitment** and **stopover duration** in relation to migration; **species richness** is also of interest (big influence of A. Chao's work).
 
 - Question 2: There is been a growing interest in studying the **threats on biodiversity** by determining the impact of climate change, pollution, or overexploitation on animal demography. (what about invasive species? deforestation and habitat loss?).
 
-- Question 3: The field of **evolutionary ecology** has been using capture-recapture to quantifying life-history trade-offs, estimating heritability of demographic parameters, describing senescence patterns or assessing selection gradients.
+- Question 3: The field of **evolutionary ecology** has resorted to capture-recapture to quantifying life-history trade-offs, estimating heritability of demographic parameters, describing senescence patterns or assessing selection gradients.
+
+- Question 4: The demographic component of interest varies according to animal class: in **birds**, the interest is in studying migration and breeding; in **fish**, folks are more into individual growth and survival; in **marine mammals** and **large carnivores**, it is all about estimating abundance/density using photo-identification, camera-trapping and genetic tagging; 
+
+- Question 5: The field of **disease ecology** is using capture-recapture more and more.
 
 Capture-recapture methods
 =========================
@@ -157,6 +163,8 @@ individual covariates susceptible of changing through time, provide a challengin
 
 Random thoughts
 ==========================
+
+- What I really like w/ capture-recapture (and science in general I guess) is that you can work with folks from (almost) anywhere in the world on basically anything you like: ecology or statistics; terrestrial or marine species; plants (yes!), insects, birds, fishes, mammals (including humans), reptiles, amphibians; conservation biology, population management, behavioral ecology, evolutionary ecology, population dynamics, population genetics, etc.
 
 - New methods need to be evaluated (virtual ecologist approach ie w/ simulation, or empirically) - there is an actual niche there.
 
