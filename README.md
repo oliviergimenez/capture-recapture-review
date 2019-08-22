@@ -76,7 +76,7 @@ Capture-recapture methods
 
 - We can now consider **random effects** like in generalized mixed models (time random effects are still difficult to fit in a frequentist framework though).
 
-- **Combination of information** makes a lof of sense, i) from different protocols like recaptures, recoveries or telemetry (not to be called 'integrated population models' in my opinion) and ii) using a matrix pop model at its core to combine individual- and population-level information in **integrated population models (IPM)** (not to be confused w/ integral projection models). In passing, I loved Andy Royle's tweet about his visual representation of an IPM:
+- **Combination of information** makes a lof of sense, i) from different protocols like recaptures, recoveries or telemetry (not to be called 'integrated population models' in my opinion, but combined data models as in [Seber and Schofield 2019 book](https://www.springer.com/gp/book/9783030181864)) and ii) using a matrix pop model at its core to combine individual- and population-level information in **integrated population models (IPM)** (not to be confused w/ integral projection models). In passing, I loved Andy Royle's tweet about his visual representation of an IPM:
 
 ![](images/raftstack.jpg)
 
