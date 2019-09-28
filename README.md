@@ -1,6 +1,8 @@
 Why a review on capture-recapture?
 =================================
 
+The slides can be downloaded [here](https://github.com/oliviergimenez/capture-recapture-review/blob/master/talkGimenez.pdf). There is also a version of the talk with my voice recorded on it [there](https://drive.google.com/open?id=1RFQ3Dr6vVii4J5-8hMlPW81364JYG6CP). 
+
 I will be attending the [Wildlife Research and Conservation 2019
 conference](http://www.izw-berlin.de/welcome-234.html) in Berlin end of
 September. At the time I was proposed to come, I thought it’d be cool to
@@ -9,7 +11,7 @@ to do for a while. Now time to actually do something. As a
 capture-recapture aficionado, I have witnessed the awesomeness of
 the last 10 years: clever methods have been developed and exciting
 ecological questions have been asked and answered. Let’s have a look in more details
-to the period 2009-2019.
+to the period 2009-2019. 
 
 ![](images/Recapture.png)
 
